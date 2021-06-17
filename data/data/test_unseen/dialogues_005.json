@@ -1,0 +1,2106 @@
+[
+ {
+  "dialogue_id": "SNG1057",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I want to visit a college in the centre of town."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "You're in luck. We have 13. Do you have any preferences? For example, Downing College over on Regent Street offers free entry."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "That would be great, can you please give me their phone number?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Their number is 01223334860. Anything else I can do for you?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "No, that will be all. Thank you."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you, enjoy the college, goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL1083",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm looking for places to go in Cambridge. I want to go somewhere in the south, and I want it to be a museum."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Would you be interested in Byard Art? It is located at 14 king's parade, cb21sj, and you can contact them at 01223464646. Do you need anything else?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "What is the entrance fee for that?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "It's free! Anything else I could help you with?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Oh cool! What is the postcode for that please?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "The post code for the byard art museum is cb21sj. Have fun!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1095",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Do you have information about nightclubs?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I have details for several nightclubs, which area were you looking at?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I am looking for any one you'd recommend, I just need the address, entrance fee, and postcode."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Alright. How about Kambar. It is located at 1 Wheeler Street and the postcode is cb23qb. The entrance fee is 5 pounds. Is that all you need help with today?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That's all I needed. Thank you!"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "No problem. Happy to help!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1051",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hello, I would like information on museums in town"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "There are 23 museums to choose from, are you looking for one in a particular area?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Which is your favorite? Get me their phone number, and I'll check them out."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "My favorite museum is the Cambridge and County Folk Museum. Their number is 01223355159. Can I help you with anything else?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Maybe you could give me one other option?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Sure. There's also the Museum of Archaelogy and Anthropology, which is free. They're phone number is 01223333516."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Thanks for your help."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you for contacting the help desk. Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1145",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm looking for some architecture to visit. What are my options?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "All architecture is in the centre of town. Your options are All Saints Church, Great Saint Mary's Church, Holy Trinity Church, Little Saint Mary's Church, and Old Schools."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "How about All Saints? And could I have a postcode please?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "All Saints Church's postcode is cb58bs. Is there anything else I can help you with?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That should be all! Thanks!"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "We hope you enjoy your visit. Thank you for contacting us."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Thank you, goodbye."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "If you need anything else let us know."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1188",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm looking for an entertainment spot in town."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "We have choices in the South, East, and West. Do you have a preference for any location?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "No, just tell me one you think is nice."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Try the nusha. It is in the south. Their phone number is 01223902158"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "May I also get the postcode, the address, and the entrance fee?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "The address and postcode for Nusha are unit g6, cambridge leisure park, clifton road, cb17dy. There is no entrance fee information available."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Great! Thank you very much."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Glad I could help. Do you need anymore assistance?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No, that is all for today. Thank you"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Thanks for using our service today. Goodbye!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1135",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hey there. Can you help me find a swimming pool here in the city?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "We have four such places. Got a preference for area?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Not really, no. Any area will do. Can you recommend one and provide me the phone number?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "The parkside pools is in the centre area, phone number 01223446100. Can I help you any further?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "No actually, that is just the information I needed. Thanks and have a good day."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome. Have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1297",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking for a museum in the town centre."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "May I suggest Primavera located at 10 king s parade. The phone number is 01223357708. Admission is free."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Sounds perfect. What is the postcode?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "The post code is cb21sj. Is there anything else you would like to know?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "No, that will be all thank you."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you and have a pleasant visit, goodbye!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1052",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm looking for boating activities in town."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Certainly, we have several interesting boats. Is there an area of town that you prefer?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I do not have a preference."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There's Camboats, Riverboat Georgina, Scudamores Punting Co., and The Cambridge Punter. Would you like more information on any of these?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Yes, can you tell me the postcode for the Riverboat Georgina, please?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Sure. It is cb43ax. Is there anything else I can help you with?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No, that'll do it for today. Thanks very much for your help!"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "You're very welcome! Thanks for contacting the Cambridge TownInfo Centre and have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1266",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you help me find a swimmingpool?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Sure, what part of town are you looking for?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Something in the North, please."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are two swimming pools in the north side. Would you like more information on either one or is there anything else I can assist you with today?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Yes, I want the address and entrance fee to both please."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "jesus green outdoor pool is located between victoria road and the river. There is no entrance fee information availble."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Okay thank you so much!"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "You are welcome. Do you need anything else?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No, that is it, thank you."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you, goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1110",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm looking for the Kings Hedges Learner Pool. Can you give me their contact info?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Kings Hedges Learner Pools phone number is 01223353248, they are located at Jedburgh Court, Kings Hedges, CB42XH. Can I help with anything else?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Yes, what area of town is that exactly?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "It is in the north of the city, would you like help with anything else?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "No that is all I need today. Thank you very much!"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "You're very welcome! Goodbye!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1067",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hi I am looking to go see a college while in Cambridge. Can you tell me about any of them?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I'd be happy to. Any preference on location?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Nope, just tell me the area where your favorite is located, and I'll check it out!"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "How about Churchill College? It's in the West."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That sounds perfect. Thanks so much!"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "It's located on Storey's Way. Do you need any more info on it?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No, I am familiar with the area. Thanks for your help. Bye."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, enjoy your visit! Bye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1080",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hi! Can you help me find an attraction to visit in the centre of town?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I have quite a few options. Did you have an idea what type of attraction you were looking to visit?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Surprise me. I just need the attraction type, address, and postcode."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Castle Galleries is one of my favorite museums. It is at unit su43, grande arcade, saint andrews street, post code cb23bj. Does that sound good?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That's great. Thanks."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything else I can help you with?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No thanks. You've been a great help. Have a nice day. Bye."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you. Have a great day, goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1378",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Are there any multiple sports in the centre of town?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Sorry, not in the centre. Should I check another area?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Well, how about a theatre then? I need the phone number."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are several theaters in the town centre. What address are you staying at so I can find the closest one to you?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I'm not sure yet. Which one do you recommend?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I think the Mumford Theatre is great! Would you like more information?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Yes, I need the entrance fee and phone number?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "They don't have the entrance fee posted but their phone number is 08451962320. Is there anything else I can assist you with?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No thanks, that is all the information I need. Thank you for your time."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "I'm happy to be of help. Goodbye!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1098",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hi I am looking to go to a museum in town please."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "We offer 23 museums. Any location preferences?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Not really. Can you just tell me your favorite and let me know how it will be for me to get in? Oh, and the postcode, for my GPS."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Sure. Cafe Jello Gallery is my personal favorite. The postcode is cb30af. It is free to get in."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Great, thank you!"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome! Glad to help."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1151",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hi, I want to find some water and go boating somewhere around town. What do you have listed?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I have some great choices for you. There are two places in the centre of town, one in the north and one in east. Do you have a specific location?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I think maybe the north for this trip."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "The Riverboat Georgina is in the North of town. It's located at Cambridge Passenger Cruisers, Jubilee House. May I help you with anything else?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That is all I need, thank you."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Have a wonderful time in Cambridge!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1073",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Do you have information about the Saint Barnabas Press Gallery?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I do, it is located in the east and is a museum, what information would you like about it?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "That's all I needed, thanks so much for your help!"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "You are very welcome! Enjoy your trip to the museum!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1337",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Yes, i need help finding a place to go?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Is there a specific type or area you had in mind?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "The area doesn't matter but I would like to find a swimming pool."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "kings hedges learner pool is located in the north, at jedburgh court, kings hedges."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Could you tell me the postcode as well at the entrance fee, please?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "The postcode is cb42xh and I don't have access to their entrance fee. Is there anything else I can assist you with?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No that was all, thank you!"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Happy to help. Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL2474",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking for a college to visit in the centre of town."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Ok, there are 13 in that area. Some have an entrance fee."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Can you recommend one please?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Downing College is very nice and they have no entrance fee."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Yes, I will choose that. Can you give me the postcode, phone number, and address for Downing College? Thanks"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Postcode cn21dq, phone 01223334860, and address is on regent street. Enjoy!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1081",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking for things to do in Cambridge. Can you tell me if there are any nightclubs?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "ballare is a nightclub in the centre of town, would you like more details?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "How much is it to get in to ballare? And which area is it in?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Ballare's entrance fee is 5 pounds and they're located in the centre of town. Is there anything else I can help you with today?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "No, that's it. Thanks a bunch! Bye!"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome, have fun!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1311",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking for a museum to visit."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "There are many museums in town. Do you have a preference in area?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "No, what can you recommend?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Do you like modern art? Cambridge Contemporary Art is great, and admission is free."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Well, the price is great. What is there postcode?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Their postcode is cb21su. Is there anything else you need help with today?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No, you have been very helpful. Thank you."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome. Have a great time!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1244",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking for sports facilities in the town centre."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I'm sorry, there are no sports in the centre. Would you like me to look for something else?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "What about colleges?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are 13 colleges in centre. Are you look for free entrance or paid?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Please tell me one of the free ones, please."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Emmanuel College is free and located in the centre."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "OK, great, I'll look that up. That is all I need for now. Thanks, and bye."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "You are welcome. Bye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1372",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking for a place to go."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, what kind of place are you looking for?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Nothing in particular. What's the phone number, type, and fee for your favorite place?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What area will you be staying in and what kind of things do you like?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I would like the attraction to be in the centre."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There are 44. What type are you intersted in?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "anything that is good, just recommend any"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Would you be interested in an architecture attraction such as great saint mary's church? They have a 2 pound entrance fee or there are others available for free."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "May I have the phone number please?"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "01223350914 is the phone number"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Thank you very much that would be it."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Enjoy your visit and let us know if you need help with other arrangements in the future."
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "I will and thank you for your assistance."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "You're very welcome."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1114",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a recommendation for some entertainment in the city."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I'd be happy to help you. Whale of a time is in the west side of town, and funky fun house is in the east. Would you like more information?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Do you have anything else closer to the centre of town? Or perhaps a theater?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "The cambridge arts theatre is in the centre area. Would you like more information?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Yes please, can I have the phone number and entrance fee."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Sure. The phone number is 01223503333, but I'm not sure of the fee."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That's all I need. Thank you for your assistance!"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "You are very welcome! Have fun! Goodbye!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL2377",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm looking for some entertainment related places to go in the centre of Cambridge."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I was unable to find any entertainment in the centre."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Okay. How about a boat anywhere in town?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are two boats in the centre, scudamores punting co and the cambridge punter. Would you like more information?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I will take the phone number, entrance fee and address of the one you choose for me."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I will choose for you the Cambridge punter, their phone number is 07807718591, they are found on 251a Chesterton road, they don't have an entrance fee."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1083",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hi, I am looking to go to a place with multiple sports in the centre. Can you help me?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "The cherry hinton village centre is available if that works for you?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Is that a multiple sports attraction in the centre? How much does it cost?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "No, the only multiple sports place is in the east. Would you prefer that one, or perhaps a different type of attraction in the centre?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I'd like to definitely see something in the centre of town. How about a museum? Can you recommend a nice one?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There are 5 museums in the centre of town. All with free admission. My favorite is Castle Galleries on St. Andrews Street."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Excellent, can I get the address and post code please?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Of course! The postcode is cb23bj and it is located at Unit su43, Grande Arcade, Saint Andrews Street. Can I assist you with anything else?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No, that is all thanks."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "If you need anything else, feel free to contact us again. Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1167",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hello I am looking for a place to go, can you help me?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I have found 79 place for you. Do you have any specific ideas in mind?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "What attraction types do you have in the west?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are mostly colleges and museums in the west. Would you be interested in one of those?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Sure, can you recommend one to me and give me the address and type?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Clare college is a college, it is located on trinity lane, post code cb21tl"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Great! Thank you for all of your help."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "You're quite welcome! Will that be all for today?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "You have helped with what I needed, thank you, goodbye!"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you and enjoy your visit."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1398",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I want a museum, please? Please include address, postcode, and area."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I suggest Byard art. The address, postcode, and area are 14 king's parade, cb21sj, and it is located in the south."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Great. Thanks for all your help. That's all I needed. Goodbye."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Happy to be of help, and I hope you enjoy the museum. Goodbye!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1331",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hi, I am looking for a entertainment attraction to visit. Do you have any recommendations?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What area will you be going to?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "The area doe not matter, just some entertainment."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "How about the cherry hinton hall and grounds?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Sounds good. Could you give me their address please?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Their address is cherry hinton road. Is there anything else I can assist you with?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Yes, I also need their postcode and phone number."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, sure. The postcode is cb18dw and the phone number is 01223446104. Anything else?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Great, thank you for all of your help."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "No, problem. Will that be all for you today?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Yes, thank you. Goodbye."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you, goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1139",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hello, I'm hanging around town tomorrow due to an appointment and want to do something fun while I'm there. I'll be on the town centre most of the day."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "There are plenty of things to do, are you interested in museums or architecture?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Either or would be fine!"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "I would suggest architecture as there are several churches in the area. Do you prefer something with free entry?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I am open to anything. Can you just pick a church and give me the address and entrance fee?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Sure. Holy Trinity Church is free and is located on market street. The postcode is cb23nz. Can I get you any other information today?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That's all I need. Thanks."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you, goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1155",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you tell me about the Cambridge university botanic gardens."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "The botanic gardens is a lovely part of the university which is open to the public for a fee of 4 pounds."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1094",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I would like to go to a park in the center of town."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "There is the Cambridge University Botanic Gardens which is a park. Will this work for you?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Yes, what is the address and phone number?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Their address is bateman street and phone number is 01223336265. Is there anything else I can help you with?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "No, that would be all. Thanks!"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Sure, have a great day. Bye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1301",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hello, can you help me find a museum?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Is there a certain area you're interested in? We have lots of museums in town."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Can you choose the one you like the best and tell me the postcode, phone number, and address?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "I would suggest the broughton house gallery in the centre of town. Their address is 98 King Street, the post code cb11In, and the phone is 01223314960. It is free."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Thank you, that is all I need for today, goodbye."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Okay. Glad I could help. Have a great time. Goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1200",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking for information on the town centre."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I can help with that. What information are you looking for?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Can you recommend a favorite place to go?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "We have many great attractions in Cambridge, from architecture to nightclubs. Is there a particular kind of attraction you'd like to visit?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "No particular attraction but I do need it to be in the centre."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I like castle galleries that's a museum in the centre. Would that interest you?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That sounds interesting. How much do they charge for entrance?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "There is no entrance fee, it is free."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Thanks, that's all I needed today. Goodbye!"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you, have a great time! Goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1349",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'd like to visit a museum in town. What can you suggest?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What area would you like to go to?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I have no preferences for area, can you just suggest a couple?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "The cambridge contemporary art museum, and the scott polar museum are both free and in the centre."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Can you give me the address for the scott polar museum?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Sure! The address is lensfield road. Will that be all?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That's all the help I need today. Thanks for the help."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome, thank you for calling the Cambridge TownInfo centre. Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1272",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking for attractions in the town centre"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Are you interested in architecture? It is free to visit all saints church."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "What is their phone number?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "The phone number is 01223452587. Do you need any other information about it?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "No, that is all I need for today. Thank you."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Good by and have a nice stay."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1146",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need more information about Nusha."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Nusha is entertainment in the south and their address is unit g6, cambridge leisure park, clifton road. Can I help you with anything else?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Can I get the postcode?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Yes, the postcode is cb17dy. Can I help you with anything else today?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Thanks, I know that Nusha is the south, but I need the name of the area."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Sure, the area is just known as the south of town, but the address is unit g6, cambridge leisure park, clifton road and the postcode is cb17dy. Does that help?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Yes, it does. Thanks for the information. Bye!"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you, goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL1275",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I want to find places to go in town, specifically college attractions."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "There are multiple colleges to visit. Would you like a list of them and locations?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "What would your best recommendation be for one?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "I would recommend christ's college in the centre."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That sounds good. May I have the phone number and postcode?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "yes adress and phone number please"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL2031",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Please help me find people's portraits exhibition at girton college."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "People's Portraits Exhibition at Girton College is located at Girton College on Huntingdon Road in the west side of town. Would you like their phone number?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Please send me their address."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Sure, the address is Girton College, Huntingdon Road cb3ojg. Is there anything else I can help you with?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That is all I need."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Great! By the way, there is no entrance fee as well. Let us know if we can help with anything else."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1384",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Give me information about museums in the west side of town."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "There are a few museums in the west side of town. I highly recommend checking out the Cafe Jello Gallery if you've got the time."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "What is the full address and zipcode of Cafe Jello Gallery?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Cafe Jello Gallery is located at cafe jello gallery, 13 magdalene street. Their postcode is cb30af. Is there anything else I can assist you with today?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "No that'll be all. Thanks so much!"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, great. Have a great trip. Goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL1348",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hello. What sort of attractions are available in the center of town?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "There are many! Does architecture interest you?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Yes that would be fine and I need the postcode of the one you suggest."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Try visiting Old Schools on Trinity Lane in the city centre. The postcode is cb21tt. Do you need anything else?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That is everything I need."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you for using our service today."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1054",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'd like to find some place to go on the east side of town."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I can certainly suggest something for you. I have 10 options. Do you prefer an entertainment venue, or perhaps a museum or park, etc?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I would prefer just anything in the east, can you give me the address and attraction type of one?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "No problem. How does the Funky Fun House sound? It is standard entertainment and it is located at 8 mercers row, mercers row industrial estate."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Sounds great. That's all I needed. Thank you!"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you. Have a good day, goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1214",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Tell me what colleges are in the west side of town"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "There are 5 colleges on the west side. Two have free entrance and two cost 2.50 pounds. Is there anything else i can help you with?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "What are the phone numbers for these colleges?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Churchill college's phone number is 01223336233."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That's it. Thanks!"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL1404",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm looking for a cool place to go in town later."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What type of attraction are you looking for?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I think visiting a College sounds interesting."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What about christ's college?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "ok, what area of town is that?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "It is located in centre. Is there anything else you need to know?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Yes, I need a phone number and postcode."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "their phone number is 01223334900and code.cb23bu, is that all?"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1061",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm looking for a place in the centre of town that is a nightclub."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "There are 5 nightclubs in the centre area, the one with the lowest entrance fee is soul tree nightclub which is 4 pounds to get in."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "That sounds like it will work. Can I get their address and postcode?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Of course! They're located at 1-6 corn exchange street with postcode cb23qf. Anything else I can do for you?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "No, that's all I need today. Thank you for your help!"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "You are welcome! Have fun! Goodbye!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1222",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking for information on the Kings college attraction"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Kings college is located in the centre of town at kings parade. Phone number 01223331100. Is there any other information you need?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "What is the postcode?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "The post code is cb21st"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That is all I needed today, thanks!"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Glad to be of help. Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1207",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you please help me find a museum?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Sure! There are plenty of great museums to choose from. Is there a specific area of town you are looking for?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "The centre area. looking for Modern Art and the museums phone number please."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "I recommend Byard Art. Their phone number is 01223464646."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Great! That is all I need. Thank you."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "You are welcome! Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "PMUL4696",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "is there a nice night club in the west that you can recommend?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "No I am sorry there isn't something else perhaps?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "How about a college?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are 5 colleges in the west. churchill college is located on storey's way and doesn't charge an entrance fee."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Great. That's all I need to know. Thank you."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you goodbye"
+   }
+  ]
+ }
+]
