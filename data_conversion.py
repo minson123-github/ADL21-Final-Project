@@ -131,7 +131,7 @@ with open(os.path.join(target_dir, 'dialogue_acts.json'), 'w') as fp:
 with open(os.path.join(target_dir, 'ontology.json'), 'w') as fp:
 	json.dump(slots, fp, indent=4)
 
-with open(os.path.join(target_dir, 'valListFile.txt'), 'w') as fp:
+with open(os.path.join(target_dir, 'valListFile.json'), 'w') as fp:
 	for dialogue_id in val_dialogue_id:
 		fp.write(dialogue_id + '\n')
 
