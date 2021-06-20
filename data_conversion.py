@@ -25,8 +25,11 @@ print(f'domains:\n{[domain for domain in domains]}')
 # slot extract
 slots = dict()
 for service_info in schema:
+	domain = service_info['service_name']
 	for slot in service_info['slots']:
 		slot_name = slot['name']
+		if slot_name.split('-')[0] != domain:
+			slot_name = domain + '-' + slot_name
 		try:
 			slot_values = slot['possible_values']
 			if slot_name not in slots:
