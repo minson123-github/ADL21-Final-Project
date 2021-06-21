@@ -1,12 +1,40 @@
 import os
 import sys
 import json
+import argparse
 from tqdm import tqdm
 
-schema_path = sys.argv[1]
-train_data_dir = sys.argv[2]
-eval_data_dir = sys.argv[3]
-target_dir = sys.argv[4]
+parser = argparse.ArgumentParser()
+parser.add_argument(
+	"-schema",
+	"--schema_file",
+	type=str,
+	help="The file with schema info."
+)
+parser.add_argument(
+	"-train", 
+	"--train_data_dir", 
+	type=str, 
+	help="The directory with training data."
+)
+parser.add_argument(
+	"-eval", 
+	"--eval_data_dir", 
+	type=str, 
+	help="The directory with evaluate data."
+)
+parser.add_argument(
+	"-output", 
+	"--output_dir", 
+	type=str, 
+	help="The directory to put multiwoz coversion result."
+)
+args = parser.parse_args()
+
+schema_path = args.schema_file
+train_data_dir = args.train_data_dir
+eval_data_dir = args.eval_data_dir
+target_dir = args.output_dir
 
 with open(schema_path, 'r') as fp:
 	schema = json.load(fp)
@@ -163,6 +191,7 @@ for file_name in train_files:
 	for dialogue in dialogues:
 		dialogue_id = dialogue['dialogue_id']
 		if len(dialogue['services']) == 0:
+			bar.update(1)
 			continue
 		goal_dict = {domain: {} for domain in dialogue['services']}
 		goal_dict.update({'message': {}})
@@ -248,6 +277,7 @@ for file_name in eval_files:
 	for dialogue in dialogues:
 		dialogue_id = dialogue['dialogue_id']
 		if len(dialogue['services']) == 0:
+			bar.update(1)
 			continue
 		goal_dict = {domain: {} for domain in dialogue['services']}
 		goal_dict.update({'message': {}})
