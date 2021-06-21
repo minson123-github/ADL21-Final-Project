@@ -162,7 +162,9 @@ for file_name in train_files:
 		dialogues = json.load(fp)
 	for dialogue in dialogues:
 		dialogue_id = dialogue['dialogue_id']
-		goal_dict = {domain: {} for domain in domains}
+		if len(dialogue['services']) == 0:
+			continue
+		goal_dict = {domain: {} for domain in dialogue['services']}
 		goal_dict.update({'message': {}})
 		goal_dict.update({'topic': {}})
 		log_list = []
@@ -245,7 +247,9 @@ for file_name in eval_files:
 		dialogues = json.load(fp)
 	for dialogue in dialogues:
 		dialogue_id = dialogue['dialogue_id']
-		goal_dict = {domain: {} for domain in domains}
+		if len(dialogue['services']) == 0:
+			continue
+		goal_dict = {domain: {} for domain in dialogue['services']}
 		goal_dict.update({'message': {}})
 		goal_dict.update({'topic': {}})
 		log_list = []
