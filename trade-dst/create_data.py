@@ -194,7 +194,7 @@ def getDialogueAct(filename, data, data2, idx, idx_acts):
 
 def get_summary_bstate(bstate, get_domain=False):
     """Based on the mturk annotations we form multi-domain belief state"""
-    domains = [u'taxi',u'restaurant',  u'hospital', u'hotel',u'attraction', u'train', u'police']
+    domains = [u'Messaging_1', u'police', u'RideSharing_2', u'Payment_1', u'Music_3', u'RentalCars_2', u'bus', u'Hotels_3', u'Homes_1', u'Services_2', u'Buses_1', u'Buses_2', u'Flights_1', u'taxi', u'restaurant', u'Events_3', u'Restaurants_1', u'Banks_2', u'Flights_3', u'Travel_1', u'Music_2', u'Music_1', u'Media_1', u'Homes_2', u'Flights_2', u'Hotels_4', u'Buses_3', u'Events_1', u'Services_1', u'RentalCars_3', u'RideSharing_1', u'Services_3', u'RentalCars_1', u'Media_3', u'Restaurants_2', u'Media_2', u'Movies_2', u'train', u'hospital', u'Calendar_1', u'Flights_4', u'hotel', u'Weather_1', u'Trains_1', u'Movies_3', u'Hotels_2', u'Services_4', u'attraction', u'Alarm_1', u'Movies_1', u'Events_2', u'Hotels_1', u'Banks_1']
     summary_bstate = []
     summary_bvalue = []
     active_domain = []
@@ -312,16 +312,20 @@ def loadData():
         os.makedirs("data/multi-woz")
 
     if not os.path.exists(data_url):
-        shutil.copy('/content/drive/MyDrive/ADL21-Final-Project/multiWoZ_2_0/data.json', 'data/multi-woz/')
-        shutil.copy('/content/drive/MyDrive/ADL21-Final-Project/multiWoZ_2_0/valListFile.json', 'data/multi-woz/')
-        shutil.copy('/content/drive/MyDrive/ADL21-Final-Project/multiWoZ_2_0/testListFile.json', 'data/multi-woz/')
-        shutil.copy('/content/drive/MyDrive/ADL21-Final-Project/multiWoZ_2_0/dialogue_acts.json', 'data/multi-woz/')
+        shutil.copy('../multiWoZ_2_0/data.json', 'data/multi-woz/')
+        shutil.copy('../multiWoZ_2_0/valListFile.json', 'data/multi-woz/')
+        shutil.copy('../multiWoZ_2_0/testListFile.json', 'data/multi-woz/')
+        shutil.copy('../multiWoZ_2_0/dialogue_acts.json', 'data/multi-woz/')
 
 
 def getDomain(idx, log, domains, last_domain):
     if idx == 1:
         active_domains = get_summary_bstate(log[idx]["metadata"], True) 
-        crnt_doms = active_domains[0] if len(active_domains)!=0 else domains[0]
+        try:
+            crnt_doms = active_domains[0] if len(active_domains)!=0 else domains[0]
+        except:
+            print(domains)
+            exit(0)
         return crnt_doms
     else:
         ds_diff = get_ds_diff(log[idx-2]["metadata"], log[idx]["metadata"])
@@ -366,8 +370,10 @@ def createData():
 
         domains = []
         for dom_k, dom_v in dialogue['goal'].items():
+            print(dom_k)
             if dom_k not in IGNORE_KEYS_IN_GOAL: # check whether contains some goal entities
                 domains.append(dom_k)
+        print('-' * 50)
         idx_acts = 1
         last_domain, last_slot_fill = "", []
         for idx, turn in enumerate(dialogue['log']):
