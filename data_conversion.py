@@ -1,12 +1,54 @@
 import os
 import sys
 import json
+import argparse
 from tqdm import tqdm
 
-schema_path = sys.argv[1]
-train_data_dir = sys.argv[2]
-eval_data_dir = sys.argv[3]
-target_dir = sys.argv[4]
+parser = argparse.ArgumentParser()
+parser.add_argument(
+	"-schema",
+	"--schema_file",
+	type=str,
+	help="The file with schema info."
+)
+parser.add_argument(
+	"-train", 
+	"--train_data_dir", 
+	type=str, 
+	help="The directory with training data."
+)
+parser.add_argument(
+	"-eval", 
+	"--eval_data_dir", 
+	type=str, 
+	help="The directory with evaluate data."
+)
+parser.add_argument(
+	"-test_seen", 
+	"--test_seen_dir", 
+	type=str, 
+	help="The directory with seen domains test data."
+)
+parser.add_argument(
+	"-test_unseen", 
+	"--test_unseen_dir", 
+	type=str, 
+	help="The directory with unseen domains test data."
+)
+parser.add_argument(
+	"-output", 
+	"--output_dir", 
+	type=str, 
+	help="The directory to put multiwoz coversion result."
+)
+args = parser.parse_args()
+
+schema_path = args.schema_file
+train_data_dir = args.train_data_dir
+eval_data_dir = args.eval_data_dir
+test_seen_dir = args.test_seen_dir
+test_unseen_dir = args.test_unseen_dir
+target_dir = args.output_dir
 
 with open(schema_path, 'r') as fp:
 	schema = json.load(fp)
@@ -119,6 +161,27 @@ for file_name in eval_files:
 			else:
 				acts.update({str(i + 1): act})
 		dialogue_acts.update({dialogue_id: acts})
+
+# extract testListFile.json
+test_dialogue_id = []
+seen_files = os.listdir(test_seen_dir)
+unseen_files = os.listdir(test_unseen_dir)
+
+for file_name in seen_files:
+	file_path = os.path.join(test_seen_dir, file_name)
+	with open(file_path, 'r') as fp:
+		dialogues = json.load(fp)
+	for dialogue in dialogues:
+		dialogue_id = dialogue['dialogue_id']
+		test_dialogue_id.append(dialogue_id)
+
+for file_name in unseen_files:
+	file_path = os.path.join(test_unseen_dir, file_name)
+	with open(file_path, 'r') as fp:
+		dialogues = json.load(fp)
+	for dialogue in dialogues:
+		dialogue_id = dialogue['dialogue_id']
+		test_dialogue_id.append(dialogue_id)
 '''
 data_fp = os.path.join(target_dir, 'data.json')
 act_fp = os.path.join(target_dir, 'dialogue_acts.json')
@@ -133,6 +196,10 @@ with open(os.path.join(target_dir, 'ontology.json'), 'w') as fp:
 
 with open(os.path.join(target_dir, 'valListFile.json'), 'w') as fp:
 	for dialogue_id in val_dialogue_id:
+		fp.write(dialogue_id + '\n')
+
+with open(os.path.join(target_dir, 'testListFile.json'), 'w') as fp:
+	for dialogue_id in test_dialogue_id:
 		fp.write(dialogue_id + '\n')
 
 # extract data.json
@@ -153,6 +220,19 @@ for file_name in eval_files:
 	with open(file_path, 'r') as fp:
 		dialogues = json.load(fp)
 	total += len(dialogues)
+
+for file_name in seen_files:
+	file_path = os.path.join(test_seen_dir, file_name)
+	with open(file_path, 'r') as fp:
+		dialogues = json.load(fp)
+	total += len(dialogues)
+
+for file_name in unseen_files:
+	file_path = os.path.join(test_unseen_dir, file_name)
+	with open(file_path, 'r') as fp:
+		dialogues = json.load(fp)
+	total += len(dialogues)
+
 data = {}
 print('start to extract data.\n', flush=True)
 bar = tqdm(total = total)
@@ -163,6 +243,7 @@ for file_name in train_files:
 	for dialogue in dialogues:
 		dialogue_id = dialogue['dialogue_id']
 		if len(dialogue['services']) == 0:
+			bar.update(1)
 			continue
 		goal_dict = {domain: {} for domain in dialogue['services']}
 		goal_dict.update({'message': {}})
@@ -248,6 +329,7 @@ for file_name in eval_files:
 	for dialogue in dialogues:
 		dialogue_id = dialogue['dialogue_id']
 		if len(dialogue['services']) == 0:
+			bar.update(1)
 			continue
 		goal_dict = {domain: {} for domain in dialogue['services']}
 		goal_dict.update({'message': {}})
@@ -318,6 +400,53 @@ for file_name in eval_files:
 							metadata[domain]['semi'][slot_name] = slot_value
 					
 
+			if turn['speaker'] == 'USER':
+				turn_dict['metadata'] = {}
+			else:
+				turn_dict['metadata'] = metadata
+			log_list.append(turn_dict)
+		data[dialogue_id] = {'goal': goal_dict, 'log': log_list}
+		bar.update(1)
+
+
+for file_name in seen_files:
+	file_path = os.path.join(test_seen_dir, file_name)
+	with open(file_path, 'r') as fp:
+		dialogues = json.load(fp)
+	for dialogue in dialogues:
+		dialogue_id = dialogue['dialogue_id']
+		goal_dict = {domain: {} for domain in dialogue['services']}
+		goal_dict.update({'message': {}})
+		goal_dict.update({'topic': {}})
+		log_list = []
+		metadata = {}
+		for turn in dialogue['turns']:
+			turn_dict = {'text': turn['utterance']}
+			if turn['speaker'] == 'USER':
+				metadata = {domain: {'book': {'booked': []}, 'semi': {}} for domain in domains}
+			if turn['speaker'] == 'USER':
+				turn_dict['metadata'] = {}
+			else:
+				turn_dict['metadata'] = metadata
+			log_list.append(turn_dict)
+		data[dialogue_id] = {'goal': goal_dict, 'log': log_list}
+		bar.update(1)
+
+for file_name in unseen_files:
+	file_path = os.path.join(test_unseen_dir, file_name)
+	with open(file_path, 'r') as fp:
+		dialogues = json.load(fp)
+	for dialogue in dialogues:
+		dialogue_id = dialogue['dialogue_id']
+		goal_dict = {domain: {} for domain in dialogue['services']}
+		goal_dict.update({'message': {}})
+		goal_dict.update({'topic': {}})
+		log_list = []
+		metadata = {}
+		for turn in dialogue['turns']:
+			turn_dict = {'text': turn['utterance']}
+			if turn['speaker'] == 'USER':
+				metadata = {domain: {'book': {'booked': []}, 'semi': {}} for domain in domains}
 			if turn['speaker'] == 'USER':
 				turn_dict['metadata'] = {}
 			else:
