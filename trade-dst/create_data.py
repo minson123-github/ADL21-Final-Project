@@ -266,18 +266,19 @@ def analyze_dialogue(dialogue, maxlen):
     # last_bvs = []
     for i in range(len(d['log'])):
         if len(d['log'][i]['text'].split()) > maxlen:
-            # print('too long')
-            return None  # too long sentence, wrong dialogue
+            #print('too long')
+            # return None  # too long sentence, wrong dialogue
+            d['log'][i]['text'] = d['log'][i]['text'][:maxlen]
         if i % 2 == 0:  # usr turn
             text = d['log'][i]['text']
             if not is_ascii(text):
-                # print('not ascii')
+                #print('not ascii')
                 return None
             usr_turns.append(d['log'][i])
         else:  # sys turn
             text = d['log'][i]['text']
             if not is_ascii(text):
-                # print('not ascii')
+                #print('not ascii')
                 return None
             belief_summary, belief_value_summary = get_summary_bstate(d['log'][i]['metadata'])
             d['log'][i]['belief_summary'] = str(belief_summary)
@@ -370,10 +371,8 @@ def createData():
 
         domains = []
         for dom_k, dom_v in dialogue['goal'].items():
-            print(dom_k)
             if dom_k not in IGNORE_KEYS_IN_GOAL: # check whether contains some goal entities
                 domains.append(dom_k)
-        print('-' * 50)
         idx_acts = 1
         last_domain, last_slot_fill = "", []
         for idx, turn in enumerate(dialogue['log']):
@@ -473,12 +472,13 @@ def divideData(data):
                 last_bs = turn_dialog['belief_state']
                 dialogue['dialogue'].append(turn_dialog)
             
-            if dialogue_name in testListFile:
-                test_dials.append(dialogue)
-                count_test += 1
-            elif dialogue_name in valListFile:
-                val_dials.append(dialogue)
-                count_val += 1
+            if dialogue_name in testListFile or dialogue_name in valListFile:
+              if dialogue_name in testListFile:
+                  test_dials.append(dialogue)
+                  count_test += 1
+              if dialogue_name in valListFile:
+                  val_dials.append(dialogue)
+                  count_val += 1
             else:
                 trainListFile.write(dialogue_name + '\n')
                 train_dials.append(dialogue)
