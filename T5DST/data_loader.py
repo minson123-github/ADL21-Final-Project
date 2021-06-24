@@ -1,7 +1,25 @@
 import os
 import json
 from tqdm import tqdm
-from datasets import Dataset
+from torch.utils.data import DataLoader, Dataset
+from functools import partial
+
+class DSTDataset(Dataset):
+	def __init__(self, data, args):
+		self.input_sentences = data['input_sentences']
+		if 'output_sentences' in data:
+			self.output_sentences = data['output_sentences']
+		else:
+			self.output_sentences = None
+		self.args = args
+	
+	def __getitem__(self, index):
+		if self.output_sentences != None:
+			return self.input_sentences[index], self.output_sentences[index]
+		return self.input_sentences[index]
+
+	def __len__(self):
+		return len(self.input_sentences)
 
 # get domain slot pairs and description from schema file
 def get_domain_slot(schema_path):
@@ -101,19 +119,28 @@ def get_dict_list(args, raw_data, tokenizer, schema_info):
 				bar.update(1)
 	
 	return results
+
+def collate_fn(data, tokenizer):
+	batch = {'encoder_input': [], 'attention_mask': [], 'decoder_output': []}
+	for inputs, outputs in data:
+		input_tokens = tokenizer(inputs, padding=True, return_tensors="pt", add_special_tokens=False, verbose=False)
+		output_tokens = tokenizer(outputs, padding=True, return_tensors="pt", add_special_tokens=False, return_attention_mask=False)
+		output_tokens['input_ids'].masked_fill_(output_tokens['input_ids']==tokenizer.pad_token_id, -100)
+		batch['encoder_input'].append(input_tokens['input_ids'].squeeze())
+		batch['attention_mask'].append(input_tokens['attention_mask'].squeeze())
+		batch['decoder_output'].append(output_tokens['input_ids'].squeeze())
+	return batch
 			
-def get_train_dataset(args, tokenizer):
+def get_train_dataloader(args, tokenizer):
 	domain_slots = get_domain_slot(args['schema_dir'])
 	train_data = read_data(args['train_dir'], domain_slots, False)
 	eval_data = read_data(args['eval_dir'], domain_slots, False)
 	train_dict = get_dict_list(args, train_data, tokenizer, domain_slots)
 	eval_dict = get_dict_list(args, eval_data, tokenizer, domain_slots)
-	'''
-	for k in train_dict:
-		train_dict[k] = train_dict[k][:100000]
-	for k in eval_dict:
-		eval_dict[k] = eval_dict[k][:100000]
-	'''
-	train_dataset = Dataset.from_dict(train_dict)
-	eval_dataset = Dataset.from_dict(eval_dict)
-	return train_dataset, eval_dataset
+	print(train_dict['input_sentences'][300])
+	print(train_dict['output_sentences'][300])
+	train_dataset = DSTDataset(train_dict, args)
+	eval_dataset = DSTDataset(eval_dict, args)
+	train_dataloader = DataLoader(train_dataset, args['train_batch_size'], shuffle=True, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=4)
+	eval_dataloader = DataLoader(eval_dataset, args['eval_batch_size'], shuffle=False, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=4)
+	return train_dataloader, eval_dataloader

@@ -15,6 +15,7 @@ def get_args():
 	parser.add_argument('--gradient_accumulation_steps', type=int, help='Accumulate gradients on several steps')
 	parser.add_argument('--saving_dir', type=str, default="ckpt", help="path for saving model.")
 	parser.add_argument('--use_descr', type=bool, default=False, help='Whether to use domain and slot description.')
+	parser.add_argument('--n_gpus', type=int, default=1, help='number of gpu.')
 
 	args = parser.parse_args()
 	return vars(args)
