@@ -121,16 +121,17 @@ def get_dict_list(args, raw_data, tokenizer, schema_info):
 	return results
 
 def collate_fn(data, tokenizer):
-	batch = {'encoder_input': [], 'attention_mask': [], 'decoder_output': []}
-	for inputs, outputs in data:
-		input_tokens = tokenizer(inputs, padding=True, return_tensors="pt", add_special_tokens=False, verbose=False)
-		output_tokens = tokenizer(outputs, padding=True, return_tensors="pt", add_special_tokens=False, return_attention_mask=False)
-		output_tokens['input_ids'].masked_fill_(output_tokens['input_ids']==tokenizer.pad_token_id, -100)
-		batch['encoder_input'].append(input_tokens['input_ids'].squeeze())
-		batch['attention_mask'].append(input_tokens['attention_mask'].squeeze())
-		batch['decoder_output'].append(output_tokens['input_ids'].squeeze())
+	batch = {}
+	batch_inputs = [s for s, _ in data]
+	batch_outputs = [s for _, s in data]
+	input_tokens = tokenizer(batch_inputs, padding=True, return_tensors="pt", add_special_tokens=False, verbose=False)
+	output_tokens = tokenizer(batch_outputs, padding=True, return_tensors="pt", add_special_tokens=False, return_attention_mask=False)
+	output_tokens['input_ids'].masked_fill_(output_tokens['input_ids']==tokenizer.pad_token_id, -100)
+	batch['encoder_input'] = input_tokens['input_ids'].squeeze()
+	batch['attention_mask'] = input_tokens['attention_mask'].squeeze()
+	batch['decoder_output'] = output_tokens['input_ids'].squeeze()
 	return batch
-			
+
 def get_train_dataloader(args, tokenizer):
 	domain_slots = get_domain_slot(args['schema_dir'])
 	train_data = read_data(args['train_dir'], domain_slots, False)

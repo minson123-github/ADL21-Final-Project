@@ -19,7 +19,7 @@ class DST_Seq2Seq(pl.LightningModule):
 					attention_mask=batch['attention_mask'], 
 					labels=batch['decoder_output']
 				)
-		return {'loss': outputs.loss, 'log': {'train_loss': loss}}
+		return {'loss': outputs.loss, 'log': {'train_loss': outputs.loss}}
 
 	def validation_step(self, batch, batch_idx):
 		self.model.eval()
@@ -28,11 +28,11 @@ class DST_Seq2Seq(pl.LightningModule):
 					attention_mask=batch['attention_mask'], 
 					labels=batch['decoder_output']
 				)
-		return {'loss': outputs.loss, 'log': {'eval_loss': loss}}
+		return {'eval_loss': outputs.loss, 'log': {'eval_loss': outputs.loss}}
 	
 	def validation_epoch_end(self, outputs):
 		eval_loss_mean = sum([output['eval_loss'] for output in outputs]) / len(outputs)
-		results = {'progress_bar': {'val_loss': val_loss_mean.item()}, 'log': {'val_loss': val_loss_mean.item()}, 'val_loss': val_loss_mean.item()}
+		results = {'progress_bar': {'eval_loss': eval_loss_mean.item()}, 'log': {'eval_loss': eval_loss_mean.item()}, 'eval_loss': eval_loss_mean.item()}
 		return results
 
 	def configure_optimizers(self):
@@ -47,9 +47,12 @@ def train_process(args):
 	model = DST_Seq2Seq(args, tokenizer, t5_model)
 	domain_slots = get_domain_slot(args['schema_dir'])
 	train_dataloader, eval_dataloader = get_train_dataloader(args, tokenizer)
+	save_path = os.path.join(args["saving_dir"], 'model')
+	if not os.path.exists(save_path):
+		os.makedirs(save_path)
 
 	trainer = Trainer(
-				default_root_dir=args['saving_dir'], 
+				default_root_dir=save_path, 
 				accumulate_grad_batches=args["gradient_accumulation_steps"], 
 				max_epochs=args['n_epochs'], 
 				gpus=args["n_gpus"], 
@@ -59,6 +62,8 @@ def train_process(args):
 			)
 	print('start to training...', flush=True)
 	trainer.fit(model, train_dataloader, eval_dataloader)
+	model.model.save_pretrained(save_path)
+	model.tokenizer.save_pretrained(save_path)
 
 if __name__ == "__main__":
 	args = get_args()
