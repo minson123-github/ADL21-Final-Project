@@ -21,14 +21,14 @@ def show(name):
         if sk not in g[name].keys():
             print(f"{o[name][k]['speaker']}: {o[name][k]['utterance']}")
         else:
+            if len(g[name][sk]['start']) > 0:
+                print(f"{o[name][k]['speaker']} (chit-chat): {g[name][sk]['start']}")
             if len(g[name][sk]['mod']) > 0:
                 print(f"{o[name][k]['speaker']} (modified): {g[name][sk]['mod']}")
             else:
-                if len(g[name][sk]['start']) > 0:
-	                print(f"{o[name][k]['speaker']} (chit-chat): {g[name][sk]['start']}")
                 print(f"{o[name][k]['speaker']}: {o[name][k]['utterance']}")
-                if len(g[name][sk]['end']) > 0:
-	                print(f"{o[name][k]['speaker']} (chit-chat): {g[name][sk]['end']}")
+            if len(g[name][sk]['end']) > 0:
+                print(f"{o[name][k]['speaker']} (chit-chat): {g[name][sk]['end']}")
 
 print('choice:', ', '.join(o.keys()))
 name = input("which: ")
