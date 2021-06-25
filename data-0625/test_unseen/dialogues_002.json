@@ -1,0 +1,8077 @@
+[
+ {
+  "dialogue_id": "5_00056",
+  "services": [
+   "Travel_1"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am free for some days and wish to go outdoors. Are there any beautiful destinations to visit."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Which city you prefer?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Search in San Diego."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There you can visit Balboa Park."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Free entrance there? Can you give the phone number."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Entry is charged, you can contact them with 619-239-0512."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Is there any other park."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "5 such places are there. What about Cabrillo National Monument, a park?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Great, that sounds good."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Any other help you need?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "No, that's all. thank you."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Make your day memorable, thank you."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "5_00057",
+  "services": [
+   "Travel_1"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you find me some free events or attractions to go to?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Of course, where should I look?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'm looking for stuff to do in SD."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "I've got 10 possible options for you: The Balboa Theatre is a Performing Arts Venue in SD."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Maybe. How about a Museum?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "The Fleet Science Center is a Museum in San Diego."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I'm not sure. I'm going to Sydney, Australia soon, too - can you find me some attractions there? Something good for kids."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "I've got 4 options in Sydney: How about another Museum? The Art Gallery of New South Wales is popular."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Yeah, you know, I'll think about it. Thanks, that's it for now."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Have a good day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "5_00058",
+  "services": [
+   "Travel_1"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "i'm bored, find attractions to go see."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Sure, where should I search?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "let's check out New York City please."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Great, i've located 10 attractions for you. May I recommend 92nd Street Y, this is a performing Arts Venue."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Sounds ok, but i would prefer more of a Tourist Attraction. What else do you recommend?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There is a great Tourist Attraction, Balto Statue you should check out."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "i'm thinking a Museum may be better, see if any have free entry."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Sure, There are 10 attractions I can recommend. How about the American Museum of Natural History."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Find out if this is a child friendly Museum and what is their phone number please."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Sure, this is a kid friendly establishment. The phone number you requested is (212) 769-5100."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Okay that was all. bye"
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Glad to help. Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "5_00059",
+  "services": [
+   "Travel_1"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm looking for something like a Performing Arts Venue to visit, can you help me?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where would you like me to search?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Search in Paris, France please."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There's the Arab World Institute, which is a Performing Arts Venue."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Can I bring children there, also is this place free to go to?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I don't think children would enjoy this venue, and it is not free."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Okay, cool. That's all I need for now, bye."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, take care!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "5_00060",
+  "services": [
+   "Travel_1"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm going out with the family and need some child-friendly places to go. Can you help?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I sure can. Where would you like me to look?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "In Toronto, Ontario please"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There's a cool tourist attraction called 3D Toronto Sign, what do you think about that?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Hmmm, is there anything else? Any performing arts venue?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, I've found 2 you might like. There's a performing arts venue called Harbourfront Centre"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Unsure.. can you see if there's anything else? Can you see if there's anything in San Fran that you don't have to pay for entry?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, what about this: I've found a performing arts venue called War Memorial Opera House. What do you think about that?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Maybe.. can you grab me their phone number?"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Sure, it's 415-865-2000"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Thanks, I don't need anything else"
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "No problem! Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "5_00061",
+  "services": [
+   "Travel_1"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "ThisI is a great time for me to take in some historic sights on my vacation. I want to see some exhibitions where I can get a lot of bang for my buck, and I believe a Museum is just the place. Your involvement is kindly requested. Please see what museum you can find for me?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, I'll be happy to assist you. Where would you like to find a nice museum?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Take a look for one in London, England, please."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Here you are, 10 sightseeing locations that you might like. There is a Museum at Apsley House."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Nice. I'm considering it."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Can I assist you with anything further?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I think I'll stop there. Your help is so much appreciated."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "The pleasure is mine."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "5_00062",
+  "services": [
+   "Travel_1"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Could you help me find some attractions I might like to visit?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What area should I search?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Search in New York and I need something child friendly."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "I found 10 attractions. How about the Museum, American Folk Art Museum?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That sounds cool but are there any others?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There is also the museum, American Museum of Natural History."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "How about any others in SD?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "There is a park called Balboa Park."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "What is their phone number?"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "The number is 619-239-0512."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Ok, thank you. That is all for now."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "My pleasure. Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "5_00063",
+  "services": [
+   "Travel_1"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you find me some places to visit. I'm looking for a performing arts venue"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where should I look for these kind of events?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Find me places in London, England, I'll be there."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are 10 things that you might want to do. One is this palce called Alexandra Palace and it's a Performing Arts Venue"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Is it free entrance? And what's their number?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Entry is actullay paid admission and their number is 20 8365 2121"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Cool, what else is avaialble?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Another Performing Arts Venue you could check out is Barbican Centre"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Alright, give me another option"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Another Performing Arts Venue is the Cambridge Theatre"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "OK, thanks for the information, that's it for now."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome, enjoy!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "5_00064",
+  "services": [
+   "Travel_1"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hello! Can you help me find local attractions in Mexico City?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Hello! I'd be happy to assist you. May I recommend Acuario Inbursa? It's a Nature Preserve."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "That sounds are nice. I'd like to visit a Museum but I'm looking for something without entry fees."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "I have found 10 things that may work for you. The Interactive Museum of Economics is a museum that may interest you."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That sounds interesting. Can you recommend something that is more child-friendly?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There are 9 child-friendly attractions that you may like. The Leon Trotsky House Museum is a museum near you."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Ok, thank you for the suggestions. That's all I need right now. Thank you."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome. Enjoy your trip!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "5_00065",
+  "services": [
+   "Travel_1"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you help me find some attractions to check out?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Sure, where should I look?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Look in NYC, I need to get more familiar with the city."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "How about the Performing Arts Venue on 92nd Street Y?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "What else is there? I'm looking for something free to visit and child-friendly, my kid can get kind of fussy and I don't want to pay for tickets and just have to leave after."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "How about a museum? The American Museum of Natural History could be a good option, and it's free entry."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I'll check it out, thanks. That's all I need."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Alright, have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "5_00066",
+  "services": [
+   "Travel_1"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm looking for some attractions to visit."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where do you want me to find attractions?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "LAX, please."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There's Angels Flight Railway. It's a Historical Landmark."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Cool, any other attractions?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There's the Autry Museum of the American West. It's a museum."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Okay, good."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Can I help you with anything else?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No, that's all, thank you."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1143",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm looking for some entertainment in the center of town."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I am very sorry there are no results for entertainment in the centre area, would you like to try another area or different attraction?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "How about a theatre?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are 4 theatres located in the centre of town. How does Cambridge Arts Theatre sound?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That sounds good, what's the phone number?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "The phone number for the cambridge arts theatre is 01223503333. Can I offer you any other information today?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Thank you, that's all I need right now. Bye."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "You're very welcome. Goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1055",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I want to find a museum in the centre of town please."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Castle Galleries is a museum in the center of town, entry is free, would you like more details?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Yes, please. May have I have phone number and postcode?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Yes, the phone number is 01223307402 and the postcode is cb23bj. Can I help with anything else today?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Nope, that's it. Thank you!"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome! Have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1125",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I would like information on The Cambridge Corn Exchange"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "The cambridge corn exchange is a theatre in the centre area. I would be happy to book tickets for you."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "No thanks, I just need their phone number, please."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "The phone number for the Cambridge Corn Exchange is 01223357851. Is there anything else I can help you with today?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "No that is all I need today. Thank you very much."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome, have fun!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1122",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Could you help me find a place to go? I'd like to find some architecture."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Yes I have 5 architecture sites in the centre 4 are churches and one is old schools. Would you like information on any of them?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "What is the postcode for your recommended one? You choose."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Old Schools is a great place for architecture. It's free to get in. It's located on Trinity Lane and their postcode is cb21tt."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That sounds perfect. Thank you very much!"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything else I could help you with today?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No that will be all for now."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "No problem. Glad to help."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Thank you very much."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you, goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1069",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Are there museums in the town centre?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Yes, there are 11 museums in the centre of town. What other information would you like?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Can you recommend one and give me their address and postcode?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "I definitely recommend the Williams Art and Antiques. It's free to get in. They are located on Gwydir Street, No. 5 Dale's Brewery. The postcode is cb12lj."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Thanks so much, that sounds perfect."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything else I can help you with today?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No, I think that covers everything. Thanks so much for your help."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome, enjoy your visit."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1119",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you find me a cinema in town that I can go to?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Yes, what part of town would you like? There are cinemas in the south and centre of town."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Either area is fine. Can you pick one for me and let me know their address?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "The Cineworld Cinema is in the south area of town and the address is Cambridge Leisure Park, Clifton Way. Is there anything else I can help you with today?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Do you know the entrance fee?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I'm sorry, the entrance fee for Cineworld Cinema is not available. Is there anything else you need?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Yes, can you tell me their address please?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Cineworld Cinema is located at cambridge leisure park, clifton way, cb17dy. Can I help with anything else today?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "So that would be all. Thanks."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome. Enjoy your day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1085",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Are there any entertainment spots in the town centre?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Nothing specifically marked entertainment, although we do offer quite a lot to do, from theatres to parks."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Do you have any colleges in the centre area?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "You're in luck. There are 13. I'd recommend visiting Downing College on Saint Andrew's Street. Entrance is free. Would that work for you?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That sounds perfect. Can you tell me their address and postcode, please?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Yes, their post code is cb21dq and the address is on regent street."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Great, thank you!"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "No problem. Is that all you needed today?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "It is. Thanks again."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you, goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1121",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I want to tour a college in the centre of town. What's available?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I have several different options available. Did you want one with free entrance?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Entrance fee is not an issue."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Christ's College is free to enter"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Can I have the postcode and address for that college?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Yes, it's located at saint andrew's street, postcode cb23bu . Is there any other information you need?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No, that's it. Thanks."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you, goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1106",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hi, I'm looking to visit a park in the east part of town, do you have any recommendations?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Yes, there is Cherry Hinton Water Play. Would you like more information?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Yes please. I would love the phone number."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "The phone number for Cherry Hinton Water Play is 01223446100. Is there anything else I can help you with today?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "No, I just need the phone number. Thanks so much. Have a good day."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "You too. Enjoy your stay."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1142",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking for a college in the west part of town to visit."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Magdalene and Churchill College and Clare Hall all fit your requirements and entrance here is free. Is there a specific college you would like to see?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I think I would like to visit both Churchill and Magdalene Colleges. May I have their telephone numbers please?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "The phone number for Churchill College is 01223336233, and the phone number for Magdalene College is 01223332138. Can I help you with anything else today?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "No, thank you. Good day."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "You too!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "SNG1071",
+  "services": [
+   "attraction"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "What attractions do you have in town, preferably near the centre?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "We have 44 attractions in the centre, colleges, architecture, museums"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Can you recommend a college in the centre and tell me the entrance fee?"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are 13 colleges in the centre of town with entrance fees ranging from free to 2 pounds 50. Do you have a preference on entry price?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Which is your favorite? And what is its entrance fee?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "My favorite is Christ's College and there is no entrance fee."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Great, that's all I need. Thank you!"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you, goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "23_00127",
+  "services": [
+   "Flights_4",
+   "Trains_1"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need your help finding a one way flight. I only need one ticket and I would like it to be an economy ticket."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I can help you with that but first i'll need to know a few things. Where would you like to go, from which city would you like to depart from, and on which date would you like to trave?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want to travel on the 4th to Chi-town from NYC."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Would you be interested in an American Airlines flight that takes off at 11:20 am with a ticket price of $180? The flight also has a layover."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That is fine. I'll keep it in mind but I want to check out the options for trains as well."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Would you still like to leave on March 4th?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No, on Tuesday next week."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "There are 6 trains that meet your criteria. How about a train that departs at 6 am and costs $122?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "What else is there? I want a ticket for the 4th and anything will work I don't care about the fare class."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "There are 5 trains that could work for you. How about one that departs at 6:10 am and costs $114?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "That sounds great, not too expensive. I like a good train trip too."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to purchase tickets?"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Yes let me buy a ticket. Get me trip insurance too."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "You would like 1 value ticket for a train from New York to Chicago on March 4th at 6:10 am. Is that correct?"
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Yes that is correct. Can you tell which station the train leaves from?"
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "The ticket has been purchased. The train will leave from Grand Central Station."
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "And which station will it arrive at?"
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "The train will arrive at the Chicago Union Station."
+   },
+   {
+    "turn_id": 18,
+    "speaker": "USER",
+    "utterance": "Great. You were very helpful, thanks. That will be all."
+   },
+   {
+    "turn_id": 19,
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome. Good Bye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00000",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am planning a trip. I will need three tickets. The tickets will be for a one way flight on Thursday next week."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Which city would you like to fly out of."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I am hoping to find a flight out of Los Angeles."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Which city would you like to fly to?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Atlanta will be my destination."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Is Alaska Airlines acceptable for you. They have a plane leaving at 11:30 pm with no stops. The charge would be $171."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "What time would the flight arrive in Atlanta."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "The arrival time is projected at 7:29 am."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Awesome. That flight will work for me."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything else I can do for you?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Nothing at the moment. Thanks so much for the assistance."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Your welcome. I hope you have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00001",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a premium economy class ticket on American Airlines from paris."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where are you heading to and when would you like to leave?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need three tickets to portland, OR for the 9th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There is 1 flight available on American Airlines. It costs $649 and leaves at 2:35 pm."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That would be great."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Anything else you need assistance with?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No. Thanks a lot."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Enjoy your day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00002",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you help me find a one way flight please"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where are you headed and on what day?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I wanna fly out to Las Vegas on the 12th please"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Sure, and where are you coming from?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I'll be departing from Portland, OR"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "OK, I found 4 flights that might work for you including this Alaska Airlines flight that leaves at 10:05 am for $187"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Can I get three tickets for that?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "No it's only for 1 person"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Then find me something else that can accommodate three tickets"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "I found 3 flights with available seats including an American Airlines 9:35 am flight for $193"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "That sounds great then"
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Can I do something else for you"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Right now we're ok, thanks"
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Take care and update me"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00003",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am on a short trip and I need your help to find an one way flight to London, UK."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "From which date you are planning to travel?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I am planning to travel from the 3rd."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "From which City?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I need it from Los Angeles."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "What about an direct flight with American Airlines takes off at 7:10 am with ticket cost $259?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I think this is okay for me."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00004",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking for a one way flight to warsaw I want 2 to get with United Airlines"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "what date and to which city do you want to depart from"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "look for flights from chi-town I would like to travel on next Friday"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "do you like to fly with United Airlines at a cost of $257 at 4:35 pm"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "sounds great thank you that's all what I need"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "have a nice day"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00005",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I would like to search for a round trip flight from Vancouver with three tickets available, please."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What are your travel dates for departure and return?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I would like to start the trip on the 3rd, and return on the 8th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Where would you like to go?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I will be flying to Washington."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "American Airlines has a connecting flight at 1:10 pm, with a return flight at 2:55 pm, for $442."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Would these be Economy class tickets? What time does the return flight land?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Yes, the seats are Economy. The return flight arrives at 9:56 pm."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "OK, that all sounds good."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything else I can help you with?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "No, thank you for your help."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00006",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Help me find a round trip flight."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where will you be leaving from? And what day is your ideal return flight?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'm leaving from Seattle, WA. And I want to return on the 14th of this month."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "And what's the date of the flight? Also, where will you be heading to?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I want the flight to be on the 12th of March. And I will be heading to LA."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There's an Alaska Airlines flight with a takeoff at 7:05 am. It does have a connection. The return trip is at 11:55 am. And it's $271 for a ticket."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Okay, sounds like it could work. Thank you, that's all for now."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a fine day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00007",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you find me a round trip flight from Washington to LA, returning on March 4th."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What date did you want to leave?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Make it for the 2nd."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There is an American Airlines flight that leaves at 10:30 am with a connecting flight. The return flight leaves at 7:40 am. The ticket is $347."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That one sounds good."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything else I can do for you?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No, I'm good for now, thanks."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00008",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you help me find a round trip flight?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Which city will you be departing, and which city will you be traveling to? What day will the return flight be?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'd like to travel this Sunday until the 10th of March from Chi-town."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Where will you be traveling?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Atlanta, GA."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I found 4 matching flights. One is from American Airlines. The flight will leave at 1:25 pm. It's a connecting flight. The return flight will depart at 5 pm. Tickets are $258."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That's great, thank you. That'll be all."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00009",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you find me find flights for a round trip?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Can I please have your destination and planned departure and return dates?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want to fly to London tomorrow and return on March 13th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Where will you be departing from?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Find me flights from Chi-town."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There are 2 options available. Would you be interested in an American Airlines connecting flight that departs at 1:25 pm with the return flight taking off at 12:45 pm? The ticket costs $596."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Can I know the arrival times of both the flights?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "The onward flight arrives in London at 7:49 am and the return flight arrives at 3:32 am."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Sounds good to me. Thank you very much. That's all I need for now."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00010",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am interested in finding a round trip flight, I will be going to LA, and I will have my returning flight on 10th of this month."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Can you tell me the date when you start your travel?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I will be leaving for my destination on next Monday."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Can you tell me the city from where you will leave for your trip?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I want to know about flights which leave from Las Vegas."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There are 3 flights which match what you asked for, with one of the being a direct flight with Delta Airlines, which takes off at 7:45 pm, and when it returns it leaves at 4:35 pm. The price of the ticket for this flight is $140."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That seems right."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Is there something else I can help you with?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Nothing. I am thankful for the help you provided to me."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Have a wonderful time!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00011",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I have a plan to travel . Please find a round trip flight. It should be Premium Economy class tickets and flight should be United Airlines."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "from which city you wish to depart from?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I like to depart from chicago."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "where are you planning to go?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "i am planning to go to Philadelphia."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "At what date you wish to travel?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I need to start my travel on March 6th"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "At which day do you need to take the return flight?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "I wish to return on next Friday."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "I found 1 flight which is a united airlines. The flight takes off at 4:25 pm and it is a direct flight and the returning flight takes off at 1:55 pm and the ticket costs $321."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "oK that sound good to me and that's all i need."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Have a wonderful day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00012",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a round trip flight from Phoenix, AZ."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What are your travel dates."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want to depart on March 7th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Where do you plan to go? What day would you like for your return flight?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I am going to Seattle and would like to return on 14th of March."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Would you prefer to travel on American Airlines? A connecting flight takes off at 4:10 pm and a returning flight takes off at 2:20 pm. The ticket price is $350."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Is the ticket Economy class? What is the arrival time for the returning flight?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "The seating is Economy. The arrival time for the returning flight is 6:43 pm."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "That sounds good."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Can I assist you with something else?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "No thank you."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Enjoy your day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00013",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking to find a round trip flight."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where are you planning to go? Also on which date would you like to travel and which day do you want to take return flight?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want to start my travel on 9th of March and flying to ATL and will be returning on the 12th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "From which city are you planning to depart from?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I am looking for flight from Los Angeles."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to fly with American Airlines that takes off at 3:05 pm and return flight takes off at 7:25 am. It is a direct flight and will cost you $274."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "It sounds good."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything else I can assist you with?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No. Thanks for all your help."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00014",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Find for me please a round trip flight."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Tell me in what date you want to go and where.On which day you will return?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I plan to fly to Philly on March 8th and return on 10th of this month."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "You will depart from which city?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "From New Delhi will be okay."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "What is your opinion about United Airlines?You can take the connecting fight at 1:20 pm and returning is at 9:35 pm.Cost per ticket is $582."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Sounds very good.That's what I wanted for the moment."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00015",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need to find a round trip flight please."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Ill be happy to help you with that. Where will you be leaving from?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want to go out of ATL."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What is your destination and when would you like to return?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Going to San Fran and planning on coming back March 12th."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "What is the travel date you were planning on?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That's going to be the 7th of March."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Very good. There are 4 possible flights to choose from. I have an American Airlines direct flight leaving at 3:45 pm with a 9:20 pm return. The fare is $295."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Yes, I'll take it."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Of course. How else may I help you?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "I don't need anything else, thanks a lot."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "It's always a pleasure, thank you."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00016",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need to attend a conference and i wish to go through a flight. Will you find a round trip flight?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where are you planning to go?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I am planning to go to SFO."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "At which city you need to depart from?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Please search from Atlanta, GA"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "In which day do you wish to take the return flight?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I wish to return on March 14th."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "At which date you wish to start your travel ?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "I want to start my travel on Day after tomorrow."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "I found 4 flights as per your need. What about American Airlines? the flight takes off at 3:45 Pm. It is a direct Flight and the returning flight takes off at 9:20 pm. and the ticket cost is $313."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Ok that sounds good. that's all i need."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Have a wonderful day"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00017",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I would like to find a round trip flight."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What is the date you are wanting to travel. Which city do you want to leave from and where do you want to go?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I would like to leave on the 8th, departing from Berlin and going to NYC."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What is the day you want the return flight to be?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I am coming back on March 12th."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "What do you think of flying with American Airlines? This flight will leave at 1:35 am and it's a direct flight. The return flight leaves at 4:45 pm and the price is $374."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That sounds fine. Thanks very much, that's all I wanted."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00018",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I have a plan for a trip and I need a round trip flight. Can you find me the one?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Yes, for which date I have to search the flight?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Search it for my travel on this Saturday."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Which is your origin place and let me know the date of your return?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I need the flight from Portland and search for the return flight on Friday next week."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "What is your destination?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I need the flight to Vancouver, BC and you can search for any class of tickets."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "What about a connecting flight with Delta Airlines takes off at 4:35 am and the returning time at 6:35 am for the ticket cost $354?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Yes, that works for me."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "How can I help you further?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "No, that's all. Thanks."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00019",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need to get out of the city and I need a round trip flight."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where would you like to go and where would you be leaving from? When would you like to go?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I will be leaving SF and heading NYC. I want to return on March 8th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "When would you like to leave?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I want to go on March 5th."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like a flight on American Airlines that costs $343 that leaves at 4:55 am and returns at 12:30 pm?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Yes, that would be great. Thanks, that's all."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Enjoy your day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00020",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I wish to find a round trip flight."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When will you travel and where do you want to go? When will you need the return flight?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I will travel today to Las Vegas and will return on the 4th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "From which city do you want to start your travel?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I need flights from Atlanta, GA."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I searched and found 2 American Airlines flight and it will start at 3:45 pm. The price is $377 and the return flight will start at 10:25 am."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "It is nice. Thank you so much. That is what I want."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a fantastic day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00021",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you find me a nice round trip flight to LAX with Southwest Airlines?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "No problem. When would you like your return flight?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Make the return flight for March 14th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What city will you be departing from?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Find flights out of Chicago."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "What is your travel date?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Find flights for the 9th of this month."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, I've found 1 flight for you with Southwest Airlines. The flight takes off at 7:20 pm and will be a direct flight with no layovers. Your returning flight will take off at 12 pm and your tickets will be a total of $276."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Sounds good. Thanks for the help! That's all for now."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "My pleasure. Have a good day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00022",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am going to need 2 tickets because I am visiting someone on March 4th. Look for a round trip flight."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When are you taking the return flight? What is your destination and what city are you leaving from?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want flights from Atlanta to San Francisco and I will come back on 12th of March."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are 4 flights that you will like. How about the American Airlines which is a direct flight and takes off at 3:45 pm. The return flight leaves at 9:20 pm. It will cost you $279."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "What is the time of arrival for the returning flight?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "The returning flight will land at 5:46 am."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That is perfect. Thank you. That is all."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a wonderful day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00023",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm searching for a round trip flight."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What day do you wish to depart at?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'd like to begin my trip on next Friday."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What metropolis do you wish to leave from, what day do you intend to take the return flight, and what location do you intend to visit?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Look for flights from Seattle to Atlanta, GA that return on the 10th."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Do you wish to travel with American Airlines? There is a connecting flight departing at 8:50 am with a return flight leaving at 1:50 pm, and it costs $386."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That sounds perfect."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Could I assist you with anything else?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Nope; thank you for your assistance."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Have a pleasant afternoon."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00024",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you find me a round trip plane from Chi-town that is economy and returning on Wednesday next week?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When are you travelling and where are you headed?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'm gonna be flying out on the 2nd to Delhi"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There's a United Airlines flight that leaves at 11:15 pm and is a direct flight. The return flight leaves at 1:20 pm, and all this will cost $368"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "How many tickets will you get?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I am getting it for 1 person"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "When does that flight arrive at Delhi?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "It arrives at 8:59 pm, so not too late"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "What if I fly to NYC instead?"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "You can fly for $222 via American Airlines with a 5:05 am connecting flight and a returning flight that takes off at 11:20 am?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "That sounds great"
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Can I do something else for you right now?"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Right now, no thank you, have a good day and thanks for helping"
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Sure, you too, take care"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00025",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you help me find a round trip flight from Atlanta?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What is the travel date, and where will you be going?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'd like to travel to Philly on the 2nd."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "When would you like your return flight?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I'll be returning on the 9th of March."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I found 2 matching flights. Do you want to fly with Delta Airlines? The flight will depart at 6:05 am. It's a connecting flight. The return flight will leave at 3 pm. Tickets are $265."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That sounds great."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Do you need anything else?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No thank you, that will be all!"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Have a wonderful day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00026",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hello, I am hoping to find 1 ticket for a round trip flight."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Hello, yes, I can help you with that. Where would you be departing from?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I will be departing out of New York."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What is your departure date and return date?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I would like to depart on the 9th of March and return on the 12th of March."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Where would you like to go?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I am flying to Chicago. Can you please find me Economy class tickets?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "I have found 4 flights that match your search. There is an American Airlines flight that takes off at 11:20 am and it is a connecting flight. The returning flight takes off at 5:05 am. This ticket will cost $235."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "That works for me. Please book it."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything else I can help you with?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "No, that will be all. Thank you for your help."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Have a good day! Goodbye."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00027",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I have a very important business conference coming up and need to find a round trip plane ticket going from NY to SFO and would prefer to fly with United Airlines if at all possible."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I should be able to easily help you with that but first can you tell me the dates you would like to depart and return?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I have to leave no later than the 4th and would like to return home on March 14th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "I was able to find a flight with United Airlines that leaves at 7:35 pm, the return flight departs at 8:20 am, and it would cost you a total of $302."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That's perfect, and was really easy."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything else you would like my assistance with?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Nope, you were a great help, thank you."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "No problem, enjoy the rest of your day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00028",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am searching for a round trip flight to Seattle, WA"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "From which city you like to depart?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Search flights from Vancouver, BC"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "On which day you like to take the return flight? On what date you want to travel?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I like to start my journey on March 5th and want to take the return flight on next Thursday."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "The connecting flight American Airlines which takes off at 11:20 am and returning flight takes off at 2:20 pm with ticket cost $373."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "This is cool."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Do you need any other help?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No, thank you very much."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00029",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you help me to search for a round trip flight from Delhi"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "On which date you want to travel?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I like to travel on march 1st."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "To which place you want to travel and when do you want to return?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I want to fly Atlanta with 2 tickets and coming back on march 10th."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "The connecting flight United Airlines takes off at 1:20 pm and returning flight takes off at 9:30 am with ticket cost $585."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "This is perfect for me."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a wonderful day"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00030",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking for a round trip flight to book"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where are you headed and what day do you leave?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want to leave next Monday heading to Las vegas"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "OK, and when are you coming back?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I want to be back by the 11th of this month"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "What city are you leaving from again?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I'll be coming from Paris"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "I found 1 flight via American Airlines at 9:40 am with a 4:25 am return flight for $543 total"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "That sounds awesome"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Can I do something else for you"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "No we're ok for now, thanks for assisting"
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "I'm happy I could help, bye!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00031",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm about to leave and I need round trip tickets. I will depart from New York to land in Berlin. I want to return on the 14th of March"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When are you leaving?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Tomorrow."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are 2 suitable flights for you, one is from American Airlines and it will take off at 4:45 pm with 0 stops. The return trip is scheduled to leave at 1:35 am. You'll pay $373 for the ticket."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "It can work for me."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "DO you still need me?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No I don't."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Goodbye sir"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00032",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hi can you help me find a round trip flight? I'm leaving next Tuesday and I want to come back on the 13th. I don't really care about the class."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Which city are you leaving and where are you going?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'll be starting in Los Angeles and I need to get to Portland, OR."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Great, I found 5 options for you. One flight on Alaska Airlines leaves at 4:40 am, with a connecting flight, and it returns at 5:10 pm. It would cost $228."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Can you find any other options? I actually need three Economy tickets."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "How about Delta Airlines? They have a flight leaving at 10:20 am and returning at 9:25 am. It is a direct flight and only costs $191."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "What time would that flight arrive in Portland?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "It arrives at 12:50 pm."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "That sounds good to me, I think that's all. Thank you."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day, then."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00033",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm needing help to book a round trip flight coming home on the 9th of March."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Alright first tell me about the departure: where from and on what date? Also where is your destination?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Oh yes, I need to leave next Monday out of SD and I'll be headed to SF."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Okay sounds good, there is an available flight with Alaska Airlines that's leaving at 6:15 am and returning at 12:25 pm. It costs $220, and there is also a connecting flight."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That should be good, that's all I need then."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Alright have a good day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00034",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a premium economy round trip to Washington on United Airlines"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What date are you departing, and from what city?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'm flying out on the 11th of this month, from Ciudad de mexico."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What is your return date?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I'm coming back on the 13th of march."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I have a united Airlines flight departing at 1:40 am, which is a connecting flight. The return flight departs at 4:35 pm. Total cost is $574."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Okay thanks for the info."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Do you need anything else?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "no that's it"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Talk to you later."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00035",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Could you help me find Premium Economy class tickets for a round trip with a return date of March 5th?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Please tell me your destination."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "My destination is Atlanta."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What's your departure city, please?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Search for flights originating from New York City."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "What departure date would you prefer?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I'd like to depart today."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Among the 4 suitable flights I found is a direct, outbound American Airlines flight leaving at 9:45 am. The inbound flight departs at 10:30 pm. The ticket price is $304."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Could you tell me how many tickets you got? What's the inbound flight's arrival time?"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "I got a ticket for 1 passenger. The inbound flight lands at 0:52 am."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Cool! Thank you very much. You've been very helpful. That will be all."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Do have yourself a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00036",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hi! Can you help me find a round trip flight?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I'd be happy to. Where will you be departing from and when will you be returning?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'd like to find a flight from Atlanta for the 13th of this month."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What day will you begin your trip and what is your destination?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I'd like an Economy ticket on a Southwest Airlines flight departing San Fran next Thursday."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There is 1 flight that matches your criteria. There is a Southwest Airlines flight leaving at 10:20 am and returning at 6:45 pm for $287."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That will work. Thanks for your help."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome. Have a wonderful trip."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00037",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you find me a round trip flight out of NYC? I would like to fly with Southwest Airlines and will be returning on the 14th of this Month."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Sure thing, what date will you be leaving?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I will be leaving on Tuesday next week."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What is your destination?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I am traveling to San Fran."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Alright. I've found 1 flight for you with Southwest Airlines. The flight takes off at 6:15 pm and will be a direct flight. The returning flight will take off at 4:45 am. Your total ticket cost will be $285."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Okay, sounds good. Thanks, that's all for now."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "My pleasure! Have a good day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00038",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Could you please find me three Economy class round-trip flight tickets?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What's your departure city?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Please search for flights originating from Toronto, Ontario."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Please tell me your destination, as well as your preferred departure and return dates."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I'd like to leave for Philadelphia on the 6th, and return on the 12th of March."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "American Airlines has a 4:15 am outbound, connecting flight, with a 5:45 pm inbound flight at $286 per ticket. Will this flight work for you?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "What time does the inbound flight land?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "The inbound flight lands at 1:13 am."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "What time does the outbound flight reach my destination?"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "the outbound flight lands at 8:01 am."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "That works for me."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like my help with anything else?"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "No. Thank you very much. You've been very helpful."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Do have yourself a fabulous day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00039",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hi, there! I need to book a round trip flight. I'm hoping to travel on the 4th. I'd like to buy three tickets on American Airlines."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, great! Where are you planning to go?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "We need to go to Atlanta."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, nice! Where are you departing from?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Berlin, Germany."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Beautiful! Which day would you like to return?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "On the 11th."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Perfect! I found a great American Airlines flight for you. It departs at 1:35 am. It does have a connecting flight. The return flight takes off at 3:45 pm. The tickets will be $581 each. How does that sound?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "That sounds good. That's all I need!"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Have a good day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00040",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm going to visit some friends and am looking for a round trip flight. I need to return on March 9th."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Sure, I can help you with that. I just need to know what date you will be leaving, the city you are departing from, and the city that you'll be visiting."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Of course, I would like to start traveling on Wednesday next week. The easiest place for my to fly out of is Washington and I will be flying to London."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Ok, there is a flight available that you might be interested in. It is an American Airlines flight costing $571. The departing flight takes off at 3:15 pm and the returning flight takes off at 12:45 pm."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That will work perfectly. Thank you."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Do you need anything else today?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No, that's all I needed. Thanks again."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome. Have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00041",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a round flight plane ticket."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What day are you returning?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "On March 9th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What city are you leaving from? Where are you going? On what date?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I am traveling from SF to ATL on the 6th of March for 2 people."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I found 4 options including American Airlines. The flight departs at 4:55 am and it returns at 3:45 pm. The ticket price is $379."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Thanks, that is everything."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00042",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need round trip tickets for four for the 1st of this month, returning on March 9th."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where are you heading?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I am heading to Washington on March 5th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Where would you be leaving from?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I will be traveling from Chicago."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "You can take an American Airlines flight for $211. The flight leaves at 8:35 pm and returns on 7:10 pm."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That would be great."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything else you need assistance with?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No. Thanks very much"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Enjoy your day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00043",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Find for me please a round trip flight.I want to fly with American Airlines to Seattle."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Tell me the return date and from which city you want to depart."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "From Vegas will be the return on 14th of this month."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "On what date you want to start your travel?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "On March 4th will be the start."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "What do you think about American Airlines because I found 1 option for you.Is a connecting flight at 7:35 am and return at 4:15 pm.Cost per ticket is $343."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Sounds very good.Thank you. That's what I wanted for the moment."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00044",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a round trip flight, and need 1 ticket with Delta Airlines. Also, I need a return flight on the 11th."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What is your travel date?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'm leaving on the 3rd."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "From which city will you depart? Where would you like to go?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I need some from Ciudad de Mexico. I'm going to Chi-town."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There is 1 flight for you, with Delta Airlines. It will depart at 6:55 AM and is connecting. The return flight will take off at 4:10 PM. The ticket price is $420. Is this okay?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Sounds good."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything else to help with?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No, but thanks!"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Of course. Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00045",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Would you kindly help me to find a round trip flight?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "On which date you like to take the return flight?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I like to start my journey tomorrow and returning on the 12th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Where do you want to go?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I want to fly NYC."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "From which city you want to depart?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Search for flights from ATL."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "I searched 4 flights of your choice and one among them is American Airlines which takes off at 10:55 pm and it is a connecting flight. The returning flight takes off at 7:10 am with ticket cost $258."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "This is cool..thanks a lot.."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00046",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a round trip flight."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What do would you like it on? What city are you coming from?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'm leaving from Philadelphia and coming back on the 7th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Where are you going? What date are you going?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I'm leaving next Tuesday. I wanna go to NYC. I'm fine with any class."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There are 4 flights for you. Is American Airlines okay? One flight takes off at 3:20 pm with the returning flight at 1:35 pm. The tick would cost $162."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That's good. Thank you. That's all."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00047",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hey. Can you help me find a flight? I need something round trip."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Sure. On which date would you like to leave, and on which date would you like to come back?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'd like to leave on the 1st of this month, and return on March 4th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Okay. Where would you like to go?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "To Vancouver, BC."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "And from which city would you like to depart?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I'd like to leave from NY."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Would you be interested in a flight from American Airlines? They have a ticket that meets your criteria. The plane will take off at 9:45 am, and the return flight takes off at 11:20 am. It is a connecting flight, and the ticket costs $496."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Possibly. When would the flight arrive in Vancouver? Also how many tickets is that?"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "The flight is expected to arrive at 4:11 pm, and the ticket is for 1 traveller."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Alright, cool. That will be all for now thank you."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "You're most welcome. Don't be afraid to ask for anything further."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00048",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hey I need an Economy round trip ticket to Philly and I'll be returning on March 6th."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What city will you be departing from?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I will be leaving from Berlin."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "And what date would you like to fly?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I need the travel to start on the 1st."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I found 2 flights for you with American Airlines.The ticket would be $499. The first flight departs at 2:55 am and the return flight leaves at 5:45 pm."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That sounds like what I need."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Do you need assistance with anything else?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No, that's it. Thanks."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Enjoy your flight."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00049",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Hi, could you get me a round trip flight with United Airlines?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Sure, where will you be departing from and what is your intended period of travel?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I will be travelling to Los Angeles from March 3rd to 14th of March."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "And where do you plan to go?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Likely to New York City, I suppose."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There is 1 available United Airlines flight which departs at 11 am and returns at 11:50 am which will cost you $332."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I see, could you get three tickets please? When does the flight land at the destination?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "This is for 1 and the flight will arrive at 8:10 pm."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "That sounds perfect!"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Could I further assist you then?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "No, that is all. Thank you so much!"
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "No worries, have a pleasant day ahead!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00084",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a sedan for my trip to Chicago."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What time do you need the car? On what day? When do you want to return the car?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need the car from the 1st to the 7th of this month. I'll be picking it up at 16:00."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are 3 cars available at Chicago Union Station. One is a Buick Regal Sportback sedan."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That will work. That is all."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00085",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'd like to find a nice Sedan to rent."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where do you want to rent it from and at what time do you want it?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want to rent it in San Diego and have it at 3 in the afternoon."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "And what is the date range that you want the car?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I want it from the 12th of March until the 14th."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I've found 4 cars that match. There's a nice Audi A8 Sedan at SAN International Airport."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Okay, nice. That's all for now."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a terrific day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00086",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I would like to find a rental car"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "from where do you want it and when do you start the journey and at what time"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'm looking for cars in portland at half past 9 in the morning from 8th of this month"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "until when do you need it"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "till 10th of this month"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "there are 10 cars available there is a nice car available at pdx International airport which is sedan of buick regal sportback"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Whats the cost per day"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "it is $27.00 per day"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "that sounds great that's all I need"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "thank you have a good day"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00087",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm looking for a rental car."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "On which date and time will you pick it up and return it?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'd like to pick it up at 5:15 pm on March 13th till the 14th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Where would you like to rent the car from?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I am looking for cars located in Philly."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I hve 10 cars. What about this nice Buick Regal Sportback at PHL International Airport? It's a Sedan."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "How much is it per day?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "It's $28.00 per day."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "That sounds great."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Could I assist with something else?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "No, that's all."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Have a fantastic day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00088",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'd like to look for a rental vehicle, which I require from the 9th of this month to the 14th. I'd alright with any type of vehicle."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When would you like to pick up the vehicle, and what place do you wish to rent it from?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'm searching for vehicles in Paris, and would like to pick it up at afternoon 1:15."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are 10 vehicles available. There's a lovely Audi A8 Sedan available from Charles de Gaulle International Airport."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "What's its price per day?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "The price is $36.00 per day."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That's perfect for me; that's all."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a pleasant afternoon."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00089",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you help me find a sedan to rent on Sunday this week?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Sure, when do you need the car until and where do you want to pick it up?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'll be picking up in Rio and I'll need it until the 6th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Great, and what time will you be picking up?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "It'll be at 2:30 in the afternoon, and could you search for a hatchback?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I found 4 that you may like. There's a hatchback Fiat Panda available at Galeao International Airport."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "How much per day?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "It'll cost $28.00 a day."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Great, that one sounds good."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Anything else I can do for you at the moment?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Nope, but thanks for that help."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Enjoy your day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00090",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I would like to find a rental car."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "At what time would you like to pick the car up? Where do you want to rent the car from and when would you like to begin the car rental."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I am looking for cars in Los Angeles and I would like to get the car at 3 in the afternoon beginning on the 6th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Until what date would you like to keep the car?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I would like it until March 9th."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There are 10 cars I have found. One nice car is available at LAX International Airport, it's a sedan of Audi A8."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That sounds fine. This was all I needed."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a wonderful day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00091",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a rental car for March 1st at 3:30 pm."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where do you want to pick up from?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "From Los Angeles please"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Whats return date?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I need it through to the 7th of March"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Okay I have an Audi A8 Sedan available from Union Station."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "okay great thank you"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "No problem at all."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00092",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you find me a rental car in Las Vegas? I'd like to pick it up at 4:30 in the evening and I'll need it till the 14th of March."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I can do that, but first i'll need to know on which date you would like to pick the rental car up."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'd like to pick it up on March 13th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are 10 cars available for you. There is a nice SUV of Alfa Romeo Stelvio available at Union Plaza."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That sounds good. That will be all, thank you."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00093",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Find me a rental car please from March 3rd till the 6th."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "At what time you want to pick up the card and from where?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want to be in Anaheim, CA and to pick it up at 2:15 in the afternoon."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "10 cars is available for you.First is a nice Sedan of Audi A8 at Anaheim Intermodal Center."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Sounds very good.That s all."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00094",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I will be in Vegas and need a rental car, preferably an SUV. I will need it until the 12th of this month."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Do you know what time you will be picking up the vehicle?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I should be able to pick it up by 5:15 pm."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What day would you like to begin the rental for the SUV?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I want it to start the 6th of March."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There is an Alfa Romeo Stelvio SUV available at Union Plaza. There are also 4 other cars available."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No, that SUV sounds good. Thanks for your help."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "You're most welcome."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00095",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Could you find me a rental car in Seattle, I need it until the 13th."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When do you want to pick it up?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need it from the 11th of march."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What time do you want to pick the car up?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Today at 2 in the afternoon."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I have 10 cars available. There's one available at the king street station, an Alfa Romeo Stelvio, an SUV."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Sounds good."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Do you want to book the car?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No thanks, i'm all set."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "I hope you have a good day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00096",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I would like to rent a SUV."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When would you like the rental?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need it on the 5th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What time will you oick up the SUV?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I would like 3 o\"clock in the afternoon."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Where do you want to rent it?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "In Portland, OR."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "How long will you rent the car?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Until March 9th."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "There is an Alfa Romeo Stelvio SUV at the Portland Bus Station."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Great, that is all."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00097",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a rental car on the 11th"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where do you want it from and till when, also what time?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need a car in Anaheim for pickup in the afternoon 12 pm on the 13th of this month"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There's a nice Audi A8 Sedan available from Anaheim Intermodal Center if you want?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Nice, that sounds great, that's it for now then"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Sure thing, let me know if you need to make a reservation"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00098",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I want to find a rental car please"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Sure thing, when do you want to rent it and until when? Also any specific city?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need it from the 7th of March till the 9th of March in Sacramento"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What time do you want to get it?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I'm free at around 2 o\"clock in the afternoon"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There's a great sedan Buick Regal Sportback available at Sacramento Valley Station that might work for you"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That sound perfect for me"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Should I book that car then?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Not yet, I'll let you know but that's it for now"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "OK, let me know, take care!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00099",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a rental car."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What are your pick up and drop off dates?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Find me a nice Sedan for March 6th until March 9th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What city will you be needing the car in?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Find me cars in Seattle."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "What is your pick up time?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I want to pick the car up at 14:00."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "I found you a nice Buick Regal Sportback Sedan. It is available at the Seattle-Tacoma International Airport."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "For how much?"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "The car rental is $34.00 per day."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "That sounds good."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to reserve the rental car?"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "No, not now. That's all I need. Thanks!"
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "You're welcome. Have a good day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00100",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking for a rental car."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When do you want to return the car?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I would like to keep the car till 8th of this month."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What will be the time of pick up?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I would like to pick it up at morning 11:15."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "What will be the date of pick up?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I would like to pick the car on the 5th."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "What is your preferred city?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "I would like to book the car in Portland, OR."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "How about a nice Sedan car of Buick Regal Sportback available for pick up at PDX International Airport?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Is there anything else?"
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "How about a nice SUV car of Dacia Duster available for pick up at Union Station?"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Can you find me it's cost per day?"
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "The cost for the car per day is $38.00."
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Okay, That sounds good."
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "Can I help you anything else?"
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "No. That will be all. Thank you!"
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "I am glad I could help. Have a nice day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00101",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking to get a rental car"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "At which time do you want to pick up the car? Also when do you want to start the car rental?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want to pick up it up today at 19:15."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "From where do you want to rent the car from and also until when do you want the car?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I am looking for cars in Chi-town and I want it till 4th of March."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There is a nice car available at Chicago Union Station and it is a SUV of Alfa Romeo Stelvio."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "How much will it cost per day?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "It will cost you $35.00 per day."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "It all sounds good. That's all I needed."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00102",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Get me a rental car?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When do you want it?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need it next Monday."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Whats the pickup time and till when?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I will pick it up from half past 1 in the afternoon till March 8th"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "where do you want the car from?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "looking in San Fran"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "There is a Dodge Charger Sedan at Salesforce Transit center"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Its good, thats all"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "have a pleasant day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00103",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I would like to find a SUV till 7th of March."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "From where do you want to rent the car from? Also at which time do you want to pick up the car and start the car rental?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I am looking for cars in Long Beach, CA and want to pick it up at 11 o\"clock in the morning from 4th of this month."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There is a 1 car available at Downtown Station and it is a SUV of Alfa Romeo Stelvio."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "This sounds good. That's all I needed."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00104",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I would like to reserve a rental car in Washington, to pick up at 12:45."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What dates would you like to rent the car?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I will need it from the 6th until the 10th of this month."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are 10 cars available. One is an Alfa Romeo Stelvio SUV available at Dulles International Airport."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "How much does that one cost per day?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "It will be $49.00 per day."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Sounds great, thanks, that's all I need."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00105",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you help me find a rental car that I could use"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What time do you need the car?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need it at around half past 9 in the morning if you could make that work"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "For when to when are you gonna use it? And where do you want it picked up from?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I need a car from Fresno and I need it only for a day, from the 11th of this month till the 12th"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There are 8 cars that work, what about a nice SUV of Dacia Duster that can be picked up at Fresno Yosemite International Airport?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "How much will that cost me per day?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "It's gonna be $43.00 total every day"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "That's great then"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Can I assist you with something else?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "No, that's it for the time being"
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Thank you and enjoy the rest of your day"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00106",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'd like to look for a rental vehicle in Paris, France."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "How long do you require the vehicle for, and when would you like to pick it up?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'd like to have the vehicle from half past 6 in the evening to March 5th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What day would you like to begin the vehicle rental?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I require the vehicle from the 3rd of this month."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There are 10 vehicles available. There is a lovely Sedan of Audi A8 available from Charles de Gaulle International Airport."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "What is its price per night?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "The price is $37.00 per night."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Do you posses an alternative?"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "There is a lovely Citroen C5 SUV available from Orly International Airport."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "That's fine with me."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to reserve the vehicle?"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Yeah, I'd like to rent the car."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Do you wish to include insurance?"
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "I do not require insurance."
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "Please verify the following information: you are picking up an SUV from Orly International Airport from March 3rd, 6:30 pm to March 5th, and it does not include insurance."
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "Yeah, that's fine with me. What is its price per night?"
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "Your vehicle has been booked, and its price is $43.00 per night."
+   },
+   {
+    "turn_id": 18,
+    "speaker": "USER",
+    "utterance": "Thank you for your assistance; that's all."
+   },
+   {
+    "turn_id": 19,
+    "speaker": "SYSTEM",
+    "utterance": "Have a pleasant afternoon."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00107",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I have plan for a short travel and I need a Car for rent. Do you help me to find a suitable one for me?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Yes, of-course. What is your expected date and time of travel and until which date you want to book it?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I am planning to start my travel on 10th of March and I want to book it till 11th of this month. Please search for the one available for the pickup time at 3:30 pm."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "From which place you want to book the car?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Book it from Philly."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I have found suitable Car available at PHL International Airport and teh same was a Sedan of Buick Regal Sportback. Is that okay for you?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Yes, I think this is the suitable one. Thanks."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Shall I book it now?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Yes, book the same for me."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "How about adding Insurance while booking the car?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "No, not need to include insurance."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "I need your confirmation to book a Sedan car with out insurance available for the pickup from PHL International Airport on March 10th at 3:30 pm to March 11th."
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Sorry, I made a mistake. please include the insurance as I need it now."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Please confirm to book the car including insurance, upto March 11th."
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Yes, that is correct to proceed."
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "I have successfully booked the car."
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "Thanks and that's all for now."
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00108",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a rental car in Anaheim."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What time and day do you need to pick up the car?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need it on the 13th of this month at eight in the night."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "When are you dropping off the car?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I need it until the 14th."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I found 8 cars at Anaheim Intermodal Center. I found a sedan like Audi A8."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "What is the cost per day?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "It is $33.00 a day."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Perfect, please reserve me a car."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Do you want the insurance?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "No, I have my own."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Please confirm, picking up a sedan and March 13th at Anaheim Intermodal Center at 8 pm. The pick up day is March 14th."
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Yes, that will be great."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Your car is reserved."
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Thanks for your help!"
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "Anything else today?"
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "No, that is all."
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00109",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Find for me a rental car."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When you need the car?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "From the 4th will be good."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "At what time you want to make the pick up?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "At 19:30 will be good."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Do you need the car until?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Till March 11th."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "From where you want to rent the car?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "I want cars in Rio."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "I have for you 1 car available.A nice Hatchback of Kia Ceed available at Galeao International Airport."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Sounds very good."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "You want to book the car?"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Yes rent it for me please."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Insurance you want to add?"
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "No.I don't need it."
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "You want a Hatchback car without insurance from Galeao International Airport.The pick up date is March 4th at 7:30 pm and drop-off date is March 11th.Is that correct?"
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "Yes is very good.Tell me the cost per day."
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "The car was reserved.$29.00 is the cost per day."
+   },
+   {
+    "turn_id": 18,
+    "speaker": "USER",
+    "utterance": "Thanks.That's all."
+   },
+   {
+    "turn_id": 19,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00110",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a rental car in Las Vegas on 11th of March."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What date will you return the car?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "The 14th of March."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What time will you collect the car?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "At 2 o\"clock in the afternoon."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There ia an Alfa Romeo Stelvio SUV at Union Plaza."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I am interested in that, can you book it for me?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like insurance?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No I do not."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "To confirm then you will collect an SUV car at 2 pm from Union Plaza on March 11th to March 14th."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Actually could I purchase insurance."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "So you want an SUV with insurance."
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Yes that is right."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Your car is now booked."
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Thank you for that."
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "Can I assist you with anything else?"
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "no thank you."
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "Have a lovely day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00111",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need to find a rental car."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where would you like rent the car and when would you like to rent it and for how long?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want to rent it from Washington from the 2nd of March and need it till March 6th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What time are you looking to pick it up?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I am going to need it half past 4 in the evening, please."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I found an SUV of Alfa Romeo Stelvio at Dulles International Airport."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That sounds great."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "When would you like to have the car?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Yes I would please."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to add insurance to your rental?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "No. I am all set. I do not want insurance."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "So you would like me to reserve a SUV on March 2nd until March 6th at Dulles International Airport with a 4:30 pm pickup?"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Yes. What is the cost of the rental?"
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "The rental costs $45.00 a day. Your reservation is confirmed."
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Thanks for everything."
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "Can I help with anything else?"
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "Nope. I am all set. Thanks."
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00112",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need to find a rental car, like a sedan. I need to pick it up at 6:30 in the evening in New York."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When do you want to start the car rental?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need it starting next Wednesday."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "How long do you intend to keep the car?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I need it until Friday next week."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I have found 5 cars available. There is a Audi A8 Sedan available at the JFK International Airport."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That sounds good."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to book the car?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Yes please."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to add insurance?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "No thank you, I don't need insurance."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Please confirm the following details: You are picking up the sedan from the JFK International Airport on March 6th at 6:30 pm. The drop off date is March 8th, and the car does not come with insurance."
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Yes, that is correct."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Your car has been reserved."
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "What is the cost per day?"
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "The car costs $34.00 per day."
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "Thank you for your help."
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything else that I can help with?"
+   },
+   {
+    "turn_id": 18,
+    "speaker": "USER",
+    "utterance": "No thank you, that is all."
+   },
+   {
+    "turn_id": 19,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00113",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'd like to look for a rental vehicle."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What time would you like to begin the vehicle rental?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I require the vehicle beginning on the 4th of this month."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "When would you like to pick up the vehicle, where do you require the vehicle from, and to what date do you desire the vehicle?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I'd like to pick up the vehicle on five in the evening to the 5th of March, and I'm searching for vehicles in Sydney, Australia."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There is a lovely Dodge Charger sedan available from Kingsford Smith International Airport."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "What is its price per night?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "The price is $37.00 per night."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Do you possess an alternative?"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "There is a lovely Ford Focus Hatchback available from Kingsford Smith International Airport."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "That's fine with me. I'd like to book a rental vehicle."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Do you wish to include insurance?"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "I do not require insurance."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Please verify the following information: you are picking up a Hatchback from Kingsford Smith International Airport on March 4th, 5 pm, until March 5th."
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Yeah, that's perfect for me."
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "Your vehicle has been booked."
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "Thank you for your assistance."
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "Could I assist with anything else?"
+   },
+   {
+    "turn_id": 18,
+    "speaker": "USER",
+    "utterance": "No, thank you for your assistance."
+   },
+   {
+    "turn_id": 19,
+    "speaker": "SYSTEM",
+    "utterance": "Have a pleasant afternoon."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00114",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'd like to find a rental car."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What time would you like to pick up the car?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'd like to pick up a hatchback at afternoon 3:30."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Where would you like to rent the car from and when do you want to start the car rental. Until when would you like the car?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I need it March 2nd till Wednesday next week and am looking for ars in Fresno."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There would be 6 cars available with a nice car available at Fresno Station being a Hatchback of Fiat Panda."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "What is the cost per day?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "It is $27.00 per day."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "That sounds good and I'd like to reserve a rental car."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to add insurance?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "I won't need insurance."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Please confirm details that you are picking up from Fresno Station March 2nd at 3:30 pm with a drop-off date of March 6th. It is a Hatchback vehicle not coming with insurance."
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Yes that is good."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "The car is reserved for you."
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Thanks for your help."
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "What else can I help with?"
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "No thanks I don't need help."
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00115",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking for a rental car. An SUV would be nice and I need it until March 12th in Warsaw."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What is the day you want to begin the car rental?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need the car beginning on the 7th of March."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What time would you like to pick up the car?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I would like to pick it up at 4:30 in the evening."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There is 1 car available at Warsaw Chopin Airport. This is a nice car, a SUV of Skoda Kodiaq."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "What is the price per day?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "The price is $48.00 a day."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "It sounds fine. I would like to reserve this rental car."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to add insurance also?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "I don't want the insurance."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, confirm these details: You will pick up the car from Warsaw Chopin Airport on March 7th at 4:30 pm. You are renting an SUV without insurance and will be returning it on March 12th."
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Yes that sounds fine."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "The reservation for the car has been made for you."
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Thank you for helping me. That was all I needed."
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "Have a wonderful day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00116",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm going to need a rental car."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What date and time do you need it?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want it on the 8th and I would prefer to get it at 15:00."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Where will you be when you need the rental?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I will be needing the car in Philly."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "How long where you planning to keep the car?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I will have to have it until the 14th of March."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "I found 9 cars you can choose from.There is a SUV at PHL International Airport of Citroen C5."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "What else is there?"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "There is a Dodge Charger Sedan at Intercity Terminal."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "What would that run me?"
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "It is priced at $30.00 a day."
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "I like that one."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Should I reserve it for you."
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Yes, rent that one for me."
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "Should I purchase insurance with the rental?"
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "No, I have my own."
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "You want the Sedan from March 8th through March 14th and you will be picking it up from the Intercity Terminal at 3 pm with no extra insurance is that correct?"
+   },
+   {
+    "turn_id": 18,
+    "speaker": "USER",
+    "utterance": "Yes, you got it right."
+   },
+   {
+    "turn_id": 19,
+    "speaker": "SYSTEM",
+    "utterance": "Your vehicle is booked."
+   },
+   {
+    "turn_id": 20,
+    "speaker": "USER",
+    "utterance": "I appreciate your assistance."
+   },
+   {
+    "turn_id": 21,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like me to do something else?"
+   },
+   {
+    "turn_id": 22,
+    "speaker": "USER",
+    "utterance": "Not right now maybe later."
+   },
+   {
+    "turn_id": 23,
+    "speaker": "SYSTEM",
+    "utterance": "Have a really nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00117",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "My car will be in the shop for a while. I need to get a rental car on March 14th around 2 o\"clock in the afternoon."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I can help with that. When and where do you want to rent your car?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'll pick it up on the 13th from LAX."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There is a lovely Audi A8 Sedan that is available at LAX International Airport."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Oh an Audi? That's a great car. Please reserve that car for me."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Do you want rental insurance along with your car rental?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No thanks. I'll just use my own insurance."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "These are your rental details: On March 13th, you will pick up a Sedan from the LAX International Airport at 2 pm. You will be returning the car on March 14th. Do these details sound correct to you?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Yeah that all sounds right, but how much will it cost per day?"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Your car has been reserved and will cost you $38.00 per day to rent."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Okay thank you. That should do it for now."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Please enjoy the rest of your evening."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00118",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a rental car"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where are you going to need it?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need one in Toronto, Ontario"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "OK, for what date and time time and till when?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I need it from the 2nd picking it up in the afternoon 2 pm, and I need it till the 6th"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "OK, there's an Audi A8 Sedan that you can get from Toronto Pearson International Airport"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Give me another alternative"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "How about this Buick Regal Sportback Sedan also from Toronto Pearson International Airport"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "How much is that daily?"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "It'll be $30.00 a day"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "What about a hatchback car that I can get today?"
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "There's a Nissan Qashqai Hatchback also from Toronto Pearson International Airport"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Sure thing, reserve that for me"
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Do you need insurance added to that?"
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "No don't add that"
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "So you are picking up your hatchback car from Toronto Pearson International Airport on March 1st 2 pm and returning it on March 6th with no insurance"
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "I changed my mind, buy insurance for me"
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "OK so booking this hatchback with insurance?"
+   },
+   {
+    "turn_id": 18,
+    "speaker": "USER",
+    "utterance": "Yes please, now give me the updated cost per day"
+   },
+   {
+    "turn_id": 19,
+    "speaker": "SYSTEM",
+    "utterance": "It'll now cost $47.00 a day"
+   },
+   {
+    "turn_id": 20,
+    "speaker": "USER",
+    "utterance": "OK that's fine, thanks for that"
+   },
+   {
+    "turn_id": 21,
+    "speaker": "SYSTEM",
+    "utterance": "Can I help with something else?"
+   },
+   {
+    "turn_id": 22,
+    "speaker": "USER",
+    "utterance": "No, that's all for now thanks"
+   },
+   {
+    "turn_id": 23,
+    "speaker": "SYSTEM",
+    "utterance": "OK, enjoy your day"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00119",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Could you find me a rental car, preferably a Sedan, for pick up at 18:30 in Cape Town?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "How long would you like to keep the car?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'd like to keep it until 14th of March."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What date would you to begin renting the car?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I'd like to rent the car starting the 10th of this month."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I found 2 cars that might interest you. One is a Sedan of SEAT Cordoba, available for pickup at Cape Town International Airport."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I like that. Please reserve the car."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to add insurance?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No, insurance won't be necessary."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Please confirm that you'd like to pick a Sedan car, that doesn't include insurance, from Cape Town International Airport on March 10th at 6:30 pm and drop it off on March 14th."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Yes, that's correct. What's the daily cost?"
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "I have successfully reserved your car. The daily cost is $31.00."
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Thank you very much. You've been very helpful. That will be all."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Have yourself a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00120",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Can you find me a rental car? I'd like a hatchback from the 9th of this month until March 12th."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What time do you want to pick up the car and from what city?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "San Diego at 7:30 pm."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are 4 hatchback cars available. At Santa Fe Depot they have a Nissan Qashqai."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Sound good. I'd like to reserve that one."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Do you want to add insurance?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No I wont need it."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "To verify: You want to pick up the hatchback from Santa Fe Depot at 7:30 pm on March 9th and return it March 12th."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "On second thought, let's add the insurance."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, you still want to pick it up at 7:30 pm and add insurance."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Yes. What is the cost per day?"
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "It will be $37.00 per day. Your car has been reserved."
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Thanks! That's all I need."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Have a good day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00121",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am looking for a car rental that is available later today, and I'll need it ready for a 2 in the afternoon pick up. I'd like to reserve it through Sunday this week as well."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Is there a specific pick up location that you would like to get the car?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Yes,I would like to pick it up in Philly"
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Based on your requirements, that are 10 cars that are available. You can reserve a lovely Buick Regal Sportback Sedan, and it can be picked up at PHL International Airport."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Perfect. I'd like to go ahead and book the rental."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to include insurance on this?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "No, thanks. I won't be needing insurance."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "So, you would like to reserve a Sedan for pick up on March 1st at 2 pm at the PHL International Airport, with a return date of March 3rd. You won't be needing the insurance option. Is this correct?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Sure, it works!"
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "That reservation has been successfully made."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Great, thanks!"
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Do you need any further assistance?"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "No, that's all. Thanks!"
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Enjoy your day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00122",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need help finding a rental car."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "I can help you with that. Please tell me your preferred pick-up location, date, and time."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I'd like to pick it up from Vegas on Wednesday next week at half past 4 in the evening."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Until what date would you like to keep the car?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I'd like to keep it till 13th of this month."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I found a nice SUV of Alfa Romeo Stelvio available for pick up at Union Plaza."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That works for me. Please go ahead and reserve the rental car."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like me to add insurance?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No, I won't be needing insurance."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, no problem. Please confirm that you'd like to pick an SUV car, without insurance, from Union Plaza on March 6th at 4:30 pm and drop it off on March 13th."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "No. On second thoughts, I'd like to purchase insurance."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Sure. Please confirm that you'd like to pick up the car, which has insurance, on March 6th."
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Yes, you got that right."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "I have successfully reserved your your car."
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "What's the daily cost?"
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "The daily cost is $66.00."
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "Thank you very much. You've been very helpful."
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like my help with anything else?"
+   },
+   {
+    "turn_id": 18,
+    "speaker": "USER",
+    "utterance": "No. Thank you very much. You've been very helpful."
+   },
+   {
+    "turn_id": 19,
+    "speaker": "SYSTEM",
+    "utterance": "Do have yourself a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00123",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I am on a short trip and I want to search for a car for rent. Do you help me?"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Yes, let me know your convenient time to book the car."
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want to pick up the car at two in the afternoon."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "From when and Where do you want the Car for rent and to which date you need this?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I want to book it from tomorrow to day after tomorrow and I want to pick up it from Las Vegas."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I found a nice Car which is a SUV of Alfa Romeo Stelvio car which will be available for pick up at Union Plaza. Do you want to rent it?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I want to know the total cost per day."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "It will be around $41.00 per day. Shall I book it now?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Leave it and Search for something else in the same SUV type."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "What about a SUV of Jaguar F-Pace Car available at McCarran International Airport?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "I think this will suit to me."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Shall I book it now?"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Yes, I want to book this car for rent. Do it for me."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Okay, Shall I include the insurance?"
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "No need to add the insurance."
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "Please confirm to book a SUV Car which is available for pick up at McCarran International Airport from March 2nd at 2 pm to the date of March 3rd."
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "That is okay to proceed."
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "I have booked the car successfully."
+   },
+   {
+    "turn_id": 18,
+    "speaker": "USER",
+    "utterance": "Thank you so much and let me know the cost per day for this car."
+   },
+   {
+    "turn_id": 19,
+    "speaker": "SYSTEM",
+    "utterance": "It will cost around $42.00 per day."
+   },
+   {
+    "turn_id": 20,
+    "speaker": "USER",
+    "utterance": "That is okay and thanks."
+   },
+   {
+    "turn_id": 21,
+    "speaker": "SYSTEM",
+    "utterance": "Anything more help you want from me?"
+   },
+   {
+    "turn_id": 22,
+    "speaker": "USER",
+    "utterance": "No, thanks and that's all."
+   },
+   {
+    "turn_id": 23,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00124",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I would like to rent a car."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Where would you like a rental and when do you need it?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need a car in New York and I'm leaving on the 11th of this month till March 14th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "What time would you like to pick up the car?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I would like to pick it up at half past 7 in the evening."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There are 6 cars available. There is a Sedan of Audi A8 available at JFK International Airport."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "How much is this rental per day?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "The rental is $29.00 per day."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "I would like to reserve this car."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Do you want car insurance?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Yes, I want car insurance."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Booking Sedan from JFK International Airport on March 11th at 7:30 pm and drop off date is March 14th."
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Yes, that is good."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Your car has been reserved."
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Thank you for your help."
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "Can I help with anything else?"
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "No, that is all I needed."
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "Have a good day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00125",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Find me a rental car."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When will you return it?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I will return it on the 8th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Where would you like to rent the car from and when will you pick it up?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I'd like to pick it up at half past 1 in the afternoon and I need cars in Washington."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "When will you begin the car rental?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I need it from Tuesday next week."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "There is a nice car at Dulles International Airport. It's a Alfa Romeo Stelvio SUV."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Sounds good. Reserve this rental car for me."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to add insurance?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Yes, buy me insurance."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Could you confirm that you are picking up the car from Dulles International Airport on March 5th at 1:30 pm and drop it off on March 8th? It's an SUV with insurance."
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "Sounds great. What does it cost per day?"
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "The car has been made and costs $57.00."
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Thank you for helping. That is all."
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "Have a fantastic day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00126",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need to have a car rented, more specifically I would like a Hatchback one for March 13th, and for it to be in Warsaw."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "From when will you be renting the car, and at what time do you want to have the car?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I will be needing to rent the car from Thursday next week, and for the pick up time I want it to be afternoon 1:30."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are 3 cars which you might consider. One good cars which can be picked up at Warsaw Chopin Airport is a Hatchback model of Mazda 3."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Can you tell me how much it will cost me per day to rent this car?"
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Renting this car will be costing you $31.00 per day."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Is there some other option you can suggest?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Another good car which can be taken at Warsaw Chopin Airport, is a Hatchback of Nissan Qashqai."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "That seem nice. I want to have this car booked for me."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to have insurance with the car?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Actually I do not want to have the insurance."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Can you then please confirm to me that you want to rent a Hatchback car without insurance which you will pick up from Warsaw Chopin Airport on March 7th at 1:30 pm, and that you will need it till March 13th?"
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "That is not right, because I changed my mind and I want to have insurance bought."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Can you then once again confirm that the car you want to book is a Hatchback one and for it to also have insurance?"
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Yes that is what I want. How much will this car cost me per day?"
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "Your requested car has been booked for you, and it will be costing you $50.00 per day."
+   },
+   {
+    "turn_id": 16,
+    "speaker": "USER",
+    "utterance": "I appreciate your help very much. That would be all."
+   },
+   {
+    "turn_id": 17,
+    "speaker": "SYSTEM",
+    "utterance": "Have a wonderful time!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "3_00127",
+  "services": [
+   "RentalCars_3"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need to find a rental car."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When do you need the rental?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need it today."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Where are you looking to rent a car from, how long do you need it, and when do you want to pick it up?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I want to find a hatchback in Philly. I need it until March 4th. I want to pick it up at 18:00."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There is a hatchback Kia Ceed available at the PHL International Airport."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Sounds good. I want to reserve it."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Do you want insurance, as well?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No, I don't need the insurance."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Please confirm: Picking up a hatchback from the PHL International Airport on March 1st at 6 pm until March 4th. No insurance added."
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "No, no insurance."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Please confirm: The pickup date is March 1st. Insurance is added."
+   },
+   {
+    "turn_id": 12,
+    "speaker": "USER",
+    "utterance": "That sounds great."
+   },
+   {
+    "turn_id": 13,
+    "speaker": "SYSTEM",
+    "utterance": "Your reservation has been made."
+   },
+   {
+    "turn_id": 14,
+    "speaker": "USER",
+    "utterance": "Thank you, that's all."
+   },
+   {
+    "turn_id": 15,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "2_00091",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need to find a one way flight."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What date would you be leaving? Where would you be departing from? What is your desired destination?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need a flight on the 11th of this month from SD to Ciudad de Mexico."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There is a flight with Alaska Airlines that costs $190 and departs at 1:05 pm."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Thanks, I am all set."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Have a great day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "2_00092",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need to book a one way flight. I'm not sure when I'll be able to return."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Ok, which city are going to be flying out of and what city are you visiting?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I will be flying out of Los Angeles and I will going to SD."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Alright, which date will you be traveling?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I want to fly out on the 10th of this month."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "I found 2 flights that you might be interested in. The first one is with Alaska Airlines. This is a direct flight that costs $58 and takes off at 12:15 pm."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Wow, that sounds great! That's a good price!"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Do you need help with anything else?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No, that's all I need right now."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Glad I could help! Have a great day!"
+   }
+  ]
+ },
+ {
+  "dialogue_id": "2_00093",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I would like to book a one way flight to Toronto, Ontario."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When do you want to travel and where are you departing from?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I will be departing from Atlanta on the 7th of March."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "I found 4 different flights. There is American Airlines that leaves at 5:10 am for the cost of $197."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That is all the information I needed."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Have a good day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "2_00094",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a one way flight."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "From which city would you like to depart?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I need flights from NYC."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "On which date would you like to travel? What is your destination?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I need to travel on the 13th to Warsaw."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to fly with American Airlines? There is a great flight option at 11:20 AM. This is a connecting flight. The ticket price is $360."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That sounds good, then. Thanks."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Of course. Have a wonderful day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "2_00095",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I'm looking for a flight, just one way from Seattle, it'll be for four people. And I want to go on American Airlines."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "What's the date you want to fly on? And what's your destination?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want to go on the 4th of this month. My destination is New York."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There's 1 flight that's available. It's with American Airlines. It departs at 4:15 pm. There is a connection. For one ticket it's $304."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "Okay, I think I like that. Thank you, I no longer need any more help."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Have a fine day, take care."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "2_00096",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "i am looking to book a one way flight"
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "From which place do you want to depart?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I am looking for flights from Vancouver, BC."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "On which date are you planning to travel and where are you planning to travel?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I am planning to start my travel on 14th of this month and I am flyi ng to Atlanta."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to fly with American Airlines that takes off at 6:15 pm. It is a direct flight and will cost you $193."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "Sounds good."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything I can help you with?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No. Thanks for all your help."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "2_00097",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need to get out of town and would need a one way flight."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "When would you like to travel and where would you be leaving from? Which city are you heading to?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want to leave SF and head to LA on March 4th."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "There are 5 flights available. You can get a ticket for $97 on Alaska Airlines for a flight that leaves at 12:25 pm."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That time is not convenient to me. I would like four Premium Economy tickets."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There are 3 flights available. There is an American Airlines flight for $159 that leaves at 7:10 pm."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "That would be fine."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Would you need anything else?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No, not at this time. Thanks."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Enjoy your day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "2_00098",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "Get me a one way ticket to Seattle, WA please."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Easy enough, from which city please?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "Get it out of Ciudad de Mexico."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Oh what date?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I need to do it on Friday next week."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "What about using American Airlines: You can depart at 3:05 am It has a connecting flight and costs $283."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "When will this flight arrive?"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Arrival is at 9:21 am."
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "Fine, I like that."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "What may I get next for you?"
+   },
+   {
+    "turn_id": 10,
+    "speaker": "USER",
+    "utterance": "Nothing now, maybe later."
+   },
+   {
+    "turn_id": 11,
+    "speaker": "SYSTEM",
+    "utterance": "Have a safe trip."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "2_00099",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I want to book a one way flight from LAX to Washington. I am not particular about the airline."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "On which date would you like to travel?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I would like to start my travel on 4th of this month."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "Would you like to fly from Alaska Airlines that takes off at 8:10 pm. It is a direct flight and will cost you $219."
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "That sounds good. That's all I needed."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "2_00100",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I need a one-way flight now please."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "On which day would you like to book your travel, and what is your intended destination?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I want to start on the 8th and I want to visit Seattle, please."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "From which city do you intend to leave?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I need a flight from Toronto, Ontario."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "There are 3 flights matching your selection. Would you like to fly with Air Canada? The flight is set to depart at 4:35 PM. It is a connecting flight and the ticket price is $328."
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I'm good with that!"
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "Is there anything else I may help you with?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "No, but thanks a lot."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Of course. Have a wonderful day."
+   }
+  ]
+ },
+ {
+  "dialogue_id": "2_00101",
+  "services": [
+   "Flights_4"
+  ],
+  "turns": [
+   {
+    "turn_id": 0,
+    "speaker": "USER",
+    "utterance": "I want you to find me a one way flight with Southwest Airlines, and I am in need of having 3 tickets."
+   },
+   {
+    "turn_id": 1,
+    "speaker": "SYSTEM",
+    "utterance": "Can you tell me the date when you will take the trip?"
+   },
+   {
+    "turn_id": 2,
+    "speaker": "USER",
+    "utterance": "I will be starting my trip on 5th of March."
+   },
+   {
+    "turn_id": 3,
+    "speaker": "SYSTEM",
+    "utterance": "From which city will you start your journey?"
+   },
+   {
+    "turn_id": 4,
+    "speaker": "USER",
+    "utterance": "I will be departing from Las Vegas."
+   },
+   {
+    "turn_id": 5,
+    "speaker": "SYSTEM",
+    "utterance": "Can you please tell me the destination you want to arrive at?"
+   },
+   {
+    "turn_id": 6,
+    "speaker": "USER",
+    "utterance": "I want to go to Portland."
+   },
+   {
+    "turn_id": 7,
+    "speaker": "SYSTEM",
+    "utterance": "How would you like flying with a connecting flight of Southwest Airlines, which takes off at 12:35 pm, and with a price of $195?"
+   },
+   {
+    "turn_id": 8,
+    "speaker": "USER",
+    "utterance": "That seems good. I appreciate it, that would be all."
+   },
+   {
+    "turn_id": 9,
+    "speaker": "SYSTEM",
+    "utterance": "Have a nice day!"
+   }
+  ]
+ }
+]
