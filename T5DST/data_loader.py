@@ -8,15 +8,19 @@ class DSTDataset(Dataset):
 	def __init__(self, data, args):
 		self.input_sentences = data['input_sentences']
 		if 'output_sentences' in data:
+			self.ID = None
 			self.output_sentences = data['output_sentences']
+			self.domain_slot = None
 		else:
 			self.output_sentences = None
+			self.ID = data['ID']
+			self.domain_slot = data['domain-slot']
 		self.args = args
 	
 	def __getitem__(self, index):
 		if self.output_sentences != None:
 			return self.input_sentences[index], self.output_sentences[index]
-		return self.input_sentences[index]
+		return self.input_sentences[index], self.ID[index], self.domain_slot[index]
 
 	def __len__(self):
 		return len(self.input_sentences)
@@ -55,6 +59,11 @@ def read_data(data_dir, schema_info, is_test):
 					else:
 						turn_info['sys'] = turn['utterance']
 					data['turns'].append(turn_info)
+				domain_slot_pairs = set()
+				for domain in info['services']:
+					for slot, _ in schema_info[domain]['slots']:
+						domain_slot_pairs.add((domain, slot))
+				data['domain_slot'] = [(domain, slot) for domain, slot in domain_slot_pairs]
 				data_list.append(data)
 			else:
 				data = {'turns': []}
@@ -62,7 +71,6 @@ def read_data(data_dir, schema_info, is_test):
 				data['domains'] = info['services']
 				domain_slot = set()
 				turn_info = dict()
-				domain_slot_pairs = {}
 				for turn in info['turns']:
 					if turn['speaker'] == 'USER':
 						turn_info = {'usr': turn['utterance'], 'slot_values': {}}
@@ -71,8 +79,6 @@ def read_data(data_dir, schema_info, is_test):
 							for k, v in frame['state']['slot_values'].items():
 								slot_name = k
 								slot_value = v[0] if isinstance(v, list) else v
-								if slot_name[:len(domain) + 1] == domain + '-':
-									slot_name = slot_name[len(domain) + 1:]
 								domain_slot.add((domain, slot_name))
 								turn_info['slot_values'][(domain, slot_name)] = slot_value
 					else:
@@ -120,6 +126,30 @@ def get_dict_list(args, raw_data, tokenizer, schema_info):
 	
 	return results
 
+def get_test_list(args, raw_data, tokenizer, schema_info):
+	results = {'ID': [], 'input_sentences': [], 'domain-slot': []}
+	slots_descr = {}
+	for domain in schema_info.keys():
+		for slot in schema_info[domain]['slots']:
+			slots_descr[(domain, slot[0])] = slot[1]
+	
+	for data in raw_data:
+		dialogue_history = ''
+		for turn in data['turns']:
+			dialogue_history += ('System: ' + turn['sys'] + 'User: ' + turn['usr'])
+		for domain, slot in data['domain_slot']:
+			domain_descr = schema_info[domain]['description']
+			slot_descr = slots_descr.get((domain, slot), 'none')
+			if args['use_descr']:
+				input_sentence = dialogue_history + f'{tokenizer.sep_token} {slot_descr} of the {domain_descr}'
+			else:
+				input_sentence = dialogue_history + f'{tokenizer.sep_token} {slot} of the {domain}'
+			results['domain-slot'].append(f'{domain}-{slot}')
+			results['input_sentences'].append(input_sentence)
+			results['ID'].append(data['dialogue_id'])
+	
+	return results
+
 def collate_fn(data, tokenizer):
 	batch = {}
 	batch_inputs = [s for s, _ in data]
@@ -132,16 +162,36 @@ def collate_fn(data, tokenizer):
 	batch['decoder_output'] = output_tokens['input_ids'].squeeze()
 	return batch
 
+def test_collate_fn(data, tokenizer):
+	batch = {}
+	batch_inputs = [s for s, _, __ in data]
+	batch_ids = [s for _, s, __ in data]
+	batch_domain_slot = [s for _, __, s in data]
+	input_tokens = tokenizer(batch_inputs, padding=True, return_tensors="pt", add_special_tokens=False, verbose=False)
+	batch['encoder_input'] = input_tokens['input_ids'].squeeze()
+	batch['attention_mask'] = input_tokens['attention_mask'].squeeze()
+	batch['ID'] = batch_ids
+	batch['domain-slot'] = batch_domain_slot
+	return batch
+
 def get_train_dataloader(args, tokenizer):
 	domain_slots = get_domain_slot(args['schema_dir'])
 	train_data = read_data(args['train_dir'], domain_slots, False)
 	eval_data = read_data(args['eval_dir'], domain_slots, False)
 	train_dict = get_dict_list(args, train_data, tokenizer, domain_slots)
 	eval_dict = get_dict_list(args, eval_data, tokenizer, domain_slots)
-	print(train_dict['input_sentences'][300])
-	print(train_dict['output_sentences'][300])
+	# print(train_dict['input_sentences'][300])
+	# print(train_dict['output_sentences'][300])
 	train_dataset = DSTDataset(train_dict, args)
 	eval_dataset = DSTDataset(eval_dict, args)
 	train_dataloader = DataLoader(train_dataset, args['train_batch_size'], shuffle=True, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=4)
 	eval_dataloader = DataLoader(eval_dataset, args['eval_batch_size'], shuffle=False, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=4)
 	return train_dataloader, eval_dataloader
+
+def get_test_dataloader(args, tokenizer):
+	domain_slots = get_domain_slot(args['schema_dir'])
+	test_data = read_data(args['test_dir'], domain_slots, True)
+	test_list = get_test_list(args, test_data, tokenizer, domain_slots)
+	test_dataset = DSTDataset(test_list, args)
+	test_dataloader = DataLoader(test_dataset, args['test_batch_size'], shuffle=False, collate_fn=partial(test_collate_fn, tokenizer=tokenizer), num_workers=4)
+	return test_dataloader
