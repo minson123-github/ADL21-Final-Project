@@ -18,6 +18,7 @@ def get_args():
 	parser.add_argument('--n_gpus', type=int, default=1, help='number of gpu.')
 	parser.add_argument('--predict_file', type=str, help='model predict file results.')
 	parser.add_argument('--mode', type=str, help='mode: train/evaluate/test')
+	parser.add_argument('--n_beams', type=int, default=5, help='beam size in beam search.')
 
 	args = parser.parse_args()
 	return vars(args)

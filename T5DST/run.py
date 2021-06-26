@@ -25,7 +25,7 @@ def test_process(args):
 							attention_mask=batch['attention_mask'].cuda(), 
 							eos_token_id=tokenizer.eos_token_id, 
 							max_length=200, 
-							num_beams=5
+							num_beams=args['n_beams']
 						)
 			dst_outputs = dst_outputs.cpu()
 			batch_values = tokenizer.batch_decode(dst_outputs, skip_special_tokens=True)
