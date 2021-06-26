@@ -1,7 +1,7 @@
 Simple oToToD
 ===
 
-Basically, this is a simplified [SimpleToD](https://github.com/salesforce/simpletod), and the implementation is mainly from [accentor](https://github.com/facebookresearch/accentor).
+Basically, this is a simplified [SimpleTOD](https://github.com/salesforce/simpletod), and the implementation is mainly from [accentor](https://github.com/facebookresearch/accentor).
 
 To train model
 
