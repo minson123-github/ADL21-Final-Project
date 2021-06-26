@@ -132,7 +132,7 @@ tokenizer.add_special_tokens({'additional_special_tokens':
                                '<|endofslotdetail|>',
                                '<|beliefval|>',
                                '<|endofbeliefval|>',
-							   '<|emptyslot|>']})
+                               '<|emptyslot|>']})
 model = AutoModelForCausalLM.from_pretrained(model_args.model_name_or_path,
                                              config=config,
                                              revision=model_args.model_revision)
