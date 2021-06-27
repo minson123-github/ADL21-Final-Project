@@ -26,7 +26,7 @@ model_args, data_args, training_args = parser.parse_args_into_dataclasses(['--do
                                                                            '--gradient_accumulation_steps', '18',
                                                                            '--learning_rate', '1e-3',
                                                                            '--num_train_epochs', '10',
-                                                                           '--output_dir', './model',
+                                                                           '--output_dir', './model_10empty',
                                                                            '--per_device_train_batch_size', '2',
                                                                            '--train_file', './train.txt',
                                                                            '--validation_file', './dev.txt'])

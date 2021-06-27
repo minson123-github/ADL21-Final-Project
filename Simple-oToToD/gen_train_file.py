@@ -1,10 +1,15 @@
 import os
 import json
 import random
+import string
 from tqdm.auto import tqdm
 
 PATH = 'data-0625/'
 
+def cleanup(s):
+    for c in string.whitespace:
+        s = s.replace(c, ' ')
+    return s
 
 schema = {}
 schema_slots = {}
@@ -30,7 +35,7 @@ for mode in ["train", "dev"]:
                     glob_context += ' <|user|> '
                 else:
                     raise Exception
-                glob_context += turn['utterance']
+                glob_context += cleanup(turn['utterance'])
                 for frame in turn['frames']:
                     context = glob_context + ' <|endofcontext|>'
                     context += ' <|servicedetail|> '
@@ -49,8 +54,11 @@ for mode in ["train", "dev"]:
                         if slot in frame['state']['slot_values'].keys():
                             cur_context += frame['state']['slot_values'][slot][0]
                         else:
+                            if random.random() >= 0.1:
+                                continue
                             cur_context += '<|emptyslot|>'
                         cur_context += ' <|endofbeliefval|>'
                         processed.append(cur_context)
     random.shuffle(processed)
     open(f'{mode}.txt', "w").write("\n".join(processed))
+    print(f"{mode}: {len(processed)}")
