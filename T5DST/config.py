@@ -19,6 +19,9 @@ def get_args():
 	parser.add_argument('--predict_file', type=str, help='model predict file results.')
 	parser.add_argument('--mode', type=str, help='mode: train/evaluate/test')
 	parser.add_argument('--n_beams', type=int, default=5, help='beam size in beam search.')
+	parser.add_argument('--length_penalty', type=float, default=1.0, help='length penalty in generation.')
+	parser.add_argument('--pretrained', type=str, default='t5-small', help='The pretrained model you want to use.')
+	parser.add_argument('--slot_type', type=bool, default=False, help='Whether to use slot_type for train/test')
 
 	args = parser.parse_args()
 	return vars(args)

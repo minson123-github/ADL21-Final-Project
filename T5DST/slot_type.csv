@@ -1,0 +1,427 @@
+,domains,domains_descr,slots,slots_descr,slots_type
+0,Banks_1,Manage bank accounts and transfer money,account_type,The account type of the user,Category
+1,Banks_1,Manage bank accounts and transfer money,recipient_account_type,The account type of the recipient whom the user is transfering money to,Category
+2,Banks_1,Manage bank accounts and transfer money,balance,The amount of money held in a bank account at a given time,Number
+3,Banks_1,Manage bank accounts and transfer money,amount,The amount of money to transfer,Number
+4,Banks_1,Manage bank accounts and transfer money,recipient_account_name,The account name of the recipient who is to receive the transfered money,Name
+5,Buses_1,Book bus journeys from the biggest bus network in the country,from_location,City where bus is leaving from,Location
+6,Buses_1,Book bus journeys from the biggest bus network in the country,to_location,City where bus is going to,Location
+7,Buses_1,Book bus journeys from the biggest bus network in the country,from_station,Station where bus is leaving from,Location
+8,Buses_1,Book bus journeys from the biggest bus network in the country,to_station,Station where bus is going to,Location
+9,Buses_1,Book bus journeys from the biggest bus network in the country,leaving_date,Date of bus leaving for journey,Day
+10,Buses_1,Book bus journeys from the biggest bus network in the country,leaving_time,Time of bus leaving for journey,Time
+11,Buses_1,Book bus journeys from the biggest bus network in the country,fare,Fare per ticket for journey,Number
+12,Buses_1,Book bus journeys from the biggest bus network in the country,travelers,Number of travelers for journey,Number
+13,Buses_1,Book bus journeys from the biggest bus network in the country,transfers,Number of transfers in journey,Number
+14,Buses_2,Find a bus to take you to the city you want,origin,Origin city for journey,Location
+15,Buses_2,Find a bus to take you to the city you want,destination,Destination city for journey,Location
+16,Buses_2,Find a bus to take you to the city you want,origin_station_name,Name of the bus terminus at the origin,Location
+17,Buses_2,Find a bus to take you to the city you want,destination_station_name,Name of the bus terminus at the destination,Location
+18,Buses_2,Find a bus to take you to the city you want,departure_date,Date of bus departure,Day
+19,Buses_2,Find a bus to take you to the city you want,price,Price per ticket of the itinerary,Number
+20,Buses_2,Find a bus to take you to the city you want,departure_time,Time of bus departure,Time
+21,Buses_2,Find a bus to take you to the city you want,group_size,Size of group for the booking,Number
+22,Buses_2,Find a bus to take you to the city you want,fare_type,Type of fare for the booking,Category
+23,Calendar_1,Calendar service to manage personal events and reservations,event_date,Date of event or for checking availability,Day
+24,Calendar_1,Calendar service to manage personal events and reservations,event_time,Start time of event,Time
+25,Calendar_1,Calendar service to manage personal events and reservations,event_location,Location of event,Location
+26,Calendar_1,Calendar service to manage personal events and reservations,event_name,Title of event,Name
+27,Calendar_1,Calendar service to manage personal events and reservations,available_start_time,Starting time of available time slot,Time
+28,Calendar_1,Calendar service to manage personal events and reservations,available_end_time,Ending time of available time slot,Time
+29,Events_1,The comprehensive portal to find and reserve seats at events near you,category,Type of event,Category
+30,Events_1,The comprehensive portal to find and reserve seats at events near you,subcategory,"Subcategory of event, either a music genre or sport name",Category
+31,Events_1,The comprehensive portal to find and reserve seats at events near you,event_name,Name of event,Name
+32,Events_1,The comprehensive portal to find and reserve seats at events near you,date,Date of occurrence of event,Day
+33,Events_1,The comprehensive portal to find and reserve seats at events near you,time,Time when the event is scheduled to start,Time
+34,Events_1,The comprehensive portal to find and reserve seats at events near you,number_of_seats,Number of seats to find event tickets for,Number
+35,Events_1,The comprehensive portal to find and reserve seats at events near you,city_of_event,City where event is happening,Location
+36,Events_1,The comprehensive portal to find and reserve seats at events near you,event_location,Name of event location,Location
+37,Events_1,The comprehensive portal to find and reserve seats at events near you,address_of_location,Street address of event location,Location
+38,Events_2,Get tickets for the coolest concerts and sports in your area,event_type,Type of event,Category
+39,Events_2,Get tickets for the coolest concerts and sports in your area,category,The sport or music subcategory,Category
+40,Events_2,Get tickets for the coolest concerts and sports in your area,event_name,Name of match or artist for event,Name
+41,Events_2,Get tickets for the coolest concerts and sports in your area,date,Date of event,Day
+42,Events_2,Get tickets for the coolest concerts and sports in your area,time,Starting time for event,Time
+43,Events_2,Get tickets for the coolest concerts and sports in your area,number_of_tickets,Number of tickets to buy for event,Number
+44,Events_2,Get tickets for the coolest concerts and sports in your area,city,City where the event is taking place,Location
+45,Events_2,Get tickets for the coolest concerts and sports in your area,venue,Exact venue of event,Location
+46,Events_2,Get tickets for the coolest concerts and sports in your area,venue_address,Address of event venue,Location
+47,Flights_1,Find your next flight,passengers,Number of passengers in the booking,Number
+48,Flights_1,Find your next flight,seating_class,Seating class for the booking,Category
+49,Flights_1,Find your next flight,origin_city,Starting city for the trip,Location
+50,Flights_1,Find your next flight,destination_city,Ending city for the trip,Location
+51,Flights_1,Find your next flight,origin_airport,Airport at the starting city for the trip,Location
+52,Flights_1,Find your next flight,destination_airport,Airport at the ending city for the trip,Location
+53,Flights_1,Find your next flight,departure_date,Start date for the trip,Day
+54,Flights_1,Find your next flight,return_date,Date of the return flight,Day
+55,Flights_1,Find your next flight,number_stops,Number of layovers in the flight,Number
+56,Flights_1,Find your next flight,outbound_departure_time,Departure time for the outbound leg flight,Time
+57,Flights_1,Find your next flight,outbound_arrival_time,Arrival time for the outbound leg flight,Time
+58,Flights_1,Find your next flight,inbound_arrival_time,Arrival time for the return leg flight,Time
+59,Flights_1,Find your next flight,inbound_departure_time,Departure time for the return leg flight,Time
+60,Flights_1,Find your next flight,price,Price of the booking per passenger,Number
+61,Flights_1,Find your next flight,refundable,Whether the booking is refundable or not,Boolean
+62,Flights_1,Find your next flight,airlines,Name of airline,Name
+63,Flights_2,Search for cheap flights across multiple providers,passengers,Number of passengers to book tickets for,Number
+64,Flights_2,Search for cheap flights across multiple providers,seating_class,Seating class for the flight tickets,Category
+65,Flights_2,Search for cheap flights across multiple providers,origin,City of origin for the flight,Location
+66,Flights_2,Search for cheap flights across multiple providers,destination,City of destination for the flight,Location
+67,Flights_2,Search for cheap flights across multiple providers,origin_airport,Airport where the flight is departing from,Location
+68,Flights_2,Search for cheap flights across multiple providers,destination_airport,Airport where the flight is arriving to,Location
+69,Flights_2,Search for cheap flights across multiple providers,departure_date,Date of departure flight on the ticket,Day
+70,Flights_2,Search for cheap flights across multiple providers,return_date,Date of return flight on the ticket,Day
+71,Flights_2,Search for cheap flights across multiple providers,number_stops,Number of stopovers made by the flight,Number
+72,Flights_2,Search for cheap flights across multiple providers,outbound_departure_time,Departure time of the origin-destination flight,Time
+73,Flights_2,Search for cheap flights across multiple providers,outbound_arrival_time,Arrival time of the origin-destination flight,Time
+74,Flights_2,Search for cheap flights across multiple providers,inbound_arrival_time,Arrival time of the destination-origin flight,Time
+75,Flights_2,Search for cheap flights across multiple providers,inbound_departure_time,Departure time of the destination-origin flight,Time
+76,Flights_2,Search for cheap flights across multiple providers,fare,Ticket fare for each passenger,Number
+77,Flights_2,Search for cheap flights across multiple providers,is_redeye,Boolean flag indicating whether the flight is a red-eye flight,Boolean
+78,Flights_2,Search for cheap flights across multiple providers,airlines,Name of the airline to book with,Name
+79,Homes_1,A widely used service for finding apartments and scheduling visits,area,City where the apartment is located,Location
+80,Homes_1,A widely used service for finding apartments and scheduling visits,address,Address of the apartment,Location
+81,Homes_1,A widely used service for finding apartments and scheduling visits,property_name,Name of the apartment,Name
+82,Homes_1,A widely used service for finding apartments and scheduling visits,phone_number,Phone number of the apartment,Phone
+83,Homes_1,A widely used service for finding apartments and scheduling visits,furnished,Boolean flag indicating if the property is furnished,Boolean
+84,Homes_1,A widely used service for finding apartments and scheduling visits,pets_allowed,Boolean flag indicating if pets are allowed,Boolean
+85,Homes_1,A widely used service for finding apartments and scheduling visits,rent,Rent per month of the apartment,Number
+86,Homes_1,A widely used service for finding apartments and scheduling visits,visit_date,Date for the visit to the apartment,Day
+87,Homes_1,A widely used service for finding apartments and scheduling visits,number_of_beds,Number of bed rooms,Number
+88,Homes_1,A widely used service for finding apartments and scheduling visits,number_of_baths,Number of baths in the apartment,Number
+89,Hotels_1,A popular service for searching and reserving rooms in hotels,destination,Location of the hotel,Location
+90,Hotels_1,A popular service for searching and reserving rooms in hotels,number_of_rooms,Number of rooms in the reservation,Number
+91,Hotels_1,A popular service for searching and reserving rooms in hotels,check_in_date,Start date for the reservation,Day
+92,Hotels_1,A popular service for searching and reserving rooms in hotels,number_of_days,Number of days in the reservation,Number
+93,Hotels_1,A popular service for searching and reserving rooms in hotels,star_rating,Star rating of the hotel,Number
+94,Hotels_1,A popular service for searching and reserving rooms in hotels,hotel_name,Name of the hotel,Name
+95,Hotels_1,A popular service for searching and reserving rooms in hotels,street_address,Address of the hotel,Location
+96,Hotels_1,A popular service for searching and reserving rooms in hotels,phone_number,Phone number of the hotel,Phone
+97,Hotels_1,A popular service for searching and reserving rooms in hotels,price_per_night,Price per night for the reservation,Number
+98,Hotels_1,A popular service for searching and reserving rooms in hotels,has_wifi,Boolean flag indicating if the hotel has wifi,Boolean
+99,Hotels_2,A popular service for searching and booking houses for short term stay,where_to,Location of the house,Location
+100,Hotels_2,A popular service for searching and booking houses for short term stay,number_of_adults,Number of people for the reservation,Number
+101,Hotels_2,A popular service for searching and booking houses for short term stay,check_in_date,Start date for the reservation or to find the house,Day
+102,Hotels_2,A popular service for searching and booking houses for short term stay,check_out_date,End date for the reservation or to find the house,Day
+103,Hotels_2,A popular service for searching and booking houses for short term stay,rating,Review rating of the house,Number
+104,Hotels_2,A popular service for searching and booking houses for short term stay,address,Address of the house,Location
+105,Hotels_2,A popular service for searching and booking houses for short term stay,phone_number,Phone number of the house,Phone
+106,Hotels_2,A popular service for searching and booking houses for short term stay,total_price,Price per night of the house,Number
+107,Hotels_2,A popular service for searching and booking houses for short term stay,has_laundry_service,Boolean flag indicating if the house has laundry service,Boolean
+108,Hotels_3,A leading provider for searching and booking hotel rooms,location,Location of the hotel,Location
+109,Hotels_3,A leading provider for searching and booking hotel rooms,number_of_rooms,Number of rooms to book,Number
+110,Hotels_3,A leading provider for searching and booking hotel rooms,check_in_date,Start date for the hotel reservation,Day
+111,Hotels_3,A leading provider for searching and booking hotel rooms,check_out_date,End date for the hotel reservation,Day
+112,Hotels_3,A leading provider for searching and booking hotel rooms,average_rating,Average review rating for the hotel,Number
+113,Hotels_3,A leading provider for searching and booking hotel rooms,hotel_name,Name of the hotel,Name
+114,Hotels_3,A leading provider for searching and booking hotel rooms,street_address,Address of the hotel,Location
+115,Hotels_3,A leading provider for searching and booking hotel rooms,phone_number,Phone number of the hotel,Phone
+116,Hotels_3,A leading provider for searching and booking hotel rooms,price,Total price for the stay,Number
+117,Hotels_3,A leading provider for searching and booking hotel rooms,pets_welcome,Boolean flag indicating if pets are allowed in the hotel,Boolean
+118,Media_1,A leading provider of movies for searching and watching on-demand,title,Title of the movie,Name
+119,Media_1,A leading provider of movies for searching and watching on-demand,genre,Genre of the movie,Category
+120,Media_1,A leading provider of movies for searching and watching on-demand,subtitles,Boolean flag indicating if subtitles are desired for this movie,Boolean
+121,Media_1,A leading provider of movies for searching and watching on-demand,directed_by,Name of the director of the movie,Name
+122,Movies_1,"A go-to provider for finding movies, searching for show times and booking tickets",price,Price per ticket,Number
+123,Movies_1,"A go-to provider for finding movies, searching for show times and booking tickets",number_of_tickets,Number of the movie tickets to be purchased,Number
+124,Movies_1,"A go-to provider for finding movies, searching for show times and booking tickets",show_type,Type of show,Category
+125,Movies_1,"A go-to provider for finding movies, searching for show times and booking tickets",theater_name,Name of the theatre,Name
+126,Movies_1,"A go-to provider for finding movies, searching for show times and booking tickets",show_time,Time of the show,Time
+127,Movies_1,"A go-to provider for finding movies, searching for show times and booking tickets",show_date,Date of the show,Day
+128,Movies_1,"A go-to provider for finding movies, searching for show times and booking tickets",genre,Genre of the movie,Category
+129,Movies_1,"A go-to provider for finding movies, searching for show times and booking tickets",street_address,Address of the theatre,Location
+130,Movies_1,"A go-to provider for finding movies, searching for show times and booking tickets",location,City where the theatre is located,Location
+131,Movies_1,"A go-to provider for finding movies, searching for show times and booking tickets",movie_name,Name of the movie,Name
+132,Music_1,A popular provider of a wide range of music content for searching and listening,song_name,Name of the song,Name
+133,Music_1,A popular provider of a wide range of music content for searching and listening,artist,Artist who performed the song,Name
+134,Music_1,A popular provider of a wide range of music content for searching and listening,album,Album the song belongs to,Name
+135,Music_1,A popular provider of a wide range of music content for searching and listening,genre,Genre of the song,Category
+136,Music_1,A popular provider of a wide range of music content for searching and listening,year,Year in which the song was released,Day
+137,Music_1,A popular provider of a wide range of music content for searching and listening,playback_device,Playback device on which the song is to be played,Category
+138,Music_2,A widely used service for finding and playing music from a variety of genres and artists,song_name,Name of the song,Name
+139,Music_2,A widely used service for finding and playing music from a variety of genres and artists,artist,Name of the artist the song is performed by,Name
+140,Music_2,A widely used service for finding and playing music from a variety of genres and artists,album,Album the song belongs to,Name
+141,Music_2,A widely used service for finding and playing music from a variety of genres and artists,genre,Genre of the song,Category
+142,Music_2,A widely used service for finding and playing music from a variety of genres and artists,playback_device,Playback device on which the song is to be played,Category
+143,RentalCars_1,Car rental service with extensive coverage of locations and cars,type,Category to which rental car belongs,Category
+144,RentalCars_1,Car rental service with extensive coverage of locations and cars,car_name,Model name of rental car,Name
+145,RentalCars_1,Car rental service with extensive coverage of locations and cars,pickup_location,Location of rental car pickup,Location
+146,RentalCars_1,Car rental service with extensive coverage of locations and cars,pickup_date,Date of rental car pickup,Day
+147,RentalCars_1,Car rental service with extensive coverage of locations and cars,pickup_time,Time of rental car pickup,Time
+148,RentalCars_1,Car rental service with extensive coverage of locations and cars,pickup_city,City to pick up the rental car,Location
+149,RentalCars_1,Car rental service with extensive coverage of locations and cars,dropoff_date,Date of rental car drop-off,Day
+150,RentalCars_1,Car rental service with extensive coverage of locations and cars,total_price,Total price of car rental,Number
+151,RentalCars_2,"Car rental service, available worldwide",car_type,Type of car for rental,Category
+152,RentalCars_2,"Car rental service, available worldwide",car_name,Name of car model,Name
+153,RentalCars_2,"Car rental service, available worldwide",pickup_location,Pickup location for car rental,Location
+154,RentalCars_2,"Car rental service, available worldwide",pickup_date,Date of pickup for car rental,Day
+155,RentalCars_2,"Car rental service, available worldwide",pickup_time,Time of pickup for car rental,Time
+156,RentalCars_2,"Car rental service, available worldwide",pickup_city,City in which to pick up rental car,Location
+157,RentalCars_2,"Car rental service, available worldwide",dropoff_date,End date of car rental reservation,Day
+158,RentalCars_2,"Car rental service, available worldwide",total_price,Total price of rental reservation,Number
+159,Restaurants_1,A leading provider for restaurant search and reservations,restaurant_name,Name of the restaurant,Name
+160,Restaurants_1,A leading provider for restaurant search and reservations,date,Date for the reservation or to find availability,Day
+161,Restaurants_1,A leading provider for restaurant search and reservations,time,Time for the reservation or to find availability,Time
+162,Restaurants_1,A leading provider for restaurant search and reservations,serves_alcohol,Boolean flag indicating if the restaurant serves alcohol,Boolean
+163,Restaurants_1,A leading provider for restaurant search and reservations,has_live_music,Boolean flag indicating if the restaurant has live music,Boolean
+164,Restaurants_1,A leading provider for restaurant search and reservations,phone_number,Phone number of the restaurant,Phone
+165,Restaurants_1,A leading provider for restaurant search and reservations,street_address,Address of the restaurant,Location
+166,Restaurants_1,A leading provider for restaurant search and reservations,party_size,Party size for a reservation,Number
+167,Restaurants_1,A leading provider for restaurant search and reservations,price_range,Price range for the restaurant,Others
+168,Restaurants_1,A leading provider for restaurant search and reservations,city,City in which the restaurant is located,Location
+169,Restaurants_1,A leading provider for restaurant search and reservations,cuisine,Cuisine of food served in the restaurant,Category
+170,RideSharing_1,On-demand taxi calling service,destination,Destination for taxi ride,Location
+171,RideSharing_1,On-demand taxi calling service,shared_ride,Boolean flag whether ride is shared with other passengers,Boolean
+172,RideSharing_1,On-demand taxi calling service,ride_fare,Total fare for taxi ride,Number
+173,RideSharing_1,On-demand taxi calling service,approximate_ride_duration,Approximate duration of ride to the destination,Number
+174,RideSharing_1,On-demand taxi calling service,number_of_riders,Number of riders to call taxi for,Number
+175,RideSharing_2,App to book a cab to any destination,destination,Destination address or location for cab,Location
+176,RideSharing_2,App to book a cab to any destination,ride_type,Type of cab ride,Category
+177,RideSharing_2,App to book a cab to any destination,ride_fare,Total fare for cab ride,Number
+178,RideSharing_2,App to book a cab to any destination,wait_time,Expected waiting time for pick-up by cab,Number
+179,RideSharing_2,App to book a cab to any destination,number_of_seats,Number of seats to reserve in the cab,Number
+180,Services_1,A widely used service for finding and reserving the hair stylist of your choice,stylist_name,Name of the hair stylist/salon,Name
+181,Services_1,A widely used service for finding and reserving the hair stylist of your choice,phone_number,Phone number of the stylist/salon,Phone
+182,Services_1,A widely used service for finding and reserving the hair stylist of your choice,average_rating,Average review rating for the stylist/salon,Number
+183,Services_1,A widely used service for finding and reserving the hair stylist of your choice,is_unisex,Boolean flag indicating if the salon is unisex,Boolean
+184,Services_1,A widely used service for finding and reserving the hair stylist of your choice,street_address,Address of the stylist/salon,Location
+185,Services_1,A widely used service for finding and reserving the hair stylist of your choice,city,City where the salon is located,Location
+186,Services_1,A widely used service for finding and reserving the hair stylist of your choice,appointment_date,Date for the appointment,Day
+187,Services_1,A widely used service for finding and reserving the hair stylist of your choice,appointment_time,Time of the appointment,Time
+188,Services_2,The go-to service for finding and booking appointments with top rated dentists,dentist_name,Name of the dentist,Name
+189,Services_2,The go-to service for finding and booking appointments with top rated dentists,phone_number,Phone number of the dentist,Phone
+190,Services_2,The go-to service for finding and booking appointments with top rated dentists,address,Address of the dentist,Location
+191,Services_2,The go-to service for finding and booking appointments with top rated dentists,city,City where the dentist is located,Location
+192,Services_2,The go-to service for finding and booking appointments with top rated dentists,appointment_date,Date for the appointment,Day
+193,Services_2,The go-to service for finding and booking appointments with top rated dentists,appointment_time,Time for the appointment,Time
+194,Services_2,The go-to service for finding and booking appointments with top rated dentists,offers_cosmetic_services,Boolean flag indicating if the dentist offers cosmetic services,Boolean
+195,Services_3,A popular provider for finding the right doctor for your needs. Also allows you to schedule your visit to the doctor,doctor_name,Name of the doctor or the medical practice,Name
+196,Services_3,A popular provider for finding the right doctor for your needs. Also allows you to schedule your visit to the doctor,phone_number,Contact number for the doctor or the medical practice,Phone
+197,Services_3,A popular provider for finding the right doctor for your needs. Also allows you to schedule your visit to the doctor,average_rating,Average review rating of the doctor,Number
+198,Services_3,A popular provider for finding the right doctor for your needs. Also allows you to schedule your visit to the doctor,street_address,Address of the doctor,Location
+199,Services_3,A popular provider for finding the right doctor for your needs. Also allows you to schedule your visit to the doctor,city,City where the doctor is located,Location
+200,Services_3,A popular provider for finding the right doctor for your needs. Also allows you to schedule your visit to the doctor,appointment_date,Date for scheduling the appointment with the doctor,Day
+201,Services_3,A popular provider for finding the right doctor for your needs. Also allows you to schedule your visit to the doctor,appointment_time,Time for the appointment with the doctor,Time
+202,Services_3,A popular provider for finding the right doctor for your needs. Also allows you to schedule your visit to the doctor,type,Speciality of the doctor,Category
+203,Travel_1,The biggest database of tourist attractions and points of interest,location,City or town where the attraction is located,Location
+204,Travel_1,The biggest database of tourist attractions and points of interest,attraction_name,Common name of the attraction,Name
+205,Travel_1,The biggest database of tourist attractions and points of interest,category,Category to which the attraction belongs,Category
+206,Travel_1,The biggest database of tourist attractions and points of interest,phone_number,Phone number to contact the attraction,Phone
+207,Travel_1,The biggest database of tourist attractions and points of interest,free_entry,Boolean flag indicating whether entrance to attraction is free,Boolean
+208,Travel_1,The biggest database of tourist attractions and points of interest,good_for_kids,Boolean flag indicating whether attraction is good for to take kids to,Boolean
+209,Weather_1,Check the weather for any place and any date,precipitation,The possibility of rain or snow in percentage,Number
+210,Weather_1,Check the weather for any place and any date,humidity,Percentage humidity,Number
+211,Weather_1,Check the weather for any place and any date,wind,Wind speed in miles per hour,Number
+212,Weather_1,Check the weather for any place and any date,temperature,Temperature in Fahrenheit,Number
+213,Weather_1,Check the weather for any place and any date,city,Name of the city,Location
+214,Weather_1,Check the weather for any place and any date,date,Date for the weather,Day
+215,Alarm_1,Manage alarms by getting and setting them easily,alarm_time,Time of the alarm,Time
+216,Alarm_1,Manage alarms by getting and setting them easily,alarm_name,Name of the alarm,Name
+217,Alarm_1,Manage alarms by getting and setting them easily,new_alarm_time,Time to set for the new alarm,Time
+218,Alarm_1,Manage alarms by getting and setting them easily,new_alarm_name,Name to use for the new alarm,Name
+219,Banks_2,Service to manage your bank accounts and finances,account_type,The user's account type,Category
+220,Banks_2,Service to manage your bank accounts and finances,recipient_account_type,The account type of the recipient to transfer the money to,Category
+221,Banks_2,Service to manage your bank accounts and finances,account_balance,The balance in the specified account,Number
+222,Banks_2,Service to manage your bank accounts and finances,transfer_amount,The amount of money to transfer,Number
+223,Banks_2,Service to manage your bank accounts and finances,recipient_name,The name of the recipient to transfer the money to,Name
+224,Banks_2,Service to manage your bank accounts and finances,transfer_time,Number of days for the transfer to go through,Number
+225,Flights_3,Find one way and round trip flights to your favorite city,passengers,Number of passengers to find flight seats for,Number
+226,Flights_3,Find one way and round trip flights to your favorite city,flight_class,Fare class of flight booking,Category
+227,Flights_3,Find one way and round trip flights to your favorite city,origin_city,City in which the journey originates,Location
+228,Flights_3,Find one way and round trip flights to your favorite city,destination_city,City in which the journey ends,Location
+229,Flights_3,Find one way and round trip flights to your favorite city,origin_airport_name,Number of the airport flying out from,Number
+230,Flights_3,Find one way and round trip flights to your favorite city,destination_airport_name,Number of the airport flying to,Number
+231,Flights_3,Find one way and round trip flights to your favorite city,departure_date,Date of departure flight,Day
+232,Flights_3,Find one way and round trip flights to your favorite city,return_date,Date of return flight,Day
+233,Flights_3,Find one way and round trip flights to your favorite city,number_stops,Number of stops in the itinerary,Number
+234,Flights_3,Find one way and round trip flights to your favorite city,outbound_departure_time,Local time of departure of flight from origin to destination,Time
+235,Flights_3,Find one way and round trip flights to your favorite city,outbound_arrival_time,Local time of arrival of flight from origin to destination,Time
+236,Flights_3,Find one way and round trip flights to your favorite city,inbound_arrival_time,Local time of arrival of flight from destination to origin,Time
+237,Flights_3,Find one way and round trip flights to your favorite city,inbound_departure_time,Local time of departure of flight from destination to origin,Time
+238,Flights_3,Find one way and round trip flights to your favorite city,price,Price per passenger of the itinerary,Number
+239,Flights_3,Find one way and round trip flights to your favorite city,number_checked_bags,Number of bags to check in,Number
+240,Flights_3,Find one way and round trip flights to your favorite city,airlines,Name of airline operating the flight,Name
+241,Flights_3,Find one way and round trip flights to your favorite city,arrives_next_day,Whether the flight arrives the next day,Boolean
+242,Hotels_4,Accommodation searching and booking portal,location,City or town where the accommodation is located,Location
+243,Hotels_4,Accommodation searching and booking portal,number_of_rooms,Number of rooms to reserve,Number
+244,Hotels_4,Accommodation searching and booking portal,check_in_date,Check in date for reservation,Day
+245,Hotels_4,Accommodation searching and booking portal,stay_length,Length of stay in days,Number
+246,Hotels_4,Accommodation searching and booking portal,star_rating,Star rating of the accommodation,Number
+247,Hotels_4,Accommodation searching and booking portal,place_name,Name of the accommodation,Name
+248,Hotels_4,Accommodation searching and booking portal,street_address,Street address of the accommodation,Location
+249,Hotels_4,Accommodation searching and booking portal,phone_number,Contact phone number of the accommodation,Phone
+250,Hotels_4,Accommodation searching and booking portal,price_per_night,Price per night for the stay,Number
+251,Hotels_4,Accommodation searching and booking portal,smoking_allowed,Whether or not smoking is allowed inside the place,Boolean
+252,Media_2,The widest selection and lowest prices for movie rentals,movie_name,Name of the movie,Name
+253,Media_2,The widest selection and lowest prices for movie rentals,genre,Main genre of the movie,Category
+254,Media_2,The widest selection and lowest prices for movie rentals,subtitle_language,Language to use for subtitles (or None for no subtitles),Category
+255,Media_2,The widest selection and lowest prices for movie rentals,director,Name of the director of the movie,Name
+256,Media_2,The widest selection and lowest prices for movie rentals,actors,Name of an actor starring in the movie,Name
+257,Media_2,The widest selection and lowest prices for movie rentals,price,Cost of renting movie,Number
+258,Movies_2,The definitive database to discover new movies to watch,title,Title for movie,Name
+259,Movies_2,The definitive database to discover new movies to watch,genre,Genre of the movie,Category
+260,Movies_2,The definitive database to discover new movies to watch,aggregate_rating,"Aggregate user rating for movie, scale of 10",Number
+261,Movies_2,The definitive database to discover new movies to watch,starring,Name of actor starring in movie,Name
+262,Movies_2,The definitive database to discover new movies to watch,director,Name of director of the movie,Name
+263,Restaurants_2,A popular restaurant search and reservation service,restaurant_name,Name of the restaurant,Name
+264,Restaurants_2,A popular restaurant search and reservation service,date,Tentative date of restaurant reservation,Day
+265,Restaurants_2,A popular restaurant search and reservation service,time,Tentative time of restaurant reservation,Time
+266,Restaurants_2,A popular restaurant search and reservation service,has_seating_outdoors,Whether the restaurant has outdoor seating available,Boolean
+267,Restaurants_2,A popular restaurant search and reservation service,has_vegetarian_options,Whether the restaurant has adequate vegetarian options,Boolean
+268,Restaurants_2,A popular restaurant search and reservation service,phone_number,Phone number to contact restaurant,Phone
+269,Restaurants_2,A popular restaurant search and reservation service,rating,Average user rating for restaurant on a scale of 5,Number
+270,Restaurants_2,A popular restaurant search and reservation service,address,Address of restaurant,Location
+271,Restaurants_2,A popular restaurant search and reservation service,number_of_seats,Number of seats to reserve at the restaurant,Number
+272,Restaurants_2,A popular restaurant search and reservation service,price_range,Price range for the restaurant,Others
+273,Restaurants_2,A popular restaurant search and reservation service,location,City where the restaurant is located,Location
+274,Restaurants_2,A popular restaurant search and reservation service,category,The category of food offered by the restaurant,Category
+275,Services_4,Discover the right therapist for you and make reservations easily,therapist_name,Name of the therapist,Name
+276,Services_4,Discover the right therapist for you and make reservations easily,phone_number,Contact number of the therapist,Phone
+277,Services_4,Discover the right therapist for you and make reservations easily,address,Address of the therapist,Location
+278,Services_4,Discover the right therapist for you and make reservations easily,city,Area where user wants to search for a therapist,Location
+279,Services_4,Discover the right therapist for you and make reservations easily,appointment_date,Date of the appointment,Day
+280,Services_4,Discover the right therapist for you and make reservations easily,appointment_time,Time of the appointment,Time
+281,Services_4,Discover the right therapist for you and make reservations easily,type,Type of the therapist,Category
+282,Buses_3,Affordable and comfortable bus travel across the country,from_city,The city to depart from,Location
+283,Buses_3,Affordable and comfortable bus travel across the country,to_city,The destination city of the trip,Location
+284,Buses_3,Affordable and comfortable bus travel across the country,from_station,Name of station of departure,Name
+285,Buses_3,Affordable and comfortable bus travel across the country,to_station,Name of station of arrival,Name
+286,Buses_3,Affordable and comfortable bus travel across the country,departure_date,The date of departure,Day
+287,Buses_3,Affordable and comfortable bus travel across the country,departure_time,The time of departure,Time
+288,Buses_3,Affordable and comfortable bus travel across the country,price,Ticket price per passenger,Number
+289,Buses_3,Affordable and comfortable bus travel across the country,additional_luggage,Whether to carry excess baggage in the bus,Boolean
+290,Buses_3,Affordable and comfortable bus travel across the country,num_passengers,The number of tickets for the trip,Number
+291,Buses_3,Affordable and comfortable bus travel across the country,category,How many stops the route has,Category
+292,Events_3,Find and book tickets to any cultural events in your area,event_type,Type of cultural event,Category
+293,Events_3,Find and book tickets to any cultural events in your area,event_name,Name of artist or play,Name
+294,Events_3,Find and book tickets to any cultural events in your area,date,Date of event,Day
+295,Events_3,Find and book tickets to any cultural events in your area,time,Start time of event,Time
+296,Events_3,Find and book tickets to any cultural events in your area,number_of_tickets,Number of tickets to reserve for the event,Number
+297,Events_3,Find and book tickets to any cultural events in your area,price_per_ticket,Price of each ticket,Number
+298,Events_3,Find and book tickets to any cultural events in your area,city,City where the event is taking place,Location
+299,Events_3,Find and book tickets to any cultural events in your area,venue,Exact venue of event,Location
+300,Events_3,Find and book tickets to any cultural events in your area,venue_address,Street address of event venue,Location
+301,Flights_4,Find cheap flights in seconds and book flights,number_of_tickets,the number of flight tickets for the trip,Number
+302,Flights_4,Find cheap flights in seconds and book flights,seating_class,The cabin seat option,Category
+303,Flights_4,Find cheap flights in seconds and book flights,origin_airport,The name of the airport or city to depart from,Name
+304,Flights_4,Find cheap flights in seconds and book flights,destination_airport,The name of the airport or city to arrive at,Name
+305,Flights_4,Find cheap flights in seconds and book flights,departure_date,Start date of the trip,Day
+306,Flights_4,Find cheap flights in seconds and book flights,return_date,End date of the trip,Day
+307,Flights_4,Find cheap flights in seconds and book flights,is_nonstop,Whether the flight is a direct one,Boolean
+308,Flights_4,Find cheap flights in seconds and book flights,outbound_departure_time,Departure time of the flight flying to the destination,Time
+309,Flights_4,Find cheap flights in seconds and book flights,outbound_arrival_time,Arrival time of the flight flying to the destination,Time
+310,Flights_4,Find cheap flights in seconds and book flights,inbound_arrival_time,Arrival time of the flight coming back from the trip,Time
+311,Flights_4,Find cheap flights in seconds and book flights,inbound_departure_time,Departure time of the flight coming back from the trip,Time
+312,Flights_4,Find cheap flights in seconds and book flights,price,The total cost of the flight tickets,Number
+313,Flights_4,Find cheap flights in seconds and book flights,airlines,The company that provides air transport services,Name
+314,Homes_2,Service for finding properties to buy and rent,intent,Whether to buy or rent a property,Boolean
+315,Homes_2,Service for finding properties to buy and rent,area,City where the property is located,Location
+316,Homes_2,Service for finding properties to buy and rent,address,Street address of property,Location
+317,Homes_2,Service for finding properties to buy and rent,property_name,Name of property or apartment complex,Name
+318,Homes_2,Service for finding properties to buy and rent,phone_number,Contact number of property or apartment complex,Phone
+319,Homes_2,Service for finding properties to buy and rent,has_garage,Whether the property has a garage,Boolean
+320,Homes_2,Service for finding properties to buy and rent,in_unit_laundry,Whether the property has in-unit laundry facilities,Boolean
+321,Homes_2,Service for finding properties to buy and rent,price,Sale price or per-month rent of property,Number
+322,Homes_2,Service for finding properties to buy and rent,visit_date,Date for visit to the property,Day
+323,Homes_2,Service for finding properties to buy and rent,number_of_beds,Number of bedrooms in the property,Number
+324,Homes_2,Service for finding properties to buy and rent,number_of_baths,Number of bathroom in the property,Number
+325,Media_3,"Enjoy instant and unlimited access to best shows, movies, comedy, sports, documentaries and more.",title,Title of the movie,Name
+326,Media_3,"Enjoy instant and unlimited access to best shows, movies, comedy, sports, documentaries and more.",genre,Category of the content,Category
+327,Media_3,"Enjoy instant and unlimited access to best shows, movies, comedy, sports, documentaries and more.",subtitle_language,Language of the subtitles,Category
+328,Media_3,"Enjoy instant and unlimited access to best shows, movies, comedy, sports, documentaries and more.",starring,Celebs acting in the movie,Name
+329,Messaging_1,Connect and share locations with your contacts,location,Location to share with contact,Location
+330,Messaging_1,Connect and share locations with your contacts,contact_name,Name of contact to send to,Name
+331,Movies_3,A review-aggregation website for movies and television,movie_title,Name of the movie,Name
+332,Movies_3,A review-aggregation website for movies and television,genre,Type of the movie,Category
+333,Movies_3,A review-aggregation website for movies and television,percent_rating,Average critic percentage rating,Number
+334,Movies_3,A review-aggregation website for movies and television,cast,Actors in the movie,Name
+335,Movies_3,A review-aggregation website for movies and television,directed_by,Director of the movie,Name
+336,Music_3,"A free, personalized platform that plays music you'll love. Discover new music and enjoy old favorites.",track,Name of the song,Name
+337,Music_3,"A free, personalized platform that plays music you'll love. Discover new music and enjoy old favorites.",artist,Performer's name,Name
+338,Music_3,"A free, personalized platform that plays music you'll love. Discover new music and enjoy old favorites.",album,Collection of the song,Name
+339,Music_3,"A free, personalized platform that plays music you'll love. Discover new music and enjoy old favorites.",genre,Type of the music,Category
+340,Music_3,"A free, personalized platform that plays music you'll love. Discover new music and enjoy old favorites.",year,Year when the song was first released,Day
+341,Music_3,"A free, personalized platform that plays music you'll love. Discover new music and enjoy old favorites.",device,Place or name of the media player to play the song selected,Category
+342,Payment_1,"The fast, simple way to pay in apps, on the web, and in millions of stores",payment_method,The source of money used for making the payment,Category
+343,Payment_1,"The fast, simple way to pay in apps, on the web, and in millions of stores",amount,The amount of money to send or request,Number
+344,Payment_1,"The fast, simple way to pay in apps, on the web, and in millions of stores",receiver,Name of the contact or account to make the transaction with,Name
+345,Payment_1,"The fast, simple way to pay in apps, on the web, and in millions of stores",private_visibility,Whether the transaction is private or not,Boolean
+346,RentalCars_3,A leading global provider of car rental solutions,car_type,Type of the car,Category
+347,RentalCars_3,A leading global provider of car rental solutions,car_name,Car model,Name
+348,RentalCars_3,A leading global provider of car rental solutions,pickup_location,Place to pick up the car,Location
+349,RentalCars_3,A leading global provider of car rental solutions,start_date,The first date to start using the rental car,Day
+350,RentalCars_3,A leading global provider of car rental solutions,pickup_time,Time for the pick-up,Time
+351,RentalCars_3,A leading global provider of car rental solutions,city,City where you want to rent the car,Location
+352,RentalCars_3,A leading global provider of car rental solutions,end_date,The date to return the car,Day
+353,RentalCars_3,A leading global provider of car rental solutions,price_per_day,The cost for renting the car per day,Number
+354,RentalCars_3,A leading global provider of car rental solutions,add_insurance,Whether to purchase insurance,Boolean
+355,Trains_1,Service to find and reserve train journeys between cities,from,Starting city for train journey,Location
+356,Trains_1,Service to find and reserve train journeys between cities,to,Ending city for train journey,Location
+357,Trains_1,Service to find and reserve train journeys between cities,from_station,Name of station at starting city,Location
+358,Trains_1,Service to find and reserve train journeys between cities,to_station,Name of station at ending city,Location
+359,Trains_1,Service to find and reserve train journeys between cities,date_of_journey,Date of train journey,Day
+360,Trains_1,Service to find and reserve train journeys between cities,journey_start_time,Time of start of train journey,Time
+361,Trains_1,Service to find and reserve train journeys between cities,total,Total price of train reservation,Number
+362,Trains_1,Service to find and reserve train journeys between cities,number_of_adults,Number of adults to reserve train tickets for,Number
+363,Trains_1,Service to find and reserve train journeys between cities,class,Fare class for train reservation,Category
+364,Trains_1,Service to find and reserve train journeys between cities,trip_protection,"Whether to add trip protection to reservation, for a fee",Boolean
+365,hotel,hotel reservations and vacation stays,hotel-pricerange,price budget of the hotel,Number
+366,hotel,hotel reservations and vacation stays,hotel-type,what is the type of the hotel,Category
+367,hotel,hotel reservations and vacation stays,hotel-parking,whether the hotel has parking,Boolean
+368,hotel,hotel reservations and vacation stays,hotel-bookday,day of the hotel booking,Day
+369,hotel,hotel reservations and vacation stays,hotel-bookpeople,number of people for the hotel booking,Number
+370,hotel,hotel reservations and vacation stays,hotel-bookstay,length of stay at the hotel,Number
+371,hotel,hotel reservations and vacation stays,hotel-stars,star rating of the hotel,Number
+372,hotel,hotel reservations and vacation stays,hotel-internet,whether the hotel has internet,Boolean
+373,hotel,hotel reservations and vacation stays,hotel-name,name of the hotel,Name
+374,hotel,hotel reservations and vacation stays,hotel-area,area or place of the hotel,Location
+375,hotel,hotel reservations and vacation stays,hotel-address,address of the hotel,Location
+376,hotel,hotel reservations and vacation stays,hotel-phone,phone number of the hotel,Phone
+377,hotel,hotel reservations and vacation stays,hotel-postcode,postal code of the hotel,Others
+378,hotel,hotel reservations and vacation stays,hotel-ref,reference number of the hotel booking,Others
+379,train,find trains that take you to places,train-arriveby,arrival time of the train,Time
+380,train,find trains that take you to places,train-departure,departure location of the train,Location
+381,train,find trains that take you to places,train-day,day of the train,Day
+382,train,find trains that take you to places,train-bookpeople,how many train tickets you need,Number
+383,train,find trains that take you to places,train-leaveat,leaving time for the train,Time
+384,train,find trains that take you to places,train-destination,destination of the train,Location
+385,train,find trains that take you to places,train-trainid,id of the train,Others
+386,train,find trains that take you to places,train-ref,reference number of the train booking,Others
+387,train,find trains that take you to places,train-price,price of the train,Number
+388,train,find trains that take you to places,train-duration,duration of the travel,Number
+389,attraction,find touristy stuff to do around you,attraction-area,area to search for attractions,Location
+390,attraction,find touristy stuff to do around you,attraction-name,name of the attraction,Name
+391,attraction,find touristy stuff to do around you,attraction-type,type of the attraction,Category
+392,attraction,find touristy stuff to do around you,attraction-entrancefee,how much is the entrance fee,Number
+393,attraction,find touristy stuff to do around you,attraction-openhours,open hours of the attraction,Number
+394,attraction,find touristy stuff to do around you,attraction-address,address of the attraction,Location
+395,attraction,find touristy stuff to do around you,attraction-phone,phone number of the attraction,Phone
+396,attraction,find touristy stuff to do around you,attraction-postcode,postal code of the attraction,Others
+397,restaurant,find places to dine and whet your appetite,restaurant-pricerange,price budget for the restaurant,Number
+398,restaurant,find places to dine and whet your appetite,restaurant-area,area or place of the restaurant,Location
+399,restaurant,find places to dine and whet your appetite,restaurant-food,the cuisine of the restaurant you are looking for,Category
+400,restaurant,find places to dine and whet your appetite,restaurant-name,name of the restaurant,Name
+401,restaurant,find places to dine and whet your appetite,restaurant-bookday,day of the restaurant booking,Day
+402,restaurant,find places to dine and whet your appetite,restaurant-bookpeople,how many people for the restaurant reservation,Number
+403,restaurant,find places to dine and whet your appetite,restaurant-booktime,time of the restaurant booking,Time
+404,restaurant,find places to dine and whet your appetite,restaurant-address,address of the restaurant,Location
+405,restaurant,find places to dine and whet your appetite,restaurant-phone,phone number of the restaurant,Phone
+406,restaurant,find places to dine and whet your appetite,restaurant-postcode,postal code of the restaurant,Others
+407,restaurant,find places to dine and whet your appetite,restaurant-ref,reference number of the restaurant booking,Others
+408,hospital,making you feel better when you are ill,hospital-department,type of medical care,Category
+409,hospital,making you feel better when you are ill,hospital-address,address of the hospital,Location
+410,hospital,making you feel better when you are ill,hospital-phone,phone number of the hospital,Phone
+411,hospital,making you feel better when you are ill,hospital-postcode,postal code of the hospital,Others
+412,taxi,rent cheap cabs to avoid traffic,taxi-leaveat,leaving time of taxi,Time
+413,taxi,rent cheap cabs to avoid traffic,taxi-destination,destination of taxi,Location
+414,taxi,rent cheap cabs to avoid traffic,taxi-departure,departure location of taxi,Location
+415,taxi,rent cheap cabs to avoid traffic,taxi-arriveby,arrival time of taxi,Time
+416,taxi,rent cheap cabs to avoid traffic,taxi-type,car type of the taxi,Category
+417,taxi,rent cheap cabs to avoid traffic,taxi-phone,phone number of the taxi,Phone
+418,bus,bus service for traveling,bus-departure,departure location of bus,Location
+419,bus,bus service for traveling,bus-destination,destination of bus,Location
+420,bus,bus service for traveling,bus-leaveat,leaving time of bus,Time
+421,bus,bus service for traveling,bus-day,day to use the bus tickets,Day
+422,police,police station,police-address,address of the police station,Location
+423,police,police station,police-phone,phone number of the police station,Phone
+424,police,police station,police-postcode,postal code of the police station,Others
+425,police,police station,police-name,name of the police station,Name

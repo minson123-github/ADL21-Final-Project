@@ -25,7 +25,8 @@ def test_process(args):
 							attention_mask=batch['attention_mask'].cuda(), 
 							eos_token_id=tokenizer.eos_token_id, 
 							max_length=200, 
-							num_beams=args['n_beams']
+							num_beams=args['n_beams'], 
+							length_penalty=args['length_penalty']
 						)
 			dst_outputs = dst_outputs.cpu()
 			batch_values = tokenizer.batch_decode(dst_outputs, skip_special_tokens=True)
@@ -38,8 +39,8 @@ def test_process(args):
 
 def train_process(args):
 	seed_everything(args['seed'])
-	t5_model = T5ForConditionalGeneration.from_pretrained('t5-small')
-	tokenizer = T5Tokenizer.from_pretrained('t5-small', bos_token="[bos]", eos_token="[eos]", sep_token="[sep]")
+	t5_model = T5ForConditionalGeneration.from_pretrained(args['pretrained'])
+	tokenizer = T5Tokenizer.from_pretrained(args['pretrained'], bos_token="[bos]", eos_token="[eos]", sep_token="[sep]")
 	t5_model.resize_token_embeddings(new_num_tokens=len(tokenizer))
 
 	model = DST_Seq2Seq(args, tokenizer, t5_model)
@@ -56,7 +57,7 @@ def train_process(args):
 				gpus=args["n_gpus"], 
 				deterministic=True, 
 				num_nodes=1, 
-				accelerator="ddp"
+				accelerator="dp"
 			)
 	print('start to training...', flush=True)
 	trainer.fit(model, train_dataloader, eval_dataloader)

@@ -3,6 +3,7 @@ import json
 from tqdm import tqdm
 from torch.utils.data import DataLoader, Dataset
 from functools import partial
+import pandas as pd
 
 class DSTDataset(Dataset):
 	def __init__(self, data, args):
@@ -94,7 +95,7 @@ def read_data(data_dir, schema_info, is_test):
 
 	return data_list
 
-def get_dict_list(args, raw_data, tokenizer, schema_info):
+def get_dict_list(args, raw_data, tokenizer, schema_info, slot_types):
 	results = {'input_sentences': [], 'output_sentences': []}
 	slots_descr = {}
 	for domain in schema_info.keys():
@@ -115,8 +116,11 @@ def get_dict_list(args, raw_data, tokenizer, schema_info):
 			for (domain, slot_name), slot_value in turn['slot_values'].items():
 				domain_descr = schema_info[domain]['description']
 				slot_descr = slots_descr.get((domain, slot_name), 'none')
+				slot_type = slot_types[(domain, slot_name)]
 				if args['use_descr']:
 					input_sentence = dialogue_history + f'{tokenizer.sep_token} {slot_descr} of the {domain_descr}'
+				elif args['slot_type']:
+					input_sentence = dialogue_history + f'{tokenizer.sep_token} {slot_type} of {slot_name} of the {domain}'
 				else:
 					input_sentence = dialogue_history + f'{tokenizer.sep_token} {slot_name} of the {domain}'
 				output_sentence = slot_value + f" {tokenizer.eos_token}"
@@ -126,7 +130,7 @@ def get_dict_list(args, raw_data, tokenizer, schema_info):
 	
 	return results
 
-def get_test_list(args, raw_data, tokenizer, schema_info):
+def get_test_list(args, raw_data, tokenizer, schema_info, slot_types):
 	results = {'ID': [], 'input_sentences': [], 'domain-slot': []}
 	slots_descr = {}
 	for domain in schema_info.keys():
@@ -140,8 +144,11 @@ def get_test_list(args, raw_data, tokenizer, schema_info):
 		for domain, slot in data['domain_slot']:
 			domain_descr = schema_info[domain]['description']
 			slot_descr = slots_descr.get((domain, slot), 'none')
+			slot_type = slot_types[(domain, slot)]
 			if args['use_descr']:
 				input_sentence = dialogue_history + f'{tokenizer.sep_token} {slot_descr} of the {domain_descr}'
+			elif args['slot_type']:
+				input_sentence = dialogue_history + f'{tokenizer.sep_token} {slot_type} of {slot} of the {domain}'
 			else:
 				input_sentence = dialogue_history + f'{tokenizer.sep_token} {slot} of the {domain}'
 			results['domain-slot'].append(f'{domain}-{slot}')
@@ -162,6 +169,16 @@ def collate_fn(data, tokenizer):
 	batch['decoder_output'] = output_tokens['input_ids'].squeeze()
 	return batch
 
+def get_slot_type():
+	df = pd.read_csv('slot_type.csv')
+	slot_types = {}
+	for i in range(len(df)):
+		domain = df.at[i, 'domains']
+		slot = df.at[i, 'slots']
+		slot_type = df.at[i, 'slots_type']
+		slot_types[(domain, slot)] = slot_type
+	return slot_types
+
 def test_collate_fn(data, tokenizer):
 	batch = {}
 	batch_inputs = [s for s, _, __ in data]
@@ -176,10 +193,11 @@ def test_collate_fn(data, tokenizer):
 
 def get_train_dataloader(args, tokenizer):
 	domain_slots = get_domain_slot(args['schema_dir'])
+	slot_types = get_slot_type()
 	train_data = read_data(args['train_dir'], domain_slots, False)
 	eval_data = read_data(args['eval_dir'], domain_slots, False)
-	train_dict = get_dict_list(args, train_data, tokenizer, domain_slots)
-	eval_dict = get_dict_list(args, eval_data, tokenizer, domain_slots)
+	train_dict = get_dict_list(args, train_data, tokenizer, domain_slots, slot_types)
+	eval_dict = get_dict_list(args, eval_data, tokenizer, domain_slots, slot_types)
 	# print(train_dict['input_sentences'][300])
 	# print(train_dict['output_sentences'][300])
 	train_dataset = DSTDataset(train_dict, args)
@@ -190,8 +208,9 @@ def get_train_dataloader(args, tokenizer):
 
 def get_test_dataloader(args, tokenizer):
 	domain_slots = get_domain_slot(args['schema_dir'])
+	slot_types = get_slot_type()
 	test_data = read_data(args['test_dir'], domain_slots, True)
-	test_list = get_test_list(args, test_data, tokenizer, domain_slots)
+	test_list = get_test_list(args, test_data, tokenizer, domain_slots, slot_types)
 	test_dataset = DSTDataset(test_list, args)
 	test_dataloader = DataLoader(test_dataset, args['test_batch_size'], shuffle=False, collate_fn=partial(test_collate_fn, tokenizer=tokenizer), num_workers=4)
 	return test_dataloader
