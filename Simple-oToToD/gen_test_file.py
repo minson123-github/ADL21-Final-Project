@@ -26,7 +26,7 @@ for mode in ['test_seen', 'test_unseen']:
     for dial in tqdm(list(dials), mode):
         data = json.load(open(dial, "r"))
         for conv in data:
-            glob_context = '<|context|>'
+            glob_context = conv['dialogue_id'] + '<|context|>'
             for turn in conv['turns']:
                 if turn['speaker'] == 'SYSTEM':
                     glob_context += ' <|system|> '
