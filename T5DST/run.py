@@ -1,6 +1,6 @@
 from config import get_args
 from data_loader import *
-from transformers import T5Tokenizer, T5ForConditionalGeneration, AdamW
+from transformers import T5TokenizerFast, T5ForConditionalGeneration, AdamW
 from pytorch_lightning import Trainer, seed_everything
 from model import DST_Seq2Seq
 from tqdm import tqdm
@@ -14,7 +14,7 @@ def test_process(args):
 		exit(0)
 	model = T5ForConditionalGeneration.from_pretrained(save_path)
 	model.to('cuda')
-	tokenizer = T5Tokenizer.from_pretrained(save_path)
+	tokenizer = T5TokenizerFast.from_pretrained(save_path)
 	test_dataloader = get_test_dataloader(args, tokenizer)
 	pred = {}
 	model.eval()
@@ -40,7 +40,7 @@ def test_process(args):
 def train_process(args):
 	seed_everything(args['seed'])
 	t5_model = T5ForConditionalGeneration.from_pretrained(args['pretrained'])
-	tokenizer = T5Tokenizer.from_pretrained(args['pretrained'], bos_token="[bos]", eos_token="[eos]", sep_token="[sep]")
+	tokenizer = T5TokenizerFast.from_pretrained(args['pretrained'], bos_token="[bos]", eos_token="[eos]", sep_token="[sep]")
 	t5_model.resize_token_embeddings(new_num_tokens=len(tokenizer))
 
 	model = DST_Seq2Seq(args, tokenizer, t5_model)

@@ -4,27 +4,28 @@ from tqdm import tqdm
 from torch.utils.data import DataLoader, Dataset
 from functools import partial
 import pandas as pd
+import pickle
 
 class DSTDataset(Dataset):
 	def __init__(self, data, args):
-		self.input_sentences = data['input_sentences']
-		if 'output_sentences' in data:
+		self.input_tokens = data['input_tokens']
+		if 'output_tokens' in data:
 			self.ID = None
-			self.output_sentences = data['output_sentences']
+			self.output_tokens = data['output_tokens']
 			self.domain_slot = None
 		else:
-			self.output_sentences = None
+			self.output_tokens = None
 			self.ID = data['ID']
 			self.domain_slot = data['domain-slot']
 		self.args = args
 	
 	def __getitem__(self, index):
-		if self.output_sentences != None:
-			return self.input_sentences[index], self.output_sentences[index]
-		return self.input_sentences[index], self.ID[index], self.domain_slot[index]
+		if self.output_tokens != None:
+			return self.input_tokens[index], self.output_tokens[index]
+		return self.input_tokens[index], self.ID[index], self.domain_slot[index]
 
 	def __len__(self):
-		return len(self.input_sentences)
+		return len(self.input_tokens)
 
 # get domain slot pairs and description from schema file
 def get_domain_slot(schema_path):
@@ -117,7 +118,9 @@ def get_dict_list(args, raw_data, tokenizer, schema_info, slot_types):
 				domain_descr = schema_info[domain]['description']
 				slot_descr = slots_descr.get((domain, slot_name), 'none')
 				slot_type = slot_types[(domain, slot_name)]
-				if args['use_descr']:
+				if args['use_descr'] and args['slot_type']:
+					input_sentence = dialogue_history + f'{tokenizer.sep_token} {slot_type} of {slot_descr} of the {domain_descr}'
+				elif args['use_descr']:
 					input_sentence = dialogue_history + f'{tokenizer.sep_token} {slot_descr} of the {domain_descr}'
 				elif args['slot_type']:
 					input_sentence = dialogue_history + f'{tokenizer.sep_token} {slot_type} of {slot_name} of the {domain}'
@@ -127,8 +130,19 @@ def get_dict_list(args, raw_data, tokenizer, schema_info, slot_types):
 				results['input_sentences'].append(input_sentence)
 				results['output_sentences'].append(output_sentence)
 				bar.update(1)
+	bar.close()
+	tokenize_results = {'input_tokens': [], 'output_tokens': []}
+	print('Start to tokenize...\n', flush=True)
+	total=len(results['input_sentences'])
+	bar=tqdm(total=total)
+	for input_sentence, output_sentence in zip(results['input_sentences'], results['output_sentences']):
+		input_token = tokenizer(input_sentence, return_tensors="pt", add_special_tokens=False, verbose=False, return_attention_mask=False)
+		output_token = tokenizer(output_sentence, return_tensors="pt", add_special_tokens=False, return_attention_mask=False)
+		tokenize_results['input_tokens'].append(input_token['input_ids'])
+		tokenize_results['output_tokens'].append(output_token['input_ids'])
+		bar.update(1)
 	
-	return results
+	return tokenize_results
 
 def get_test_list(args, raw_data, tokenizer, schema_info, slot_types):
 	results = {'ID': [], 'input_sentences': [], 'domain-slot': []}
@@ -145,7 +159,9 @@ def get_test_list(args, raw_data, tokenizer, schema_info, slot_types):
 			domain_descr = schema_info[domain]['description']
 			slot_descr = slots_descr.get((domain, slot), 'none')
 			slot_type = slot_types[(domain, slot)]
-			if args['use_descr']:
+			if args['use_descr'] and args['slot_type']:
+				input_sentence = dialogue_history + f'{tokenizer.sep_token} {slot_type} of {slot_descr} of the {domain_descr}'
+			elif args['use_descr']:
 				input_sentence = dialogue_history + f'{tokenizer.sep_token} {slot_descr} of the {domain_descr}'
 			elif args['slot_type']:
 				input_sentence = dialogue_history + f'{tokenizer.sep_token} {slot_type} of {slot} of the {domain}'
@@ -154,15 +170,26 @@ def get_test_list(args, raw_data, tokenizer, schema_info, slot_types):
 			results['domain-slot'].append(f'{domain}-{slot}')
 			results['input_sentences'].append(input_sentence)
 			results['ID'].append(data['dialogue_id'])
+	tokenize_results = {'input_tokens': [], 'domain-slot': [], 'ID': []}
+	print('Start to tokenize...\n', flush=True)
+	total=len(results['input_sentences'])
+	bar=tqdm(total=total)
+	for info in zip(results['input_sentences'], results['ID'], results['domain-slot']):
+		input_sentence = info[0]
+		input_token = tokenizer(input_sentence, return_tensors="pt", add_special_tokens=False, verbose=False, return_attention_mask=False)
+		tokenize_results['input_tokens'].append(input_token['input_ids'])
+		tokenize_results['ID'].append(info[1])
+		tokenize_results['domain-slot'].append(info[2])
+		bar.update(1)
 	
-	return results
+	return tokenize_results
 
 def collate_fn(data, tokenizer):
 	batch = {}
-	batch_inputs = [s for s, _ in data]
-	batch_outputs = [s for _, s in data]
-	input_tokens = tokenizer(batch_inputs, padding=True, return_tensors="pt", add_special_tokens=False, verbose=False)
-	output_tokens = tokenizer(batch_outputs, padding=True, return_tensors="pt", add_special_tokens=False, return_attention_mask=False)
+	batch_inputs = {'input_ids': [s.squeeze() for s, _ in data]}
+	batch_outputs = {'input_ids': [s.squeeze() for _, s in data]}
+	input_tokens = tokenizer.pad(batch_inputs, padding=True, return_tensors="pt", verbose=False, return_attention_mask=True)
+	output_tokens = tokenizer.pad(batch_outputs, padding=True, return_tensors="pt", return_attention_mask=False)
 	output_tokens['input_ids'].masked_fill_(output_tokens['input_ids']==tokenizer.pad_token_id, -100)
 	batch['encoder_input'] = input_tokens['input_ids'].squeeze()
 	batch['attention_mask'] = input_tokens['attention_mask'].squeeze()
@@ -181,10 +208,10 @@ def get_slot_type():
 
 def test_collate_fn(data, tokenizer):
 	batch = {}
-	batch_inputs = [s for s, _, __ in data]
+	batch_inputs = {'input_ids': [s.squeeze() for s, _, __ in data]}
 	batch_ids = [s for _, s, __ in data]
 	batch_domain_slot = [s for _, __, s in data]
-	input_tokens = tokenizer(batch_inputs, padding=True, return_tensors="pt", add_special_tokens=False, verbose=False)
+	input_tokens = tokenizer.pad(batch_inputs, padding=True, return_tensors="pt", verbose=False, return_attention_mask=True)
 	batch['encoder_input'] = input_tokens['input_ids'].squeeze()
 	batch['attention_mask'] = input_tokens['attention_mask'].squeeze()
 	batch['ID'] = batch_ids
@@ -196,14 +223,26 @@ def get_train_dataloader(args, tokenizer):
 	slot_types = get_slot_type()
 	train_data = read_data(args['train_dir'], domain_slots, False)
 	eval_data = read_data(args['eval_dir'], domain_slots, False)
-	train_dict = get_dict_list(args, train_data, tokenizer, domain_slots, slot_types)
-	eval_dict = get_dict_list(args, eval_data, tokenizer, domain_slots, slot_types)
-	# print(train_dict['input_sentences'][300])
-	# print(train_dict['output_sentences'][300])
+	if os.path.exists('train_tokenize.pickle'):
+		with open('train_tokenize.pickle', 'rb') as fp:
+			train_dict = pickle.load(fp)
+	else:
+		train_dict = get_dict_list(args, train_data, tokenizer, domain_slots, slot_types)
+		with open('train_tokenize.pickle', 'wb') as fp:
+			pickle.dump(train_dict, fp)
+
+	if os.path.exists('eval_tokenize.pickle'):
+		with open('eval_tokenize.pickle', 'rb') as fp:
+			eval_dict = pickle.load(fp)
+	else:
+		eval_dict = get_dict_list(args, eval_data, tokenizer, domain_slots, slot_types)
+		with open('eval_tokenize.pickle', 'wb') as fp:
+			pickle.dump(eval_dict, fp)
+
 	train_dataset = DSTDataset(train_dict, args)
 	eval_dataset = DSTDataset(eval_dict, args)
-	train_dataloader = DataLoader(train_dataset, args['train_batch_size'], shuffle=True, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=4)
-	eval_dataloader = DataLoader(eval_dataset, args['eval_batch_size'], shuffle=False, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=4)
+	train_dataloader = DataLoader(train_dataset, args['train_batch_size'], shuffle=True, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=32)
+	eval_dataloader = DataLoader(eval_dataset, args['eval_batch_size'], shuffle=False, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=32)
 	return train_dataloader, eval_dataloader
 
 def get_test_dataloader(args, tokenizer):
@@ -212,5 +251,5 @@ def get_test_dataloader(args, tokenizer):
 	test_data = read_data(args['test_dir'], domain_slots, True)
 	test_list = get_test_list(args, test_data, tokenizer, domain_slots, slot_types)
 	test_dataset = DSTDataset(test_list, args)
-	test_dataloader = DataLoader(test_dataset, args['test_batch_size'], shuffle=False, collate_fn=partial(test_collate_fn, tokenizer=tokenizer), num_workers=4)
+	test_dataloader = DataLoader(test_dataset, args['test_batch_size'], shuffle=False, collate_fn=partial(test_collate_fn, tokenizer=tokenizer), num_workers=32)
 	return test_dataloader
