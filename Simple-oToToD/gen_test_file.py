@@ -1,9 +1,14 @@
 import os
 import json
+import string
 from tqdm.auto import tqdm
 
 PATH = 'data-0625/'
 
+def cleanup(s):
+    for c in string.whitespace:
+        s = s.replace(c, ' ')
+    return s
 
 schema = {}
 schema_slots = {}
@@ -21,7 +26,7 @@ for mode in ['test_seen', 'test_unseen']:
     for dial in tqdm(list(dials), mode):
         data = json.load(open(dial, "r"))
         for conv in data:
-            glob_context = '<|context|>'
+            glob_context = conv['dialogue_id'] + '<|context|>'
             for turn in conv['turns']:
                 if turn['speaker'] == 'SYSTEM':
                     glob_context += ' <|system|> '
@@ -29,7 +34,7 @@ for mode in ['test_seen', 'test_unseen']:
                     glob_context += ' <|user|> '
                 else:
                     raise Exception
-                glob_context += turn['utterance']
+                glob_context += cleanup(turn['utterance'])
             glob_context += ' <|endofcontext|>'
             for service in conv['services']:
                 context = glob_context
@@ -46,3 +51,4 @@ for mode in ['test_seen', 'test_unseen']:
                     processed.append(cur_context)
 
     open(f'{mode}.txt', "w").write("\n".join(processed))
+    print(f'{mode}: {len(processed)}')

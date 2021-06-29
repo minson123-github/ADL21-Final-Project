@@ -26,7 +26,7 @@ model_args, data_args, training_args = parser.parse_args_into_dataclasses(['--do
                                                                            '--gradient_accumulation_steps', '18',
                                                                            '--learning_rate', '1e-3',
                                                                            '--num_train_epochs', '10',
-                                                                           '--output_dir', './model',
+                                                                           '--output_dir', './model_10empty',
                                                                            '--per_device_train_batch_size', '2',
                                                                            '--train_file', './train.txt',
                                                                            '--validation_file', './dev.txt'])
@@ -200,10 +200,7 @@ Train Result
 """
 metrics = train_result.metrics
 
-max_train_samples = (data_args.max_train_samples
-                     if data_args.max_train_samples is not None
-                     else len(train_dataset))
-metrics["train_samples"] = min(max_train_samples, len(train_dataset))
+metrics["train_samples"] = len(lm_datasets["train"])
 
 trainer.log_metrics("train", metrics)
 trainer.save_metrics("train", metrics)
@@ -217,8 +214,7 @@ logger.info("*** Evaluate ***")
 
 metrics = trainer.evaluate()
 
-max_eval_samples = data_args.max_eval_samples if data_args.max_eval_samples is not None else len(eval_dataset)
-metrics["eval_samples"] = min(max_eval_samples, len(eval_dataset))
+metrics["eval_samples"] = len(lm_dataset["validation"])
 try:
     perplexity = math.exp(metrics["eval_loss"])
 except OverflowError:
