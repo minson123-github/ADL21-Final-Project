@@ -129,6 +129,10 @@ def get_dict_list(args, raw_data, tokenizer, schema_info, slot_types):
 				output_sentence = slot_value + f" {tokenizer.eos_token}"
 				results['input_sentences'].append(input_sentence)
 				results['output_sentences'].append(output_sentence)
+				if slot_value != 'none':
+					for t in range(1, args['notnone_multiple']):
+						results['input_sentences'].append(input_sentence)
+						results['output_sentences'].append(output_sentence)
 				bar.update(1)
 	bar.close()
 	tokenize_results = {'input_tokens': [], 'output_tokens': []}
@@ -241,8 +245,8 @@ def get_train_dataloader(args, tokenizer):
 
 	train_dataset = DSTDataset(train_dict, args)
 	eval_dataset = DSTDataset(eval_dict, args)
-	train_dataloader = DataLoader(train_dataset, args['train_batch_size'], shuffle=True, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=32)
-	eval_dataloader = DataLoader(eval_dataset, args['eval_batch_size'], shuffle=False, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=32)
+	train_dataloader = DataLoader(train_dataset, args['train_batch_size'], shuffle=True, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=4)
+	eval_dataloader = DataLoader(eval_dataset, args['eval_batch_size'], shuffle=False, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=4)
 	return train_dataloader, eval_dataloader
 
 def get_test_dataloader(args, tokenizer):
@@ -251,5 +255,5 @@ def get_test_dataloader(args, tokenizer):
 	test_data = read_data(args['test_dir'], domain_slots, True)
 	test_list = get_test_list(args, test_data, tokenizer, domain_slots, slot_types)
 	test_dataset = DSTDataset(test_list, args)
-	test_dataloader = DataLoader(test_dataset, args['test_batch_size'], shuffle=False, collate_fn=partial(test_collate_fn, tokenizer=tokenizer), num_workers=32)
+	test_dataloader = DataLoader(test_dataset, args['test_batch_size'], shuffle=False, collate_fn=partial(test_collate_fn, tokenizer=tokenizer), num_workers=4)
 	return test_dataloader

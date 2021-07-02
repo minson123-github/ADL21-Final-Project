@@ -22,6 +22,7 @@ def get_args():
 	parser.add_argument('--length_penalty', type=float, default=1.0, help='length penalty in generation.')
 	parser.add_argument('--pretrained', type=str, default='t5-small', help='The pretrained model you want to use.')
 	parser.add_argument('--slot_type', type=bool, default=False, help='Whether to use slot_type for train/test')
+	parser.add_argument('--notnone_multiple', type=int, default=1, help='The multiple of training data without none slot value.')
 
 	args = parser.parse_args()
 	return vars(args)
