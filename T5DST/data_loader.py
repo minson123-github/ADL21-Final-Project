@@ -245,8 +245,8 @@ def get_train_dataloader(args, tokenizer):
 
 	train_dataset = DSTDataset(train_dict, args)
 	eval_dataset = DSTDataset(eval_dict, args)
-	train_dataloader = DataLoader(train_dataset, args['train_batch_size'], shuffle=True, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=4)
-	eval_dataloader = DataLoader(eval_dataset, args['eval_batch_size'], shuffle=False, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=4)
+	train_dataloader = DataLoader(train_dataset, args['train_batch_size'], shuffle=True, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=32)
+	eval_dataloader = DataLoader(eval_dataset, args['eval_batch_size'], shuffle=False, collate_fn=partial(collate_fn, tokenizer=tokenizer), num_workers=32)
 	return train_dataloader, eval_dataloader
 
 def get_test_dataloader(args, tokenizer):
