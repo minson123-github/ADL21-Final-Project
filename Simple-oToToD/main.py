@@ -25,8 +25,8 @@ model_args, data_args, training_args = parser.parse_args_into_dataclasses(['--do
                                                                            '--fp16',
                                                                            '--gradient_accumulation_steps', '18',
                                                                            '--learning_rate', '1e-3',
-                                                                           '--num_train_epochs', '10',
-                                                                           '--output_dir', './model_10empty',
+                                                                           '--num_train_epochs', '1',
+                                                                           '--output_dir', './model_25empty',
                                                                            '--per_device_train_batch_size', '2',
                                                                            '--train_file', './train.txt',
                                                                            '--validation_file', './dev.txt'])
@@ -210,11 +210,12 @@ trainer.save_state()
 """
 Evaluate
 """
+import math
 logger.info("*** Evaluate ***")
 
 metrics = trainer.evaluate()
 
-metrics["eval_samples"] = len(lm_dataset["validation"])
+metrics["eval_samples"] = len(lm_datasets["validation"])
 try:
     perplexity = math.exp(metrics["eval_loss"])
 except OverflowError:
