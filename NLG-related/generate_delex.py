@@ -1,5 +1,6 @@
 # Copyright (c) Facebook, Inc. and its affiliates.
 
+from tqdm.auto import tqdm
 import json
 import os
 import copy
@@ -20,7 +21,7 @@ args = Args(data='./data/data/', target='./simpletod/')
 
 datafolder = args.data
 targetfolder = args.target
-for folder in ["train", "dev", "test"]:
+for folder in ["train", "dev"]:
 	if not os.path.exists(targetfolder + folder):
 		os.makedirs(targetfolder + folder)
 	inlm = []
@@ -31,7 +32,7 @@ for folder in ["train", "dev", "test"]:
 	inlmf = []
 	fns = os.listdir(datafolder + folder)
 	fns.sort()
-	for fn in fns:
+	for fn in tqdm(fns, desc=folder):
 		if not fn.startswith("dialogue"):
 			with open(datafolder + folder + "/" + fn, "r", encoding='utf8') as f:
 				data = json.load(f)

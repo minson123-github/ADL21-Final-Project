@@ -1,5 +1,6 @@
 # Copyright (c) Facebook, Inc. and its affiliates.
 
+from tqdm.auto import tqdm
 import json
 import random
 import argparse
@@ -20,7 +21,7 @@ for s in ["train", "dev", "test"]:
     pairs[s] = []
     fns = os.listdir(args.data + s)
     fns.sort()
-    for fn in fns:
+    for fn in tqdm(fns, desc=s):
         if not fn.startswith("dialogue") or not fn.endswith(".json"):
             continue
         with open(args.data + s + "/" + fn, "r", encoding='utf8') as f:
