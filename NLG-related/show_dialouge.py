@@ -2,7 +2,7 @@ import os
 import json
 
 DATA_PATH = '../data-0614/data-0614/test_seen/'
-CHITCHAT_PATH = './nlg_output.json'
+CHITCHAT_PATH = './electra_nlg_output.json'
 
 g = json.load(open(CHITCHAT_PATH))
 

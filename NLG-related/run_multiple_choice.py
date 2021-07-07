@@ -38,8 +38,12 @@ except:
 from tqdm import tqdm, trange
 
 from transformers import (WEIGHTS_NAME, BertConfig,
-                                  BertForMultipleChoice, BertTokenizer,
-                                  RobertaConfig, RobertaForMultipleChoice, RobertaTokenizer)
+                            BERT_PRETRAINED_CONFIG_ARCHIVE_MAP,
+                            ROBERTA_PRETRAINED_CONFIG_ARCHIVE_MAP,
+                            ELECTRA_PRETRAINED_CONFIG_ARCHIVE_MAP,
+                            BertForMultipleChoice, BertTokenizer,
+                            ElectraConfig, ElectraForMultipleChoice, ElectraTokenizer,
+                            RobertaConfig, RobertaForMultipleChoice, RobertaTokenizer)
 
 from transformers import AdamW, get_linear_schedule_with_warmup
 
@@ -49,12 +53,13 @@ from utils_multiple_choice import (convert_examples_to_features, processors)
 
 logger = logging.getLogger(__name__)
 
-ALL_MODELS = sum((tuple(conf.pretrained_config_archive_map.keys()) for conf in (BertConfig, RobertaConfig)), ())
+ALL_MODELS = sum((tuple(mp.keys()) for mp in (BERT_PRETRAINED_CONFIG_ARCHIVE_MAP, ROBERTA_PRETRAINED_CONFIG_ARCHIVE_MAP , ELECTRA_PRETRAINED_CONFIG_ARCHIVE_MAP)), ())
 
 
 MODEL_CLASSES = {
     'bert': (BertConfig, BertForMultipleChoice, BertTokenizer),
     'roberta': (RobertaConfig, RobertaForMultipleChoice, RobertaTokenizer),
+    'electra': (ElectraConfig, ElectraForMultipleChoice, ElectraTokenizer)
 }
 
 def select_field(features, field):
