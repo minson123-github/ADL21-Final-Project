@@ -65,3 +65,8 @@ python3 run.py \
 	--use_descr=1 \
 	--n_gpus=1 \
 ```
+**Covert To Kaggle Format**  
+Here is an example to convert your predict json file to kaggle format(a csv file). First argument is your original predict json file. Second argument is your conversion result.
+```console
+python3 state_to_csv.py pred.json submit.csv
+```
