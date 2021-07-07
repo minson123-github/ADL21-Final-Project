@@ -21,7 +21,7 @@ args = Args(data='./data/data/', target='./simpletod/')
 
 datafolder = args.data
 targetfolder = args.target
-for folder in ["train", "dev"]:
+for folder in ["train", "test", "dev"]:
 	if not os.path.exists(targetfolder + folder):
 		os.makedirs(targetfolder + folder)
 	inlm = []
