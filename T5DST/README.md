@@ -4,7 +4,7 @@ This part we use T5 to implement DST task. The implement method reference from:
 **Leveraging Slot Descriptions for Zero-Shot Cross-Domain Dialogue StateTracking** [[PDF]](https://www.aclweb.org/anthology/2021.naacl-main.448.pdf).
 
 ## Experiments
-Before you start use our model, you may need to run `pip3 install transformers` to install newest transformers package.  
+Before you start use our model, you may need to run `pip3 install transformers` and `pip3 install pytorch_lightning` to install newest package.  
 Here are some examples for reproduce and predict, if you want to know how these args works, you can read `config.py` or just run `python3 run.py --help` to get args description.  
 In here, we have two models. They are in `model1`, `model2` directory. `model1` has higher kaggle seen domain public score and `model2` has higher kaggle unseen domain public score. Their difference is number of training epochs, we take `model2` as an example for predict.  
 **Model Download**  
