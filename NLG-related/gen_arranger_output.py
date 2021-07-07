@@ -2,7 +2,7 @@
 
 import json
 
-with open("./acc_arranger_roberta_base_3epoch/is_test_true_eval_logits.txt", "r") as f:
+with open("./acc_arranger_electra_base_3epoch/is_test_true_eval_logits.txt", "r") as f:
     model_outputs = f.read().strip().split("\n")
     for i in range(len(model_outputs)):
         model_outputs[i] = model_outputs[i].split()
@@ -11,8 +11,8 @@ with open("./acc_arranger_roberta_base_3epoch/is_test_true_eval_logits.txt", "r"
         assert(len(model_outputs[i]) == 3)
     print(len(model_outputs))
 
-for fns in [["./lm.input.dev.cc.txt", "./lm.output.dev.cc.txt", "./dev.inference.gpt2_10epoch_1e-3_fp16.json", "./dev.inference.arranger_3epoch.json"],
-            ["./lm.input.test.cc.txt", "./lm.output.test.cc.txt", "./test.inference.gpt2_10epoch_1e-3_fp16.json", "./test.inference.arranger_3epoch.json"]]:
+for fns in [["./lm.input.dev.cc.txt", "./lm.output.dev.cc.txt", "./dev.inference.gpt2_10epoch_1e-3_fp16.json", "./dev.inference.electra_arranger_3epoch.json"],
+            ["./lm.input.test.cc.txt", "./lm.output.test.cc.txt", "./test.inference.gpt2_10epoch_1e-3_fp16.json", "./test.inference.electra.arranger_3epoch.json"]]:
     with open(fns[0], "r") as f:
         data = f.read().split("\n")[0:-1:2]
     print(len(data))
